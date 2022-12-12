@@ -1,5 +1,5 @@
 +++
-title = "🏠Home"
+title = "Home"
 chapter = true
 weight = 0
 tags = [ ] 
@@ -15,7 +15,9 @@ tags = [ ]
 
 # 🍑
 
-
+{{% notice tip %}}
+"Practice makes Progress and commit Getting 1% Better Every Day"
+{{% /notice %}}
 
 <hr>
 
@@ -42,7 +44,10 @@ Below your will find a main ` Data Live Online Course Guidelines` and ` Data Liv
 
 
 ---
-
+{{% notice info %}}
+“The reasonable [person] adapts themself to the world: the unreasonable one persists in trying to adapt the world to themself. Therefore all progress depends on the unreasonable [person].”
+― George Bernard Shaw, Man and Superman
+{{% /notice %}}
 
 ## ✅ 
 ## Course Outline 
