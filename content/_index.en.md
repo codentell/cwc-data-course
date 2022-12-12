@@ -42,10 +42,7 @@ Below your will find a main ` Data Live Online Course Guidelines` and ` Data Liv
 
 
 ---
-{{% notice info %}}
-“The reasonable [person] adapts themself to the world: the unreasonable one persists in trying to adapt the world to themself. Therefore all progress depends on the unreasonable [person].”
-― George Bernard Shaw, Man and Superman
-{{% /notice %}}
+
 
 ## ✅ 
 ## Course Outline 
