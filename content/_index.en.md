@@ -15,9 +15,9 @@ tags = [ ]
 
 # 🍑
 
-{{% notice tip %}}
+<!-- {{% notice tip %}}
 "Practice makes Progress and commit Getting 1% Better Every Day"
-{{% /notice %}}
+{{% /notice %}} -->
 
 <hr>
 
