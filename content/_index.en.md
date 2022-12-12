@@ -1,32 +1,36 @@
 +++
-title = "Home"
+title = "🏠Home"
 chapter = true
 weight = 0
 tags = [ ] 
 +++
 
 
-## Data Live Online Boot Camp
+## Frontend Online Boot Camp
 ## Welcome Class
 
 <hr>
 
-| **[🏠Home](#data-live-online-boot-camp)** | **[✅Course Guidelines](#course-guidelines)** | **[🏔Course Content](#course-content)** |  **[📺Video](#video-speed-runs)** | **[🎯Module Challenges Video](#module-challenges-video)** | **[📚Resources](#resources)** | **[Notes](#notes)** 
+| **[🏠Home](#frontend-online-boot-camp)** | **[✅Course Guidelines](#course-guidelines)** | **[🏔Course Content](#course-content)** |  **[📺Video](#video-speed-runs)** | **[🎯Module Challenges Video](#module-challenges-video)** | **[📚Resources](#resources)** | **[Notes](#notes)** 
 
 # 🍑
 
+{{% notice tip %}}
+"Practice makes Progress and commit Getting 1% Better Every Day"
+{{% /notice %}}
+
 <hr>
 
-Welcome to your `💻👞 Data Live Online Bootcamp` Class Repository.
+Welcome to your `💻👞 Frontend Bootcamp` Class Repository.
 
-This is your one-stop-shop for all things ` Data Live Online  Bootcamp` related.
+This is your one-stop-shop for all things `Frontend Bootcamp` related.
 
-Below your will find a main ` Data Live Online Course Guidelines` and ` Data Live Online  Course Content` listing.
+Below your will find a main `Frontend Course Guidelines` and `Frontend Course Content` listing.
 
 <hr>
 
 ## Course Guidelines
-#####  [ ⬆️ Back to Top](#data-live-online-boot-camp)
+#####  [ ⬆️ Back to Top](#frontend-online-boot-camp)
 
 <!-- | **Course Syllabus** | **Student Support** | **Getting Started** |
 |:--| :--|:--|
@@ -40,24 +44,24 @@ Below your will find a main ` Data Live Online Course Guidelines` and ` Data Liv
 
 
 ---
-
+{{% notice info %}}
+“The reasonable [person] adapts themself to the world: the unreasonable one persists in trying to adapt the world to themself. Therefore all progress depends on the unreasonable [person].”
+― George Bernard Shaw, Man and Superman
+{{% /notice %}}
 
 ## ✅ 
 ## Course Outline 
 ## About the Course Curriculum
 | Unit| Description     | What Students Learn |
 |:----| ------------------- | :--  |
-|  Section 1: `Intro to Data Analytics & Excel` (Module 1 - 2)       | Introduction to the high-level concepts of data analytics and real-world data crunching with Excel formulas, pivot tables, and conditional formatting |  `Excel` `VBA` |
-| Python Data Analytics and Visualization (Module 3 - 6) | Crash course on Python, following by multiple weeks of data processing using advanced libraries like NumPy, pandas, Matplotlib, Seaborn, Beautiful Soup |  `python` `pandas` `matplotlib`  `apis`      
-| Project 1 (Module 7 - 8) |  |   |    
-| Deep Dive into Databases (Module 9-12) | Immersion into introductory and advanced work with SQL (PostgreSQL) and NoSQL databases | `mongodb` `postgresql` `sql`  |
-| Project 2 (Module 13 - 14) | |   |   
-| Project 3 (Module 23 - 24) | |   |   
-| Project 4 (Module 23 - 24) | |   |   
+|  Section 1: `Front-End Foundation` (Module 1 - 8)       | Build a solid foundation in fundamental concepts of web development HTML, CSS, and JavaScript |  `HTML/CSS/Git` `User experience design` `JavaScript ` `Bootstap` `The DOM` `APIs`  `Jquery`  `JSON` `AJAX` |
+| Project 1 (Module 9 - 10) | Apply your newly acquired skills to build a client-side application using third-party APIs |  `Team collaboration` `Agile development` `Project demonstration` `Storytelling` |             
+| Section: `Front-End Frameworks` (Module 11-14) |Learn the skills necessary to develop a portfolio of deployed web applications showcasing your front-end skills, using front-end libraries and testing frameworks. | `Node.js` `ES6` `Object-oriented programming` `Test-driven devlopment` `React` `Deployment` `Project Portfolio` |
+| Project 2 (Module 15 - 16) | Bring together new technologies and concepts learned in section 2 build and deploy a client-side-single-page application |  `Team collaboration` `Agile development` `Project demonstration` `Storytelling` |   
 
 ## 🏔
 ## Course Content
-##### [ ⬆️ Back to Top](#data-live-online-boot-camp)
+##### [ ⬆️ Back to Top](#fullstack-fulltime-online-boot-camp)
 
 | #   | Section Name         | Description |
 |:----| ------------------- | :--  |
@@ -82,7 +86,7 @@ Below your will find a main ` Data Live Online Course Guidelines` and ` Data Liv
 ---
 
 ## Video Speed Runs📺🏃‍♀️🏃
-##### [ ⬆️ Back to Top](#data-live-online-boot-camp)
+##### [ ⬆️ Back to Top](#fullstack-fulltime-online-boot-camp)
 
 | #   | Section Name        | Mac 🍎 |  PC 🖼️  |
 |:----| ------------------- | :--  | :-- |
@@ -111,42 +115,34 @@ Below your will find a main ` Data Live Online Course Guidelines` and ` Data Liv
 ---
 
 ## ✂️📁 Module Challenges Video Links
-##### [ ⬆️ Back to Top](#data-live-online-boot-camp)
+##### [ ⬆️ Back to Top](#frontend-online-boot-camp)
 
 | Module | Mac 🍎 | Duration    | Window 🖼️ | Duration |
 | ------  | ------ | ----------- |---------  | --------- |
-| 01 | {{< target-blank "Video 📺" "" >}}  |  00:00 ⏲️ |  {{< target-blank "Video 📺" "" >}}  |  46:16 ⏲️ |
-| 02 |    |   00:00:00  ⏲️   |  {{< target-blank "Video 📺" "" >}}   |  ⏲️ |
+| 01 | {{< target-blank "Video 📺" "https://zoom.us/rec/share/l_uQMOgqDjTLu9L0zutosJSPfVaJbIOQjx-lWudept_REEzaJR2uFz4HaviFw6qn.T5pQkfas1wwCWXqY" >}}  |  53:10 ⏲️ |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/aZNPFURGHfNTVwAYOvps0wIcAXs5pFrCvEQ913IynIbGqeC0t6Hi23AYEfQ2hUo.-N27Zxgoo_F2cRvn" >}}  |  46:16 ⏲️ |
+| 02 |  {{< target-blank "Video 📺 Part 1" "https://zoom.us/rec/share/WzM3V5iyqt7LYn5CjiWo1zXmpB9GNEoX4VttPamORP3Doz4va7_8VBcUUjWC8Xga.rv1uKFJYf3JseP1U" >}} {{< target-blank "Video 📺 Part 2" "https://zoom.us/rec/share/rxmEdTmB9DT8CwGlB5rB0C7cJEiRYrVbgx_97sVBlSlWOBA40gczph3rECePP2LC.i3NaG1MbzsoQ55_x" >}}   |   00:52:76  ⏲️  00:04:25 ⏲️  |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/NPKV7AnbY7q67kSPd_ZwFmiE29dVlMk7ORzt-XRcZdSCPOd_bd0scp3oRX92r4QX.mKCsliETzvv94Nwy" >}}   |  1:14:09⏲️ |
 | 03 |   |  ⏲️  |   |  ⏲️ |
 | 04 |   |  ⏲️  |   |  ⏲️ |
 | 05 |   |  ⏲️  |   |  ⏲️ |
 | 06 |   |  ⏲️  |   |  ⏲️ |
 | 07 |   |  ⏲️  |   |  ⏲️ |
 | 08 |   |  ⏲️  |   |  ⏲️ |
-| 09 |   |  ⏲️  |   |  ⏲️ |
-| 10 |   |  ⏲️   |   |  ⏲️  |
+| 09 |   |    |   |   |
+| 10 |   |    |   |   |
 | 11 |   |  ⏲️  |   |  ⏲️ |
 | 12 |   |  ⏲️  |   |  ⏲️ |
 | 13 |   |  ⏲️  |   |  ⏲️ |
 | 14 |   |  ⏲️  |   |  ⏲️ |
-| 15 |   |  ⏲️  |   |  ⏲️ |
-| 16 |   | ⏲️   |   |  ⏲️  |
-| 17 |   | ⏲️   |   |  ⏲️  |
-| 18 |   | ⏲️   |   |  ⏲️  |
-| 19 |   | ⏲️   |   |  ⏲️  |
-| 20 |   | ⏲️   |   |  ⏲️  |
-| 21 |   | ⏲️   |   |  ⏲️  |
-| 22 |   | ⏲️   |   |  ⏲️  |
-| 23 |   | ⏲️   |   |  ⏲️  |
-| 24 |   | ⏲️   |   |  ⏲️  |
+| 15 |   |    |   |   |
+| 16 |   |    |   |   |
 
 ## Module Challenge Links
-##### [ ⬆️ Back to Top](#data-live-online-boot-camp)
+##### [ ⬆️ Back to Top](#frontend-online-boot-camp)
 
 | #   | Section Name        | Module Challenge  |
 |:----| ------------------- | :--  |
-|01|[](/)|[Module 1 Challenge](/)|
-|02|[CSS ](/)|[Module 2 Challenge](/) | 
+|01|[HTML Git & Github](/01-html-css-git-github-module)|[Module 1 Challenge](/01-html-git-github-module/challenges)|
+|02|[CSS ](/02-css-module)|[Module 2 Challenge](/02-css-module/challenges) | 
 |03| | |
 
 # 🍑
