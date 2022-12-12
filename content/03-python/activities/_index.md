@@ -2,5 +2,5 @@
 title = "Activities ✅"
 chapter = true
 weight = 1
-tags = ["python] 
+tags = ["python"] 
 +++
