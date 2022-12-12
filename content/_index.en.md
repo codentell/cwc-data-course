@@ -6,12 +6,12 @@ tags = [ ]
 +++
 
 
-## Frontend Online Boot Camp
+## Data Live Online Boot Camp
 ## Welcome Class
 
 <hr>
 
-| **[🏠Home](#frontend-online-boot-camp)** | **[✅Course Guidelines](#course-guidelines)** | **[🏔Course Content](#course-content)** |  **[📺Video](#video-speed-runs)** | **[🎯Module Challenges Video](#module-challenges-video)** | **[📚Resources](#resources)** | **[Notes](#notes)** 
+| **[🏠Home](#data-live-online-boot-camp)** | **[✅Course Guidelines](#course-guidelines)** | **[🏔Course Content](#course-content)** |  **[📺Video](#video-speed-runs)** | **[🎯Module Challenges Video](#module-challenges-video)** | **[📚Resources](#resources)** | **[Notes](#notes)** 
 
 # 🍑
 
@@ -21,16 +21,16 @@ tags = [ ]
 
 <hr>
 
-Welcome to your `💻👞 Frontend Bootcamp` Class Repository.
+Welcome to your `💻👞 Data Live Bootcamp` Class Repository.
 
-This is your one-stop-shop for all things `Frontend Bootcamp` related.
+This is your one-stop-shop for all things `Data Live Bootcamp` related.
 
-Below your will find a main `Frontend Course Guidelines` and `Frontend Course Content` listing.
+Below your will find a main `Data Live Course Guidelines` and `Data Live Course Content` listing.
 
 <hr>
 
 ## Course Guidelines
-#####  [ ⬆️ Back to Top](#frontend-online-boot-camp)
+#####  [ ⬆️ Back to Top](#data-live-online-boot-camp)
 
 <!-- | **Course Syllabus** | **Student Support** | **Getting Started** |
 |:--| :--|:--|
@@ -115,7 +115,7 @@ Below your will find a main `Frontend Course Guidelines` and `Frontend Course Co
 ---
 
 ## ✂️📁 Module Challenges Video Links
-##### [ ⬆️ Back to Top](#frontend-online-boot-camp)
+##### [ ⬆️ Back to Top](#data-live-online-boot-camp)
 
 | Module | Mac 🍎 | Duration    | Window 🖼️ | Duration |
 | ------  | ------ | ----------- |---------  | --------- |
@@ -137,7 +137,7 @@ Below your will find a main `Frontend Course Guidelines` and `Frontend Course Co
 | 16 |   |    |   |   |
 
 ## Module Challenge Links
-##### [ ⬆️ Back to Top](#frontend-online-boot-camp)
+##### [ ⬆️ Back to Top](#data-live-online-boot-camp)
 
 | #   | Section Name        | Module Challenge  |
 |:----| ------------------- | :--  |
