@@ -22,5 +22,5 @@ By the end of this lesson:
 
 * Create regressions and calculate moving averages in Excel.
 
-# Slides
+## Slides
 [1.3 Charting a New Course with Excel](https://docs.google.com/presentation/d/1GYnNWroWzp4sETcRt_fsIsE5Z9kk4tXG68HQ00x7AeU/edit?usp=sharing)

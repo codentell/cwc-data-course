@@ -2,6 +2,7 @@
 title = "Day 2"
 weight = 2
 tags = ["excel"] 
+
 +++
 
 # 1.2: Data Fundamentals in Excel
@@ -22,5 +23,5 @@ By the end of this lesson:
 
 * Implement conditional formatting based on logical rules.
 
-# Slides
+## Slides
 [1.2 Data Fundamentals in Excel Slides](https://docs.google.com/presentation/d/1fvwswAFXdzbOyjS7t7FsNdOeS3j4VzPiwflIJ1id2sI/edit?usp=sharing)

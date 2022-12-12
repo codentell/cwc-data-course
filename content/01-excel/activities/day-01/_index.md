@@ -17,5 +17,5 @@ By the end of this lesson:
 
 * Be familiar with high-level analytic strategies and tools.
 
-# Slides
+## Slides
 [1.1 Intro to Data](https://docs.google.com/presentation/d/1ESJhuhECbf9gQRIfJ9FU-a-iZueb6lKkqSSPOqZ5SPQ/edit?usp=sharing)
