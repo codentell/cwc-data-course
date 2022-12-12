@@ -1,1 +1,5 @@
 theme = "hugo-theme-learn"
+
+
+[params]
+    themeVariant = "green"
