@@ -6,7 +6,9 @@ tags = ["excel"]
 
 # Production Pivot
 
-An independent artist who sells their designs on products in an online store has called upon you to create a table that visualizes the cost of their recent orders. Using lookups, create a pivot table for the artist.
+An independent artist who sells their designs on products in an online store has called upon you to create a table that visualizes the cost of their recent orders. Using lookups, create a pivot table for the artist , as captured in the following image:
+
+![](../images/10-ProductLookups_1.png)
 
 ## Instructions
 
@@ -26,3 +28,20 @@ An independent artist who sells their designs on products in an online store has
 
 ---
 
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+
+* The VLOOKUP() in column D of the "Orders" sheet searches for a matching "Product ID" within the first table of the "Product List" sheet and then grabs the "Price" from within.
+
+![](../images/10-ProductLookups_2.png)
+
+* The VLOOKUP() in column E of the "Orders" sheet searches for a matching "Shipping Priority" within the second table of the "Product List" sheet and then grabs the "Price" from within.
+
+![](../images/ProductionPivot_Shipping.png)
+
+* The pivot table is made with a primary row of "Order Number", a secondary row of "Product ID", a primary value of "Sum of Price", and a secondary value of "Sum of Shipping Price"
+
+![](../images/10-ProductLookups_3.png)
+
+{{% /expand%}}
