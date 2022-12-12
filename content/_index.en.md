@@ -15,10 +15,6 @@ tags = [ ]
 
 # 🍑
 
-{{% notice tip %}}
-"Practice makes Progress and commit Getting 1% Better Every Day"
-{{% /notice %}}
-
 <hr>
 
 Welcome to your `💻👞 Data Live Online Bootcamp` Class Repository.
