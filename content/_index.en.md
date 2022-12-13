@@ -65,30 +65,30 @@ Below your will find a main `Data Live Course Guidelines` and `Data Live Course 
 
 | #   | Section Name         | Description |
 |:----| ------------------- | :--  |
-|Level 01|[HTML Git Github](/01-html-git-github-module)  |  In this unit, we will be welcoming our students to their first unit of our Web Development Boot Camp. We'll be walking them through the very basics of HTML/CSS, Git Version Control, and Terminal/Console commands.   |
-|Level 02|[CSS](/02-css-module) | In this module, students will be adding to the skills they have already learned, and be introduced to more in-depth CSS.   |
-|Level 03| [UX Bootstrap](/03-ux-bootstrap-module)|  This module, students will be introduced to Bootstrap. Everything they have learned up until now will assist them as they navigate the use of Bootstrap.  |
-|Level 04| [JavaScript](/04-javascript-module) |  |
-|Level 05|[Advanced JavaScript](/05-advanced-javascript-module)| |
-|Level 06| [Web APIs](/06-web-apis-module)|  |
-|Level 07| [Third Party APIs](/07-third-party-apis-module) | |     
-|Level 08| [Server APIs](/08-server-apis-module) |  | 
-|Level 09| [Project 1 Part 1](/09-project-1-part-1-module)|   |
-|Level 10|[Project 1 Part 2](/10-project-1-part-2-module) |  | 
-|Level 11|[ES6](/11-es6-module) |  | 
-|Level 12| [Object Oriented Programming](/12-object-oriented-programming-module)|  | 
-|Level 13| [React](/13-react-module)|  | 
-|Level 14| [React State Deployment](/14-react-state-deployment-module)|  | 
-|Level 15| [Project 2 Part 1](/15-project-2-part-1-module)|  | 
-|Level 16| [Project 2 Part 2](/16-project-2-part-2-module)|  | 
-|Level 17| [Project 2 Part 2](/16-project-2-part-2-module)|  | 
-|Level 18| [Project 2 Part 2](/16-project-2-part-2-module)|  | 
-|Level 19| [Project 2 Part 2](/16-project-2-part-2-module)|  | 
-|Level 20| [Project 2 Part 2](/16-project-2-part-2-module)|  | 
-|Level 21| [Project 2 Part 2](/16-project-2-part-2-module)|  | 
-|Level 22| [Project 2 Part 2](/16-project-2-part-2-module)|  | 
-|Level 23| [Project 2 Part 2](/16-project-2-part-2-module)|  | 
-|Level 24| [Project 2 Part 2](/16-project-2-part-2-module)|  | 
+|Level 01|[Excel](/01-excel)  |    |
+|Level 02|[VBA](/02-vba) |    |
+|Level 03| [Python](/03-python)|    |
+|Level 04| [Pandas](/04-pandas) |  |
+|Level 05|[Data Visualiztion](/05-data-visualization)| |
+|Level 06| [Python APIs](/06-python-apis)|  |
+|Level 07| [Project 1](/07-project-1-part-1) | |     
+|Level 08| [Project 1](/08-project-1-part-2) |  | 
+|Level 09| [SQL](/09-sql)|   |
+|Level 10|[Advanced SQL](/10-advanced-sql) |  | 
+|Level 11|[Data Collection](/11-data-collection) |  | 
+|Level 12| [No SQL Database](/12-nosql-databases)|  | 
+|Level 13| [ETL Project](/13-project-2)|  | 
+|Level 14| [Interactive Visualizations](/14-interactive-visualizations)|  | 
+|Level 15| [Mapping](/15-mapping)|  | 
+|Level 16| [Data Ethics & Project 3](/16-data-ethics-project-3)|  | 
+|Level 17| [Project 3 Part 2](/16-project-2-part-2-module)|  | 
+|Level 18| [Tableau](/18-tableau)|  | 
+|Level 19| [Supervised Learning](/19-supervised-learning)|  | 
+|Level 20| [Unsupervised Learning](/unsupervised-learning)|  | 
+|Level 21| [Neural Network Deep Learning](/20-neural-network-deep-learning)|  | 
+|Level 22| [Big Data](/22-big-data)|  | 
+|Level 23| [Project 4 Part 1](/23-project-4-part-1)|  | 
+|Level 24| [Project 4 Part 2](/24-project-4-part-2)|  | 
 
 ---
 
