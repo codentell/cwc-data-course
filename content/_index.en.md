@@ -55,7 +55,7 @@ Below your will find a main `Data Live Course Guidelines` and `Data Live Course 
 | Unit| Description     | What Students Learn |
 |:----| ------------------- | :--  |
 |  Section 1: `Intro to Data Analytics & Excel` (Module 1 - 2)       | Introduction to the high-level concepts of data analytics and real-world data crunching with Excel formulas, pivot tables, and conditional formatting. |  `excel` `vba` |
- | Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thorough crash course on Python programming, followed by multiple weeks of data processing using advanced libraries like NumPy, pandas, Matplotlib, Seaborn, and Beautiful Soup. |  `python` `pandas` `matplotlib` `api` |
+Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thorough crash course on Python programming, followed by multiple weeks of data processing using advanced libraries like NumPy, pandas, Matplotlib, Seaborn, and Beautiful Soup. |  `python` `pandas` `matplotlib` `api` |
  |Project 1 (7-8) | | |
   | Section 3: `Deep Dive into Databases` (Module 9 - 13)       | Immersion into introductory and advanced work with SQL (PostgreSQL) and noSQL databases (MongoDB).  |   |
 
@@ -142,6 +142,6 @@ Below your will find a main `Data Live Course Guidelines` and `Data Live Course 
 
 | #   | Section Name        | Module Challenge  |
 |:----| ------------------- | :--  |
-|01|[HTML Git & Github](/01-html-css-git-github-module)|[Module 1 Challenge](/01-html-git-github-module/challenges)|
+|01|[Excel](/01-excel)|[Module 1 Challenge](/01-excel/challenges)|
 
 # 🍑
