@@ -24,6 +24,8 @@ You are well on your way to becoming a programmer and Excel expert! In this home
 ## Files
 Download the following files on bootcampspot to help you get started and make sure you unzip the zip files:
 
+{{%attachments style="green" /%}}
+
 
 ## Instructions
 * Create a script that loops through all the stocks for one year and outputs the following information:
