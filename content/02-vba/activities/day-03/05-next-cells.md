@@ -5,7 +5,7 @@ tags = ["vba"]
 +++
 
 
-```
+```vb
 Sub NextCells()
 
   ' Set a variable for specifying the column of interest

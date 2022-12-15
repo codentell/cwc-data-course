@@ -4,7 +4,7 @@ weight = 2
 tags = ["vba"] 
 +++
 
-```vba
+```vb
 Sub formatter()
 
   ' Set the Font color to Red
