@@ -4,6 +4,13 @@ weight = 1
 tags = ["excel"] 
 +++
 
+## 📺 Excel Module 01 Challenge 
+🏃‍♀️🏃
+**Watch if you get stuck or have no time**
+| Day | Mac 🍎 | Duration    | Window 🖼️ | Duration |
+| ------  | ------ | ----------- |---------  | --------- |
+| 01 | {{< target-blank "Video 📺" "https://zoom.us/rec/share/rubOYv1OLTYr8lMXpVVt_dgqoidg3-gFtf1Es1DEQtGnl3F9v7d5GINqI_g5M67E.3Mp0F0GdD49JB1xj" >}}   |  01:13:51  ⏲️  | {{< target-blank "Video 📺" "https://zoom.us/rec/play/rR1YBOzcbfSzYU2ER6zuZFsBMvhMRX49z2I0axwDJpd1s-yYfeum7X3biVvDDRe2G9wbTYHcrPYOuk7B.3YjSeVAuDzO9padq?continueMode=true" >}}   | 00:43:05  ⏲️   |
+
 ## Background
 Crowdfunding platforms like Kickstarter and Indiegogo have been growing in success and popularity since the late 2000s. From independent content creators to famous celebrities, more and more people are using crowdfunding to launch new products and generate buzz, but not every project has found success.
 
