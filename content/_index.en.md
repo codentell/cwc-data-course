@@ -97,7 +97,7 @@ Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thor
 
 | #   | Section Name        | Mac 🍎 |  PC 🖼️  |
 |:----| ------------------- | :--  | :-- |
-|Level 01|[Excel](/01-excel)|  | | | |
+|Level 01|[Excel](/01-excel)|    {{< target-blank "Day 02 📺" "https://zoom.us/rec/share/mD8U8ovVj8hgLQUcvpI16m-q8z426k_CTd4doiVGjHechLwle3MyMFdG-yjaJMx_.Ex9gm3jr8K24cdrN" >}} {{< target-blank "Day 03 📺" "https://zoom.us/rec/share/qO9x5tUEJC4t_6InMpAazhSlGOxoQdROv6umwWMSnI88Kj7NAayFExYtspN24mOi.minZGLuLOuslyrrX" >}}   |  {{< target-blank "Day 02 📺" "https://zoom.us/rec/share/mD8U8ovVj8hgLQUcvpI16m-q8z426k_CTd4doiVGjHechLwle3MyMFdG-yjaJMx_.Ex9gm3jr8K24cdrN" >}} {{< target-blank "Day 03 📺" "https://zoom.us/rec/share/qO9x5tUEJC4t_6InMpAazhSlGOxoQdROv6umwWMSnI88Kj7NAayFExYtspN24mOi.minZGLuLOuslyrrX" >}} | | |
 |Level 02|[Vba](/02-vba)|  | | | |
 
 
@@ -112,7 +112,7 @@ Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thor
 
 | Module | Mac 🍎 | Duration    | Window 🖼️ | Duration |
 | ------  | ------ | ----------- |---------  | --------- |
-| 01 |   |  00:00:00 ⏲️ |   |  00:00:00 ⏲️ |
+| 01 |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/rubOYv1OLTYr8lMXpVVt_dgqoidg3-gFtf1Es1DEQtGnl3F9v7d5GINqI_g5M67E.3Mp0F0GdD49JB1xj" >}}  |  01:31:51 ⏲️ | {{< target-blank "Video 📺" "https://zoom.us/rec/play/rR1YBOzcbfSzYU2ER6zuZFsBMvhMRX49z2I0axwDJpd1s-yYfeum7X3biVvDDRe2G9wbTYHcrPYOuk7B.3YjSeVAuDzO9padq?continueMode=true" >}}   |  00:43:00 ⏲️ |
 | 02 |    |   00:00:00  ⏲️   |    |00:00:00 ⏲️ |
 | 03 |   |  ⏲️  |   |  ⏲️ |
 | 04 |   |  ⏲️  |   |  ⏲️ |
@@ -143,5 +143,6 @@ Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thor
 | #   | Section Name        | Module Challenge  |
 |:----| ------------------- | :--  |
 |01|[Excel](/01-excel)|[Module 1 Challenge](/01-excel/challenges)|
+|02|[VBA](/02-vba)|[Module 2 Challenge](/02-vba/challenges)|
 
 # 🍑

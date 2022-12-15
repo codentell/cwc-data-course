@@ -6,7 +6,8 @@ pre: "<b>0️1️. </b>"
 
 # Unit 1: Excel
 
-## Overview
+#### All Module 01 Activites  📂 (Please Download Attachment Below 👇) 
+{{%attachments style="green" /%}}
 
 ### Slideshows
 
@@ -20,6 +21,6 @@ pre: "<b>0️1️. </b>"
 * [1.2 Lesson Plan](./activities/day-02)
 * [1.3 Lesson Plan](./activities/day-03)
 
-### Homework
+
 
 

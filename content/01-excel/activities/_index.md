@@ -5,12 +5,15 @@ weight = 1
 tags = ["excel"] 
 +++
 
+### Video Speed Run  of the Activities 
+**if you get stuck or miss class**
+
 ## 📺 Excel Activities Video Speed Runs 🏃‍♀️🏃
 | Day | Mac 🍎 | Duration    | Window 🖼️ | Duration |
 | ------  | ------ | ----------- |---------  | --------- |
 | 01 |   |  |    |   |
 | 02 | {{< target-blank "Video 📺" "https://zoom.us/rec/share/_TQg5lYKdaAfEefIb36qYiCeeKa31-dsta-jGwb3YWpKHXyyKmCw6xqFn218nU7b.oIrgUGfta8HxJYqH" >}}  |  00:50:18  ⏲️ |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/_TQg5lYKdaAfEefIb36qYiCeeKa31-dsta-jGwb3YWpKHXyyKmCw6xqFn218nU7b.oIrgUGfta8HxJYqH" >}}  |  00:50:18 ⏲️ |
-| 03 | {{< target-blank "Video 📺" "" >}}  |  00:00:00  ⏲️ |  {{< target-blank "Video 📺" "" >}}  |  00:00:00 ⏲️ |
+| 03 | {{< target-blank "Video 📺" "https://zoom.us/rec/share/qO9x5tUEJC4t_6InMpAazhSlGOxoQdROv6umwWMSnI88Kj7NAayFExYtspN24mOi.minZGLuLOuslyrrX" >}}  |  00:51:14  ⏲️ |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/qO9x5tUEJC4t_6InMpAazhSlGOxoQdROv6umwWMSnI88Kj7NAayFExYtspN24mOi.minZGLuLOuslyrrX" >}}  |  00:51:14 ⏲️ |
 
 
 ## Activities Required ✅
