@@ -98,7 +98,7 @@ Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thor
 | #   | Section Name        | Mac 🍎 |  PC 🖼️  |
 |:----| ------------------- | :--  | :-- |
 |Level 01|[Excel](/01-excel)|    {{< target-blank "Day 02 📺" "https://zoom.us/rec/share/mD8U8ovVj8hgLQUcvpI16m-q8z426k_CTd4doiVGjHechLwle3MyMFdG-yjaJMx_.Ex9gm3jr8K24cdrN" >}} {{< target-blank "Day 03 📺" "https://zoom.us/rec/share/qO9x5tUEJC4t_6InMpAazhSlGOxoQdROv6umwWMSnI88Kj7NAayFExYtspN24mOi.minZGLuLOuslyrrX" >}}   |  {{< target-blank "Day 02 📺" "https://zoom.us/rec/share/mD8U8ovVj8hgLQUcvpI16m-q8z426k_CTd4doiVGjHechLwle3MyMFdG-yjaJMx_.Ex9gm3jr8K24cdrN" >}} {{< target-blank "Day 03 📺" "https://zoom.us/rec/share/qO9x5tUEJC4t_6InMpAazhSlGOxoQdROv6umwWMSnI88Kj7NAayFExYtspN24mOi.minZGLuLOuslyrrX" >}} | | |
-|Level 02|[Vba](/02-vba)|  | | | |
+|Level 02|[Vba](/02-vba)| {{< target-blank "Day 01 📺" "https://zoom.us/rec/share/ObzhEeMjvqdvunHJG0z6Ms-hdhkfunzXctd5K2VSI-3lWw9eaETVmScxM-yDJPY.cGiA6WSTH4bs9nx7" >}} {{< target-blank "Day 02 📺" "https://zoom.us/rec/share/bh6ebWyh5owx3Zo-B6YimrGgNCnC5urmgHtVytnp1NWd2csSxXtc_KouZW12tC1T.FaYLdzcSzrK-b_aF" >}} {{< target-blank "Day 03 📺" "https://zoom.us/rec/share/BMmU9QEtrpFId6wJucgjIOYGQRa6KoK6-ms5Rbsz2rNawqwQTQ7ROVMXxZ8Mdmon.XY-p7E2qe0tA7iV2" >}} | {{< target-blank "Day 01 📺" "https://zoom.us/rec/share/ObzhEeMjvqdvunHJG0z6Ms-hdhkfunzXctd5K2VSI-3lWw9eaETVmScxM-yDJPY.cGiA6WSTH4bs9nx7" >}} {{< target-blank "Day 02 📺" "https://zoom.us/rec/share/bh6ebWyh5owx3Zo-B6YimrGgNCnC5urmgHtVytnp1NWd2csSxXtc_KouZW12tC1T.FaYLdzcSzrK-b_aF" >}} {{< target-blank "Day 03 📺" "https://zoom.us/rec/share/BMmU9QEtrpFId6wJucgjIOYGQRa6KoK6-ms5Rbsz2rNawqwQTQ7ROVMXxZ8Mdmon.XY-p7E2qe0tA7iV2" >}}  | | |
 
 
 
