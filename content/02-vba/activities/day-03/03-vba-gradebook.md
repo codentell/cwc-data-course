@@ -1,6 +1,6 @@
 +++
-title = "05. Gradebook 👩‍🎓👨‍🎓"
-weight = 5
+title = "03. Gradebook 👩‍🎓👨‍🎓"
+weight = 3
 tags = ["vba"] 
 +++
 
@@ -103,7 +103,7 @@ End Sub
 
 # reset button
 
-````vb
+````vba
 Sub Reset_Button():
 
   ' Pass the previous grade to the Last Grade row
