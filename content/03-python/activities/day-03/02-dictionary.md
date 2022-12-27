@@ -1,5 +1,5 @@
 +++
-title = "02 Dictionary 👩‍🏫🧑‍🏫"
+title = "02. Dictionary 👩‍🏫🧑‍🏫"
 weight = 2
 tags = ["python"] 
 +++

@@ -1,5 +1,5 @@
 +++
-title = "13 Functions 👩‍🏫🧑‍🏫"
+title = "13. Functions 👩‍🏫🧑‍🏫"
 weight = 13
 tags = ["python"] 
 +++

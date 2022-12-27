@@ -1,5 +1,5 @@
 +++
-title = "12 Census Breakdown  👩‍🎓👨‍🎓"
+title = "12. Census Breakdown  👩‍🎓👨‍🎓"
 weight = 12
 tags = ["python"] 
 +++

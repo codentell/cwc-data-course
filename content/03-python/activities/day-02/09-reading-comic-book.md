@@ -1,5 +1,5 @@
 +++
-title = "09 Reading Comic Book  👩‍🎓👨‍🎓"
+title = "09. Reading Comic Book  👩‍🎓👨‍🎓"
 weight = 9
 tags = ["python"] 
 +++

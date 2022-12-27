@@ -1,5 +1,5 @@
 +++
-title = "01 Cereal Cleaner 👩‍🎓👨‍🎓"
+title = "01. Cereal Cleaner 👩‍🎓👨‍🎓"
 weight = 1
 tags = ["python"] 
 +++

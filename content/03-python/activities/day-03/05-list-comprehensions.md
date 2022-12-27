@@ -1,5 +1,5 @@
 +++
-title = "05 List Comprehensions 👩‍🎓👨‍🎓"
+title = "05. List Comprehensions 👩‍🎓👨‍🎓"
 weight = 5
 tags = ["python"] 
 +++

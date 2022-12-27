@@ -1,5 +1,5 @@
 +++
-title = "07 Module Playground   👩‍🎓👨‍🎓"
+title = "07. Module Playground   👩‍🎓👨‍🎓"
 weight = 7
 tags = ["python"] 
 +++

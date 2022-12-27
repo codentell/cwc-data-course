@@ -1,5 +1,5 @@
 +++
-title = "10 Write File  👩‍🏫🧑‍🏫"
+title = "10. Write File  👩‍🏫🧑‍🏫"
 weight = 10
 tags = ["python"] 
 +++
