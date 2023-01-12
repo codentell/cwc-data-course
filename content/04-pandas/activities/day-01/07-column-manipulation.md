@@ -1,5 +1,5 @@
 +++
-title = "07.  Column Manipulation"
+title = "07.  Column Manipulation 👩‍🏫🧑‍🏫"
 weight = 7
 tags = ["pandas"] 
 +++
