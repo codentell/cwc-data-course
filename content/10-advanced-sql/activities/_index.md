@@ -18,7 +18,7 @@ tags = ["sql"]
 
 
 ## Activities Required ✅
-#####  [ ⬆️ Back to Top](#sql-video-speed-runs)
+#####  [ ⬆️ Back to Top](#advanced-sql-video-speed-runs)
 Instructor Turn = 👩‍🏫🧑‍🏫
 Students Turn = 👩‍🎓👨‍🎓
 
