@@ -38,7 +38,7 @@ print(csvpath)
 
 # Set variable to check if we found the video
 found = False
-Resources\comic_books.csv
+# Resources\comic_books.csv
 
 # Open the CSV
 with open(csvpath, encoding="utf8") as csvfile:
@@ -55,7 +55,7 @@ with open(csvpath, encoding="utf8") as csvfile:
     # If the video is never found, alert the user
     if found == False:
         print("We don't seem to have what you are looking for!")
-AWOL was published by Image Comics in 2007-2009
+# AWOL was published by Image Comics in 2007-2009
  
 ```
 {{% /expand%}}
