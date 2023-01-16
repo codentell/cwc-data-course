@@ -11,7 +11,9 @@ pre: "<b>0️4. </b>"
 
 
 ### Slideshows
-
+* [4.1 Intro to Pandas ](https://docs.google.com/presentation/d/1IG88FcK2Ip21H4E3MmxbqlxChnQCPTffs9DXjoXhkHg/edit?usp=sharing)
+* [4.2 ](https://docs.google.com/presentation/d/1jgd7JSBtoXVXWrfaf2F2sT9UskkEpHM5hGQgbr0zgxw/edit?usp=sharing)
+* [4.3 Merging and Data Clean ](https://docs.google.com/presentation/d/1LbIbYi8LHXXGTzatXztB92kMRBR0kYbFR8QLO7orWkQ/edit?usp=sharing)
 
 ### Lesson Plans
 

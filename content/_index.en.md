@@ -117,7 +117,7 @@ Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thor
 | 01 |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/rubOYv1OLTYr8lMXpVVt_dgqoidg3-gFtf1Es1DEQtGnl3F9v7d5GINqI_g5M67E.3Mp0F0GdD49JB1xj" >}}  |  01:31:51 ⏲️ | {{< target-blank "Video 📺" "https://zoom.us/rec/play/rR1YBOzcbfSzYU2ER6zuZFsBMvhMRX49z2I0axwDJpd1s-yYfeum7X3biVvDDRe2G9wbTYHcrPYOuk7B.3YjSeVAuDzO9padq?continueMode=true" >}}   |  00:43:00 ⏲️ |
 | 02 |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/qPbzhmyUqjkJwzPbjCO8j5SxUwYZDpT--U8Ttd3-KN8weIHVO8a6MLjrI7mM81pH.xrUA0poRC5m6sG7A" >}}      |   01:22:00  ⏲️   | {{< target-blank "Video 📺" "https://zoom.us/rec/share/qPbzhmyUqjkJwzPbjCO8j5SxUwYZDpT--U8Ttd3-KN8weIHVO8a6MLjrI7mM81pH.xrUA0poRC5m6sG7A" >}}      |01:22:00 ⏲️ |
 | 03 | {{< target-blank "Video 📺" "https://zoom.us/rec/play/bJUVux0OxHBfDs1pMRJuHLl3TRsnv-U6FVd_YbG8F6ja2P8eruJndmChUqaI0jJXhZA1moAF27cyK85J.YK2sz711TDj1JY74" >}}   |  01:17:59 ⏲️  | {{< target-blank "Video 📺" "https://zoom.us/rec/play/bJUVux0OxHBfDs1pMRJuHLl3TRsnv-U6FVd_YbG8F6ja2P8eruJndmChUqaI0jJXhZA1moAF27cyK85J.YK2sz711TDj1JY74" >}}  |   01:17:59 ⏲️ |
-| 04 |   |  ⏲️  |   |  ⏲️ |
+| 04 | {{< target-blank "Video 📺" "https://zoom.us/rec/share/suQKQtlDj7W_iSXlBqaO7ZKBK_NxbHv87snsSJO4Z_TfFU3YitSV4jpNztjy8M4v.HvlQ1xBy8JCBvLK4" >}}     |  1:00:52 ⏲️  |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/suQKQtlDj7W_iSXlBqaO7ZKBK_NxbHv87snsSJO4Z_TfFU3YitSV4jpNztjy8M4v.HvlQ1xBy8JCBvLK4" >}}    |  1:00:52 ⏲️ |
 | 05 |   |  ⏲️  |   |  ⏲️ |
 | 06 |   |  ⏲️  |   |  ⏲️ |
 | 07 |   |    |   |   |
