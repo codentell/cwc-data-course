@@ -12,7 +12,7 @@ In this activity, you will create a pie chart that visualizes pie flavor prefere
 
 Using the [starter file](Unsolved/py_pie.ipynb), create a pie chart that matches the following image:
 
-    ![py_pie](Images/PyPies.png)
+![py_pie](../images/PyPies.png)
 
 * Include all of the lists provided in the starter file: pies, pie_votes, colors, explode.
 
