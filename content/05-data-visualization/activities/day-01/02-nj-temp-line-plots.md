@@ -37,6 +37,33 @@ In this activity, you will visualize the differences between temperature recorde
 
 ## ✅ Solutions
 {{%expand "Solutions Click Here" %}}
+```python
 
+# Dependencies
+import numpy as np
+import matplotlib.pyplot as plt
+# Set x axis to numerical value for month
+x_axis_data = np.arange(1,13,1)
+x_axis_data
+array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12])
+# Average weather temp
+points = [39, 42, 51, 62, 72, 82, 86, 84, 77, 65, 55, 44]
+# Plot the line
+plt.plot(x_axis_data, points)
+plt.show()
+
+# Convert to Celsius C = (F-32) * 0.56
+points_C = [(x-32) * 0.56 for x in points]
+points_C
+
+# Plot using Celsius
+plt.plot(x_axis_data, points_C)
+plt.show()
+
+# Plot both on the same chart
+plt.plot(x_axis_data, points)
+plt.plot(x_axis_data, points_C)
+plt.show()
+```
 {{% /expand%}}
 

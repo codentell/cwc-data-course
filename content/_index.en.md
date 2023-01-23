@@ -148,5 +148,6 @@ Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thor
 |02|[VBA](/02-vba)|[Module 2 Challenge](/02-vba/challenges)|
 |03|[Python](/03-python)|[Module 3 Challenge](/03-python/challenges)|
 |04|[Pandas](/04-pandas)|[Module 4 Challenge](/04-pandas/challenges)|
+|05|[Matplotlib](/05-matplotlib)|[Module 5 Challenge](/05-data-visualization/challenges)|
 
 # 🍑
