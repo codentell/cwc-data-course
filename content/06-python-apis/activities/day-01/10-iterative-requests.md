@@ -24,3 +24,9 @@ In this activity, you will test your knowledge of iterative requests by looping 
   * Save the responses in another list
 
 - - -
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+```
+{{% /expand%}}

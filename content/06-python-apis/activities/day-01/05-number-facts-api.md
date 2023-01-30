@@ -19,3 +19,9 @@ Using the [Numbers API](http://numbersapi.com), create an application that takes
 * Make sure to read through the documentation when creating your application. Some types require more or less data than others.
 
 - - -
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+```
+{{% /expand%}}

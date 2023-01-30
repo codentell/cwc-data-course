@@ -32,3 +32,9 @@ Collect and print out all of the films a character appeared in.
 * The "starship" values are links to another API call. This means that you will need to create a request based on the values of a previous request.
 
 ---
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+```
+{{% /expand%}}

@@ -23,3 +23,9 @@ In this activity, you will dig into a simple, well-documented API&mdash;The Spac
   * Retrieve and print the JSON for the a _specific_ record from your chosen endpoint.
 
 ---
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+```
+{{% /expand%}}

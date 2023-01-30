@@ -24,3 +24,9 @@ Use the OMDb API to retrieve and print answers to the following questions:
 * What was the plot of the movie *Sing*?
 
 - - -
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+```
+{{% /expand%}}

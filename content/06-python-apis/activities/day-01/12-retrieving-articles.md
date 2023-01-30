@@ -38,3 +38,9 @@ Figure out how we could get 30 results. **Hint**: Look up the `page` query param
 * **Warning:** Be sure not to print out any of the query URLs. The query URLs will include your API key, and if pushed to a public repository, it becomes a security risk for you as someone could steal and use your key.
 
 - - -
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+```
+{{% /expand%}}
