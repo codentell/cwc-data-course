@@ -118,8 +118,8 @@ Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thor
 | 02 |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/qPbzhmyUqjkJwzPbjCO8j5SxUwYZDpT--U8Ttd3-KN8weIHVO8a6MLjrI7mM81pH.xrUA0poRC5m6sG7A" >}}      |   01:22:00  ⏲️   | {{< target-blank "Video 📺" "https://zoom.us/rec/share/qPbzhmyUqjkJwzPbjCO8j5SxUwYZDpT--U8Ttd3-KN8weIHVO8a6MLjrI7mM81pH.xrUA0poRC5m6sG7A" >}}      |01:22:00 ⏲️ |
 | 03 | {{< target-blank "Video 📺" "https://zoom.us/rec/play/bJUVux0OxHBfDs1pMRJuHLl3TRsnv-U6FVd_YbG8F6ja2P8eruJndmChUqaI0jJXhZA1moAF27cyK85J.YK2sz711TDj1JY74" >}}   |  01:17:59 ⏲️  | {{< target-blank "Video 📺" "https://zoom.us/rec/play/bJUVux0OxHBfDs1pMRJuHLl3TRsnv-U6FVd_YbG8F6ja2P8eruJndmChUqaI0jJXhZA1moAF27cyK85J.YK2sz711TDj1JY74" >}}  |   01:17:59 ⏲️ |
 | 04 | {{< target-blank "Video 📺" "https://zoom.us/rec/share/suQKQtlDj7W_iSXlBqaO7ZKBK_NxbHv87snsSJO4Z_TfFU3YitSV4jpNztjy8M4v.HvlQ1xBy8JCBvLK4" >}}     |  1:00:52 ⏲️  |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/suQKQtlDj7W_iSXlBqaO7ZKBK_NxbHv87snsSJO4Z_TfFU3YitSV4jpNztjy8M4v.HvlQ1xBy8JCBvLK4" >}}    |  1:00:52 ⏲️ |
-| 05 |   |  ⏲️  |   |  ⏲️ |
-| 06 |   |  ⏲️  |   |  ⏲️ |
+| 05 | {{< target-blank "Video 📺" "https://zoom.us/rec/share/pqBbJRhK-1lOuiNNmZCMbH-esqkoTnW5rsl-JUZnoqgrFr9HIffBgDgLk_CGl_2H.35evcZ1UDXbRpKnC" >}}    |  00:47:42 ⏲️  |  {{< target-blank "Video 📺" " https://zoom.us/rec/share/pqBbJRhK-1lOuiNNmZCMbH-esqkoTnW5rsl-JUZnoqgrFr9HIffBgDgLk_CGl_2H.35evcZ1UDXbRpKnC" >}}  |  00:47:42 ⏲️ |
+| 06 |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/rfh8Pi3EGNssjqFLcveHAQ8CgmQJuEDLkJzPXG4MxQa6S6aUpKHh1W9UR__EuJr_.TmQsdya6u2rpnMGP" >}}   |  1:09:36 ⏲️  |  {{< target-blank "Video 📺" "https://zoom.us/rec/share/rfh8Pi3EGNssjqFLcveHAQ8CgmQJuEDLkJzPXG4MxQa6S6aUpKHh1W9UR__EuJr_.TmQsdya6u2rpnMGP" >}}  |  1:09:36 ⏲️ |
 | 07 |   |    |   |   |
 | 08 |   |    |   |   |
 | 09 |   | ⏲️   |   |  ⏲️ |
@@ -149,5 +149,6 @@ Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thor
 |03|[Python](/03-python)|[Module 3 Challenge](/03-python/challenges)|
 |04|[Pandas](/04-pandas)|[Module 4 Challenge](/04-pandas/challenges)|
 |05|[Matplotlib](/05-matplotlib)|[Module 5 Challenge](/05-data-visualization/challenges)|
+|06|[Python APIs](/06-python-apis)|[Module 6 Challenge](/06-python-apis/challenges)|
 
 # 🍑
