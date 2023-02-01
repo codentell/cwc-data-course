@@ -1,7 +1,7 @@
 +++
-title = "02.  👩‍🏫🧑‍🏫"
+title = "02. Workflow 👩‍🎓👨‍🎓"
 weight = 2
-tags = ["apis"] 
+tags = ["project"] 
 +++
 
 # Review Questions

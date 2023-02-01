@@ -1,7 +1,7 @@
 +++
 title = "01. Workflows 👩‍🏫🧑‍🏫"
 weight = 1
-tags = ["apis"] 
+tags = ["project"] 
 +++
 
 # Workflow Diagrams
