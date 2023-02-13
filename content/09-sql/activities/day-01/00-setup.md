@@ -1,5 +1,5 @@
 +++
-title = "00. Setup for Mac and PC"
+title = "00. Setup for Mac and PC 👩‍🎓👨‍🎓"
 weight = 1
 tags = ["sql"] 
 +++

@@ -1,3 +1,9 @@
++++
+title = "01. Creating a Database 👩‍🏫🧑‍🏫"
+weight = 2
+tags = ["sql"] 
++++
+
 # Create a Database
 
 In this activity, everyone will create a database in pgAdmin from scratch.

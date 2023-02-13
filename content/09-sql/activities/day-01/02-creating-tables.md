@@ -1,4 +1,8 @@
-
++++
+title = "02. Creating a Table 👩‍🏫🧑‍🏫"
+weight = 3
+tags = ["sql"] 
++++
 
 ```sql
 -- Create a new table
