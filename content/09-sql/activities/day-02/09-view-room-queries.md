@@ -1,6 +1,6 @@
 +++
 title = "09. View Room Queries 👩‍🎓👨‍🎓"
-weight = 8
+weight = 9
 tags = ["sql"] 
 +++
 

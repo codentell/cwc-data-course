@@ -1,6 +1,6 @@
 +++
 title = "10. Revisit Subquery 👩‍🏫🧑‍🏫"
-weight = 8
+weight = 10
 tags = ["sql"] 
 +++
 
