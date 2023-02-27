@@ -40,6 +40,8 @@ In today’s final activity, you will test your SQLAlchemy skills and update you
 
 ---
 
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
 ```python
 # Import SQL Alchemy
 from sqlalchemy import create_engine
@@ -98,3 +100,4 @@ for bro in surfer_list:
     print(bro.hometown)
     print(bro.rank)
 ```
+{{% /expand%}}
