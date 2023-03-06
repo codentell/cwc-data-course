@@ -1,5 +1,5 @@
 +++
-title = "01. CSS Identifier"
+title = "01. CSS Identifier 👩‍🏫🧑‍🏫"
 weight = 1
 tags = ["scraping"] 
 +++
