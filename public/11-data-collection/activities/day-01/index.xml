@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 1 on </title>
+    <link>/11-data-collection/activities/day-01/</link>
+    <description>Recent content in Day 1 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/11-data-collection/activities/day-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Hello HTML 👩‍🏫🧑‍🏫</title>
+      <link>/11-data-collection/activities/day-01/01-hello-html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/01-hello-html/</guid>
+      <description>&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en-us&amp;#34;&amp;gt;  &amp;lt;head&amp;gt;  &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;  &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;  &amp;lt;title&amp;gt;My First Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;   &amp;lt;!-- Header --&amp;gt;  &amp;lt;h1&amp;gt;Hello World!&amp;lt;/h1&amp;gt;   &amp;lt;!-- Image --&amp;gt;  &amp;lt;img src=&amp;#34;https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/11-Web/kids_dancing_hip_hop.png&amp;#34; alt=&amp;#34;children learning to dance hip-hop&amp;#34; /&amp;gt;  &amp;lt;br /&amp;gt;   &amp;lt;!-- Link with New Tab --&amp;gt;  &amp;lt;a href=&amp;#34;https://www.google.com&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;Opens new tab&amp;lt;/a&amp;gt;  &amp;lt;br /&amp;gt;   &amp;lt;!-- Bold Link --&amp;gt;  &amp;lt;strong&amp;gt;&amp;lt;a href=&amp;#34;https://www.</description>
+    </item>
+    
+    <item>
+      <title>02. first HTML 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-01/02-first-html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/02-first-html/</guid>
+      <description>In this activity, you will create a simple HTML page.
+Instructions In a new HTML file, create the basic structure of an HTML document and include in it the following:
+  DOCTYPE declaration
+  &amp;lt;head&amp;gt; element with nested &amp;lt;title&amp;gt; element
+  &amp;lt;h1&amp;gt; element with a title of your choice
+  An image
+  A link to an external page, such as google.com
+  An ordered list of things to do on your next vacation</description>
+    </item>
+    
+    <item>
+      <title>03. BeautifulSoup</title>
+      <link>/11-data-collection/activities/day-01/03-beautifulsoup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/03-beautifulsoup/</guid>
+      <description># Introduction to BeautifulSoup # Import BeautifulSoup  from bs4 import BeautifulSoup   # Store html site as a string html = &amp;#34;&amp;#34;&amp;#34; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en-us&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;My First Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;!-- Header --&amp;gt; &amp;lt;h1&amp;gt;Hello World!&amp;lt;/h1&amp;gt; &amp;lt;!-- Image --&amp;gt; &amp;lt;img src=&amp;#34;https://static.wikia.nocookie.net/spongebob/images/4/46/SVG_SpongeBob_SquarePants.svg/revision/latest/scale-to-width-down/195?cb=20181117230211&amp;#34; alt=&amp;#34;Spongebob!&amp;#34; /&amp;gt; &amp;lt;br /&amp;gt; &amp;lt;!-- Link with New Tab --&amp;gt; &amp;lt;a href=&amp;#34;https://www.google.com&amp;#34;&amp;gt;Google&amp;lt;/a&amp;gt; &amp;lt;br /&amp;gt; &amp;lt;!-- An ordered list --&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt;Visit Grand Canyon&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Hike the trails&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Take photos&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Bach&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Mozart&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Beethoven&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Adele&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; &amp;#34;&amp;#34;&amp;#34;  # Create a BeautifulSoup object to parse the html code soup = BeautifulSoup(html, &amp;#39;html.</description>
+    </item>
+    
+    <item>
+      <title>04. Soup to Nuts 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-01/04-soup-to-nuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/04-soup-to-nuts/</guid>
+      <description>From Soup to Nuts   In this activity, you will perform basic scraping of HTML.
+  Create a new Jupyter notebook, and import BeautifulSoup into it.
+  Open html-tags.html in VS Code. Copy and paste the code into your Jupyter notebook as a Python string. Use triple quotation marks, as it will be a multi-line string.
+  html = &amp;#34;&amp;#34;&amp;#34; &amp;lt;html code&amp;gt; &amp;#34;&amp;#34;&amp;#34;   Parse the HTML code with BeautifulSoup.</description>
+    </item>
+    
+    <item>
+      <title>05. CSS 👩‍🏫🧑‍🏫</title>
+      <link>/11-data-collection/activities/day-01/05-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/05-css/</guid>
+      <description>css demo 01 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;  &amp;lt;head&amp;gt;  &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;  &amp;lt;meta http-equiv=&amp;#34;X-UA-Compatible&amp;#34; content=&amp;#34;IE=edge&amp;#34;&amp;gt;  &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;  &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;   &amp;lt;p&amp;gt;I&amp;#39;m first!&amp;lt;/p&amp;gt;  &amp;lt;p&amp;gt;I&amp;#39;m second!&amp;lt;/p&amp;gt;   &amp;lt;p&amp;gt;I&amp;#39;m third!&amp;lt;/p&amp;gt;  &amp;lt;p&amp;gt;I&amp;#39;m fourth!&amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;  &amp;lt;/html&amp;gt; css demo 02 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;  &amp;lt;head&amp;gt;  &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;  &amp;lt;meta http-equiv=&amp;#34;X-UA-Compatible&amp;#34; content=&amp;#34;IE=edge&amp;#34;&amp;gt;  &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;  &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt;   &amp;lt;style&amp;gt;   &amp;lt;/style&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;   &amp;lt;div&amp;gt;  &amp;lt;p&amp;gt;I&amp;#39;m first!</description>
+    </item>
+    
+    <item>
+      <title>06. CSS 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-01/06-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/06-css/</guid>
+      <description>CSS Instructions   In a new HTML file, create three ordered lists. Each list should have four items.
+  The first should be a list of four cities. The entire list should have an id of &amp;ldquo;cities&amp;rdquo;.
+  The second should be a list of four food entrees. Two of them should contain meat, and two of them should be vegetarian. The meat list items should have a class called &amp;ldquo;meat&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

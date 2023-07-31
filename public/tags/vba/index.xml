@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vba on </title>
+    <link>/tags/vba/</link>
+    <description>Recent content in vba on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/vba/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Hello World👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/01-hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/01-hello-world/</guid>
+      <description>Files: Activities/01-Ins_HelloWorld/Solved/hello_world.xlsm
+  The first VBA script. Open the VBA editor, and navigate to Module 1. All examples in this lesson plan and the ones in the rest of the unit can be found in Module 1, as in the following images:
+  The editor’s interface, and be sure to discuss the following points:
+  Modules are organizational units of VBA code that are usually attached to a workbook or worksheet.</description>
+    </item>
+    
+    <item>
+      <title>01. Star Counter 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/01-star-counter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/01-star-counter/</guid>
+      <description>Star Counter The dataset you&amp;rsquo;ll be working with for this activity contains 50 rows of customer review data for French and Spanish online learning programs. Columns D through H contain the number of stars each program received as feedback. For example, the first row of the data indicates that a French program received two out of five stars in Monnie Mccasland&amp;rsquo;s review.
+Data stored this way can be difficult to analyze, so you&amp;rsquo;ll be using VBA to convert it to numerical data.</description>
+    </item>
+    
+    <item>
+      <title>01. Warmup 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-02/01-warmup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/01-warmup/</guid>
+      <description>Budget Checker In this activity, you&amp;rsquo;ll write a VBA script to run a budget checker in Excel.
+Instructions   There are three parts to this problem.
+  Part 1: Calculate the total amount after adding in the fee, and enter the value in the &amp;ldquo;Total&amp;rdquo; cell.
+  Part 2: Create a message box to alert the user if the total amount, including the fee, is within or over budget.</description>
+    </item>
+    
+    <item>
+      <title>Activities ✅</title>
+      <link>/02-vba/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/</guid>
+      <description>Video Speed Run of the Activities if you get stuck or miss class
+📺 VBA Activities Video Speed Runs 🏃‍♀️🏃    Day Mac 🍎 Duration Window 🖼️ Duration     01 Video 📺 01:07:00 ⏲️ Video 📺 01:07:00 ⏲️   02 Video 📺 00:44:54 ⏲️ Video 📺 00:44:54 ⏲️   03 Video 📺 01:52:27 ⏲️ Video 📺 01:52:27 ⏲️    Activities Required ✅ ⬆️ Back to Top Instructor Turn = 👩‍🏫🧑‍🏫 Students Turn = 👩‍🎓👨‍🎓</description>
+    </item>
+    
+    <item>
+      <title>Day 1</title>
+      <link>/02-vba/activities/day-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/</guid>
+      <description>2.1 Fundamentals of Programming with VBA Overview In today&amp;rsquo;s class, you’ll introduce students to fundamental programming with Visual Basic for Applications (VBA). Today&amp;rsquo;s class will cover foundational concepts, like variables, arrays, and conditionals, and serve as the prelude to upcoming work in Python and JavaScript.
+Class Objectives By the end of this lesson:
+ Define building blocks of all programming languages: variables, arrays, conditionals, loops, and functions. Create simple VBA macros to trigger pop-ups and change cell values.</description>
+    </item>
+    
+    <item>
+      <title>Day 2</title>
+      <link>/02-vba/activities/day-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/</guid>
+      <description>2.2 Control Flow with VBA Overview In today&amp;rsquo;s class, students will learn to use basic and nested for loops together with conditionals to perform common coding tasks in VBA.
+Class Objectives By the end of this lesson, will be able to:
+ Describe the basic syntax of a VBA for loop. Use for loops and conditionals to direct logic flow. Explain the value and basics of using nested for loops. Refine their fundamental coding skills: syntax recollection, pattern recognition, problem decomposition, and debugging.</description>
+    </item>
+    
+    <item>
+      <title>Day 3</title>
+      <link>/02-vba/activities/day-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/</guid>
+      <description>2.3 Scripting Practice in VBA Overview Today’s lesson is the conclusion of our in-depth week on VBA scripting, formatting, and loops. During the second half of class, students will work on a short project.
+Class Objectives By the end of this lesson, the students will be able to:
+ Format spreadsheets by using VBA code. Loop through a table by using VBA code and check for changes in values.  Slides  2.</description>
+    </item>
+    
+    <item>
+      <title>02. For Loop 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-02/02-forloops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/02-forloops/</guid>
+      <description>Sub forLoop()   &amp;#39; Create a variable to hold the counter  Dim i As Integer   &amp;#39; Loop through from numbers 1 through 20  For i = 1 To 20   &amp;#39; Iterate through the rows placing a value of 1 throughout  Cells(i, 1).Value = 1   &amp;#39; Iterate through the columns placing a value of 5 throughout  Cells(1, i).Value = 5   &amp;#39; Places increasing values based upon the variable &amp;#34;i&amp;#34; in B2 to B21  Cells(i + 1, 2).</description>
+    </item>
+    
+    <item>
+      <title>02. Formatter 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-03/02-formatter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/02-formatter/</guid>
+      <description>Sub formatter()   &amp;#39; Set the Font color to Red  Range(&amp;#34;A1&amp;#34;).Font.ColorIndex = 3   &amp;#39; Set the Cell Colors to Red  Range(&amp;#34;A2:A5&amp;#34;).Interior.ColorIndex = 3   &amp;#39; Set the Font Color to Green  Range(&amp;#34;B1&amp;#34;).Font.ColorIndex = 4   &amp;#39; Set the Cell Colors to Green  Range(&amp;#34;B2:B5&amp;#34;).Interior.ColorIndex = 4   &amp;#39; Set the Color Index to Blue  Range(&amp;#34;C1&amp;#34;).Font.ColorIndex = 5   &amp;#39; Set the Cell Colors to Blue  Range(&amp;#34;C2:C5&amp;#34;).</description>
+    </item>
+    
+    <item>
+      <title>02. Hello VBA 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/02-hello-vba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/02-hello-vba/</guid>
+      <description>Hello, VBA It’s time to write your first VBA script!
+Instructions   Create and execute a VBA script that generates three pop-up messages containing any text of your choice.
+  If you finish early, try to help other students complete the activity.
+  —
+✅ Solutions   Solutions Click Here   Sub HelloVBA():   MsgBox (&amp;#34;Hello VBA!&amp;#34;)  MsgBox (&amp;#34;I have come to master your vicissitudes.</description>
+    </item>
+    
+    <item>
+      <title>03. Button Clicks 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/03-button-clicks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/03-button-clicks/</guid>
+      <description>Files: 03-Ins_ButtonClicks
+  Next, return to the Developer tab, where you’ll insert a button in their spreadsheet. The Mac layout is slightly different, so be patient if you have any difficulty finding features across operating systems.
+  First, create a button, as in the following image:   Once the button is created, the &amp;ldquo;Assign Macro&amp;rdquo; window will pop up, where you can choose to create a new macro or select an existing one, as in the following image:   If you accidentally close this window, you can always re-open it by right-clicking your button and selecting &amp;ldquo;Assign Macro&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>03. Chicken Nuggets 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-02/03-chicken-nuggets-for-loop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/03-chicken-nuggets-for-loop/</guid>
+      <description>Looping on Through Now, it&amp;rsquo;s your chance to see how quickly we can create data using the power of a computer and for loops!
+Instructions Create a for loop that will produce the following example. The lines signify new cells.
+   A B C     I will eat 11 Chicken Nuggets   I will eat 12 Chicken Nuggets   I will eat 13 Chicken Nuggets   I will eat 14 Chicken Nuggets   I will eat 15 Chicken Nuggets   I will eat 16 Chicken Nuggets   I will eat 17 Chicken Nuggets   I will eat 18 Chicken Nuggets   I will eat 19 Chicken Nuggets   I will eat 20 Chicken Nuggets    Bonus If you finish early, consider why you may prefer using a for loop over the range() function.</description>
+    </item>
+    
+    <item>
+      <title>03. Gradebook 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/03-vba-gradebook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/03-vba-gradebook/</guid>
+      <description>VBA Grade Book In this activity, you will create a macro that will check a student’s numerical grade, assign them a letter grade, and apply different formatting changes to a cell depending on the value of the student’s grade.
+Instructions With grader.xlsm as your starting point, create a grade calculator using conditionals. This calculator will convert a student&amp;rsquo;s numeric grade into a letter grade and then style the resulting cell accordingly.</description>
+    </item>
+    
+    <item>
+      <title>04.  Loop Conditional 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-02/04-loop-conditionals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/04-loop-conditionals/</guid>
+      <description>conditional Sub conditional_loops()   &amp;#39; Create a for loop from 1 to 10  For i = 1 To 10   &amp;#39; Use the modulus function to determine if a number is divisible by 2 (even number)  If Cells(i, 1).Value Mod 2 = 0 Then   &amp;#39; Enter &amp;#34;Even Row&amp;#34; the adjacent cell  Cells(i, 2).Value = &amp;#34;Even Row&amp;#34;   &amp;#39; If the number is not divisible by 2 (odd number)  Else   &amp;#39; Enter &amp;#34;Even Row&amp;#34; the adjacent cell  Cells(i, 2).</description>
+    </item>
+    
+    <item>
+      <title>04. Checkerboard layout 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/04-checkerboard-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/04-checkerboard-layout/</guid>
+      <description>Checkerboard Layout In this activity, you will work with a partner to create a checkerboard.
+Instructions Using VBA scripts, create an 8-by-8 grid with alternating red and black squares.
+Hints   You will need to use nested for loops, conditionals, the MOD function, and formatting to create the board.
+  This is a tricky problem! Try to pseudocode a plan first.
+  Unlike previous activities, this one can be solved in many different ways.</description>
+    </item>
+    
+    <item>
+      <title>04. Choose Your Button 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/04-choose-your-button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/04-choose-your-button/</guid>
+      <description>Choose Your Button In this activity, you’ll get to practice creating subroutines that can be triggered with the click of a button.
+Instructions   Create an Excel file with two buttons.
+  For each button, create a different VBA subroutine that will trigger a different pop-up message when clicked.
+  If you finish early, ensure the people around you complete the task as well.
+  —</description>
+    </item>
+    
+    <item>
+      <title>05. Cells and Ranges 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/05-cells-and-ranges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/05-cells-and-ranges/</guid>
+      <description>Sub CellsAndRanges():   &amp;#39; Inserting Data Via Cells  Cells(2, 1).Value = &amp;#34;Cat&amp;#34;  Cells(2, 2).Value = &amp;#34;In&amp;#34;  Cells(2, 3).Value = &amp;#34;The&amp;#34;  Cells(2, 4).Value = &amp;#34;Hat&amp;#34;   &amp;#39; Inserting Data Via Ranges  Range(&amp;#34;F1&amp;#34;).Value = &amp;#34;I&amp;#34;  Range(&amp;#34;F2&amp;#34;).Value = &amp;#34;Am&amp;#34;  Range(&amp;#34;F3&amp;#34;).Value = &amp;#34;Sam&amp;#34;   &amp;#39; Inserting Data Across Ranges  Range(&amp;#34;F5:F7&amp;#34;).Value = 5  End Sub </description>
+    </item>
+    
+    <item>
+      <title>05. Fizz Buzz 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-02/05-fizz-buzz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/05-fizz-buzz/</guid>
+      <description>Fizz Buzz In this activity, you&amp;rsquo;ll work on a popular logic problem that countless coders have encountered in technical interviews.
+Instructions Create a VBA script that populates the second column with the word &amp;ldquo;Fizz&amp;rdquo;, &amp;ldquo;Buzz&amp;rdquo;, or &amp;ldquo;Fizzbuzz&amp;rdquo; based on the value in the first column.
+  If the value in Column 1 is a multiple of both 3 and 5, print &amp;ldquo;Fizzbuzz&amp;rdquo; in Column 2.
+  If the value in Column 1 is a multiple of just 3, print &amp;ldquo;Fizz&amp;rdquo; in Column 2.</description>
+    </item>
+    
+    <item>
+      <title>05. Next Cells 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-03/05-next-cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/05-next-cells/</guid>
+      <description>Sub NextCells()   &amp;#39; Set a variable for specifying the column of interest  Dim column As Integer  column = 1   &amp;#39; Loop through rows in the column  For i = 2 To 6   &amp;#39; Searches for when the value of the next cell is different than that of the current cell  If Cells(i + 1, column).Value &amp;lt;&amp;gt; Cells(i, column).Value Then   &amp;#39; Message Box the value of the current cell and value of the next cell  MsgBox (Cells(i, column).</description>
+    </item>
+    
+    <item>
+      <title>06. Chessboard  👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/06-chessboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/06-chessboard/</guid>
+      <description>Chessboard For this activity, you&amp;rsquo;ll add the names of chess pieces to their starting positions on the provided chessboard.
+Instructions  Add text-based chess pieces to the provided chessboard. For the first two rows of the chessboard, use Ranges; for the final two rows of the chessboard, use Cells.  Piece positions:
+   Rook Knight Bishop Queen King Bishop Knight Rook     Pawn Pawn Pawn Pawn Pawn Pawn Pawn Pawn                                               Pawn Pawn Pawn Pawn Pawn Pawn Pawn Pawn   Rook Knight Bishop Queen King Bishop Knight Rook    Hint Remember that with Ranges, it is possible to modify multiple cells at once.</description>
+    </item>
+    
+    <item>
+      <title>06. Credit Card Checker 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/06-credit-card-checker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/06-credit-card-checker/</guid>
+      <description>Credit Card Checker In this activity, you will practice comparing cells to calculate the total transaction amount for different credit card brands.
+Instructions   Create a VBA script that will process the credit card purchases by identifying each of the unique brands listed.
+  Create a single pop-up message for each of the credit card brands listed by looping through the list.
+  Bonus Add up the total value of credit card purchases for each brand, and put the information in the summary table.</description>
+    </item>
+    
+    <item>
+      <title>06. Lotto 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-02/06-lotto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/06-lotto/</guid>
+      <description>The VBA Lotto For this activity, you&amp;rsquo;re in charge of finding the winners of a local lottery.
+Instructions The winning tickets are:
+ First place: 3957481 Second place: 5865187 Third place: 2817729  Create a script that will return those lucky winners and print them on the sheet. Make sure to do the following:
+  For each winner, include the following pieces of information: first name, last name, and the winning number.</description>
+    </item>
+    
+    <item>
+      <title>07.  Nested For Loop  👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-02/07-nested-for-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/07-nested-for-loops/</guid>
+      <description>&amp;#39; Nested For Loop  Sub ClassScanner()   Dim TargetStudent As String   &amp;#39; Loop through the rows  For i = 1 To 3   &amp;#39; Loop through the columns  For j = 1 To 5   &amp;#39; Print the Student Name  MsgBox (&amp;#34;Row: &amp;#34; &amp;amp; i &amp;amp; &amp;#34; Column: &amp;#34; &amp;amp; j &amp;amp; &amp;#34; | &amp;#34; &amp;amp; Cells(i, j).Value)   Next j   Next i  End Sub </description>
+    </item>
+    
+    <item>
+      <title>07. Census Part 1 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/07-census-pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/07-census-pt1/</guid>
+      <description>U.S. Census, Part 1 In this first part of the activity, you will create a VBA script that loops through the sheets in the workbook and formats each one to be more readable.
+Instructions   Extract the number before the phrase &amp;ldquo;_census_data&amp;rdquo; to figure out the year.
+  Add the year to the first column of each spreadsheet.
+  Split the &amp;ldquo;Place&amp;rdquo; column into &amp;ldquo;County&amp;rdquo; and &amp;ldquo;State&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>07. Variables 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/07-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/07-variables/</guid>
+      <description>Sub Variables():   &amp;#39; Basic String Variable  &amp;#39; ----------------------------------------  Dim name As String  name = &amp;#34;Gandalf&amp;#34;   MsgBox (name)   &amp;#39; Basic String Concatenation (Combination)  &amp;#39; ----------------------------------------  Dim title As String  title = &amp;#34;The Great&amp;#34;   Dim fullname As String  fullname = name + &amp;#34; &amp;#34; + title   MsgBox (fullname)   &amp;#39; Basic Integer, Double, Long Variables  &amp;#39; ----------------------------------------  Dim age1 As Integer  Dim age2 As Integer  age1 = 5  age2 = 10   Dim price As Double  Dim tax As Double  price = 19.</description>
+    </item>
+    
+    <item>
+      <title>08. Calculator 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/08-calculator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/08-calculator/</guid>
+      <description>Calculator Now, you will have the opportunity to use data in a spreadsheet to create variables and perform a simple calculation.
+Instructions   Using the spreadsheet and unsolved VBS code as a starter, complete the script so that Price, Tax, Quantity, and Total are stored in variables.
+  Then, assign these variables the value of their associated cell in the spreadsheet.
+  Once complete, your code should set the Total value in the spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>08. Census Part 2 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/08-census-pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/08-census-pt2/</guid>
+      <description>U.S. Census, Part 2 In this second part of this activity, you will combine all the worksheets into one massive table in a new sheet.
+Instructions   Loop through every worksheet, and select the year contents.
+  Copy the year contents, and paste them into the Combined_Data tab.
+  References Data Source: U.S. Census API - ACS 5-Year Estimates 2016-2019
+—</description>
+    </item>
+    
+    <item>
+      <title>08. Cypto Kennel 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-02/08-cryptokennel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/08-cryptokennel/</guid>
+      <description>Crypto Kennel The spreadsheet you&amp;rsquo;ll be working with in this activity is full of animal inspired cryptocurrency! In place of numerical data, when you open your file you&amp;rsquo;ll be greeted by cells filled with the words &amp;ldquo;Shiba Inu&amp;rdquo;, &amp;ldquo;Dogecoin&amp;rdquo;, or &amp;ldquo;Cat Token&amp;rdquo;, however your crypto kennel is for canines only! Instead of manually removing the unwanted feline crypto, you&amp;rsquo;ll use VBA to do the work for you.
+Instructions   Create a VBA script to handle the over-abundance of the Cat Token currency in your spreadhseet&amp;rsquo;s &amp;ldquo;crypto kennel&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>09. Arrays 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/09-arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/09-arrays/</guid>
+      <description>Sub SimpleArrays():   &amp;#39; Basic Array Example  &amp;#39; ------------------------------------------  &amp;#39; Create the Ingredients Array  Dim Ingredients(5) as String   &amp;#39; Add Ingredients to the Array  Ingredients(0) = &amp;#34;Chocolate Bar&amp;#34;  Ingredients(1) = &amp;#34;Peanut Butter&amp;#34;  Ingredients(2) = &amp;#34;Jelly&amp;#34;  Ingredients(3) = &amp;#34;Macaroni&amp;#34;  Ingredients(4) = &amp;#34;Potato Salad&amp;#34;  Ingredients(5) = &amp;#34;Dragonfruit&amp;#34;   &amp;#39; Retrieve specific elements of the array  MsgBox(Ingredients(4))  MsgBox(Ingredients(0))  End Sub </description>
+    </item>
+    
+    <item>
+      <title>10. Splitting 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/10-splitting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/10-splitting/</guid>
+      <description>Sub SimpleArrays():   &amp;#39; String Splitting Example  &amp;#39; ------------------------------------------  Dim Words() As String  Dim Shakespeare As String  Shakespeare = &amp;#34;To be or not to be. That is the question&amp;#34;   &amp;#39; Break apart the Shakespeare quote into individual words  Words = Split(Shakespeare, &amp;#34; &amp;#34;)   &amp;#39; Print individual word  MsgBox (Words(5))  End Sub </description>
+    </item>
+    
+    <item>
+      <title>11. Sentence Breaker 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/11-sentence-breaker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/11-sentence-breaker/</guid>
+      <description>Sentence Breaker Now, it’s your turn to create a macro by using the Split() function that identifies the n-th word in a user-provided sentence. This is a challenging assignment, so take your time on it. Try to work through it piece by piece.
+Instructions The starter workbook has a cell containing a written sentence and several cells with numbers to identify the n-th word of the sentence.
+The starter code provided in sentence_breaker.</description>
+    </item>
+    
+    <item>
+      <title>13. Choose your story  👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/13-choose-your-story/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/13-choose-your-story/</guid>
+      <description>Choose Your Story In this activity, you will practice using conditionals by creating the first step of a role-playing adventure.
+Instructions Create an Excel workbook and VBA macro that provides a user with an input field and a single button. Based on the user-input number (1, 2, 3, or 4), the button will trigger different message boxes as follows:
+  If the user enters a value of 1, display “You choose to enter the wooded forest of doom!</description>
+    </item>
+    
+    <item>
+      <title>12. Conditionals 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/12-conditional/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/12-conditional/</guid>
+      <description>Sub Conditionals():   &amp;#39; Simple Conditional Example  &amp;#39; ------------------------------------------  If Range(&amp;#34;A2&amp;#34;).Value &amp;gt; Range(&amp;#34;B2&amp;#34;).Value Then  MsgBox (&amp;#34;Num 1 is greater than Num 2&amp;#34;)  End If   &amp;#39; Simple Conditional with If, Else, and Elseif  &amp;#39; ------------------------------------------  If Range(&amp;#34;A5&amp;#34;).Value &amp;gt; Range(&amp;#34;B5&amp;#34;).Value Then  MsgBox (&amp;#34;Num 3 is greater than Num 4&amp;#34;)   Elseif Range(&amp;#34;A5&amp;#34;).Value &amp;lt; Range(&amp;#34;B5&amp;#34;).Value Then  MsgBox(&amp;#34;Num 4 is greater than Num 3&amp;#34;)   Else  MsgBox(&amp;#34;Num 3 and Num 4 are equal&amp;#34;)   End If   &amp;#39; Conditional with Operators (And)  &amp;#39; ------------------------------------------  If (Range(&amp;#34;A8&amp;#34;).</description>
+    </item>
+    
+  </channel>
+</rss>

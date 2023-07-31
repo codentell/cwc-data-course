@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 2 on </title>
+    <link>/01-excel/activities/day-02/</link>
+    <description>Recent content in Day 2 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/01-excel/activities/day-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Excel Playground 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-02/01-excel-playground/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/01-excel-playground/</guid>
+      <description>Instructor Turn File:
+ 01-Ins_ExcelPlayground/Excel_Playground_Starter.xlsx  Note: The file includes a mock grade book.
+ How to calculate the average grade for each student by using the average function in excel.
+  how to copy a formula downstream in an Excel column. Either use copy and paste or drag the bottom-right corner of the cell, as in the following GIF:
+  How you can pull up the Excel Formula Builder to access a GUI for Excel&amp;rsquo;s off-the-shelf formulas.</description>
+    </item>
+    
+    <item>
+      <title>02. Named Ranges 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-02/02-named-ranges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/02-named-ranges/</guid>
+      <description>Instructor Turn  02-Ins_NamedRanges/ShoppingTrip.xlsx   Open the exercise, and begin to highlight entire columns of existing data (e.g., A1:A6, B1:B6, etc.).  Note: The upper-left corner, before the Formula Bar, has a Name Box.
+This shows the currently selected cell, or if a named range is selected, the name of the named range. These names can be created by selecting any set of cells and clicking the Name Box to insert a name, as in the following image:</description>
+    </item>
+    
+    <item>
+      <title>03. Color Counter 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-02/03-color-counter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/03-color-counter/</guid>
+      <description>Instructor Turn File:
+ 03-Ins_ColorCounter/FavoriteColors.xlsx.  In this example, a column of colors is listed.
+  A row of color counters uses conditional statements like COUNTIF(Colors,&amp;ldquo;Red&amp;rdquo;) to count the instances of each color.
+  A second row of &amp;ldquo;Above Five&amp;rdquo; counters use a different conditional statement (IF(C2&amp;gt;5), &amp;quot;TRUE&amp;quot;, &amp;quot;FALSE&amp;quot;) to check if the color count exceeds five for each color.
+  Note: That in both cases, the cell value is determined by the respective conditional formula, as in the following image:</description>
+    </item>
+    
+    <item>
+      <title>04. Grade Book 👩‍🎓👨‍🎓</title>
+      <link>/01-excel/activities/day-02/04-grade-book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/04-grade-book/</guid>
+      <description>Grade Book One of the most common uses of Excel in academia is keeping track of students&amp;rsquo; grades. In this activity, you and your partner will create a spreadsheet that averages out the scores for students in a fictional class and then determines whether each student has passed or failed the course.
+Instructions The solved should look closely to this:
+  Create a formula that calculates the final grade for a student based upon their previous exams and papers.</description>
+    </item>
+    
+    <item>
+      <title>05. Central Tendency 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-02/05-central-tendency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/05-central-tendency/</guid>
+      <description>File:
+  05-Ins_CentralTendency/CentralTendency.xlsx
+  Measures of central tendency are some of the most basic concepts in statistics.
+  measures of central tendency are values that describe a dataset. More specifically, the measures of central tendency describe the center of a dataset.
+  The most common measures of central tendency are the mean, median, and mode.
+  mean of a dataset is also referred to as the arithmetic average of a dataset.</description>
+    </item>
+    
+    <item>
+      <title>06. Measuring Measures Central Tendency 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-02/06-measuring-measures-central-tendency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/06-measuring-measures-central-tendency/</guid>
+      <description>File:
+  06-Evr_MeasuringMeasures-CentralTendency/MeasuringMeasures.xlsx
+  The measures of central tendency can summarize the dataset using single values, so they are a type of summary statistic. Whenever we analyze a new dataset, we should calculate all three measures of central tendency.
+  Depending on the type and size of the dataset, the different measures of central tendency may or may not describe the dataset effectively.
+ Therefore, we should always consider what measures of central tendency will summarize the data well before we use them in a summary table.</description>
+    </item>
+    
+    <item>
+      <title>07. Formatting 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-02/07-formatting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/07-formatting/</guid>
+      <description>NumberType File:
+  07-Ins_Formatting/NumberTypes.xlsx
+  Excel can style the numeric data of a spreadsheet so that it looks a certain way. This can be done by selecting a cell or a range of numeric data, clicking on the &amp;ldquo;Number&amp;rdquo; group, and then selecting any of the available numeric styles.
+  It is important to note that we are only altering the look or appearance of the number. In the following image, the data itself is the same as it was before we applied the styling, but we’ve formatted the original value as a currency:</description>
+    </item>
+    
+    <item>
+      <title>08. Skip 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-02/08-skip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/08-skip/</guid>
+      <description>No Activity for Number 8 🤷 </description>
+    </item>
+    
+    <item>
+      <title>09. Pivot Tables 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-02/09-pivot-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/09-pivot-tables/</guid>
+      <description>File 09-Ins_PivotTables/PivotTables_Solved.xlsx for this activity.
+  Powerful tool in the Excel arsenal is the pivot table, which allows users to extract summary data from large, detailed, and consistent datasets.
+  Explain that pivot tables summarize data using functions like SUM, COUNT, and AVERAGE on subsets of the data. These subsets can be as general or as specific as we like.
+  Caution pivot tables are not designed for deeper analysis.</description>
+    </item>
+    
+    <item>
+      <title>10. Top Songs Pivot 👩‍🎓👨‍🎓</title>
+      <link>/01-excel/activities/day-02/10-top-songs-pivot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/10-top-songs-pivot/</guid>
+      <description>Top-Songs Pivot Table Solution you will be working toward is in the following image:
+Pivot tables are exceptionally helpful when dealing with large-scale datasets that contain similarities between data points. For this activity, you will take a 5000-row spreadsheet containing data on the top-5000 songs from 1901 to today, and you’ll use pivot tables to figure out the artists with the most songs in the top 5000, what those songs are, and what year they came out.</description>
+    </item>
+    
+    <item>
+      <title>11. Lookups 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-02/11-lookups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/11-lookups/</guid>
+      <description>VLOOKUP() takes in four values: a lookup value, the range of a table, the index number for a column within that range, and the match parameter.
+  VLOOKUP() searches for a value, it is only looking for matches within the leftmost column of the range that they have selected.
+  Since the formula listed specifies 3 as the column index, it will grab the value stored within the third column of the second table.</description>
+    </item>
+    
+    <item>
+      <title>12. Product Pivot 👩‍🎓👨‍🎓</title>
+      <link>/01-excel/activities/day-02/12-product-pivot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-02/12-product-pivot/</guid>
+      <description>Production Pivot An independent artist who sells their designs on products in an online store has called upon you to create a table that visualizes the cost of their recent orders. Using lookups, create a pivot table for the artist , as captured in the following image:
+Instructions   Determine the &amp;ldquo;Product Price&amp;rdquo; of each row in the &amp;ldquo;Orders&amp;rdquo; sheet by using a VLOOKUP() that references each row&amp;rsquo;s &amp;ldquo;Product ID.</description>
+    </item>
+    
+  </channel>
+</rss>

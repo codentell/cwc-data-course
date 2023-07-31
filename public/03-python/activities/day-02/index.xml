@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 2 on </title>
+    <link>/03-python/activities/day-02/</link>
+    <description>Recent content in Day 2 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/03-python/activities/day-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Quick Check-Up 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/01-quick-check-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/01-quick-check-up/</guid>
+      <description>Let’s start with a quick warm-up activity to get the Python juices flowing.
+Instructions Create a simple Python program below that does the following:
+  Prints &amp;ldquo;Hello User!&amp;rdquo;
+  Then asks &amp;ldquo;What is your name?&amp;rdquo;
+  Then responds &amp;ldquo;Hello &amp;lt;user&amp;rsquo;s name&amp;gt;&amp;rdquo;
+  Then asks: &amp;ldquo;What is your favorite number? &amp;quot;
+  Then responds: &amp;ldquo;Your favorite number is lower than mine.&amp;rdquo;, &amp;ldquo;Your favorite number is higher than mine.</description>
+    </item>
+    
+    <item>
+      <title>02. Simple Loops 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/02-simple-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/02-simple-loops/</guid>
+      <description># A For loop moves through a given range of numbers # If only one number is provided it will loop from 0 to that number for x in range(10):  print(x)  # If two numbers are provided then a For loop will loop from the first number up until it reaches the second number for x in range(20, 30):  print(x)  # If a list is provided, then the For loop will loop through each element within the list words = [&amp;#34;Peanut&amp;#34;, &amp;#34;Butter&amp;#34;, &amp;#34;Jelly&amp;#34;, &amp;#34;Time&amp;#34;, &amp;#34;Is&amp;#34;, &amp;#34;Now&amp;#34;] for word in words:  print(word)  # A While Loop will continue to loop through the code contained within it until some condition is met x = &amp;#34;Yes&amp;#34; while x == &amp;#34;Yes&amp;#34;:  print(&amp;#34;Whee!</description>
+    </item>
+    
+    <item>
+      <title>03.  Kid in a Candy Store  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/03-candy-store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/03-candy-store/</guid>
+      <description>In this activity, you will create the code that a candy store will use in their state-of-the-art candy vending machine.
+Instructions   Create a loop that prints all of the candies in the store to the terminal, with their index stored in brackets beside them.
+ For example: &amp;quot;[0] Snickers&amp;quot;    Create a second loop that runs for a set number of times determined by the variable allowance.</description>
+    </item>
+    
+    <item>
+      <title>04.  House of pies  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/04-house-of-pies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/04-house-of-pies/</guid>
+      <description>In this activity, you will build an order form that displays a list of pies and then prompts users to make a selection. The form will continue to prompt for selections until the user decides to end the process.
+Instructions  Create an order form that displays a list of pies to the user in the following way:  Welcome to the House of Pies! Here are our pies: --------------------------------------------------------------------- (1) Pecan, (2) Apple Crisp, (3) Bean, (4) Banoffee, (5) Black Bun, (6) Blueberry, (7) Buko, (8) Burek, (9) Tamale, (10) Steak   Then, prompt the user to enter the number for the pie they would like to order.</description>
+    </item>
+    
+    <item>
+      <title>05.  Basic Read 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/05-basic-read/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/05-basic-read/</guid>
+      <description># Store the file path associated with the file (note the backslash may be OS specific) file = &amp;#39;./Resources/input.txt&amp;#39;  # Open the file in &amp;#34;read&amp;#34; mode (&amp;#39;r&amp;#39;) and store the contents in the variable &amp;#34;text&amp;#34; with open(file, &amp;#39;r&amp;#39;) as text:   # This stores a reference to a file stream  print(text)   # Store all of the text inside a variable called &amp;#34;lines&amp;#34;  lines = text.</description>
+    </item>
+    
+    <item>
+      <title>06.  Module 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/06-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/06-module/</guid>
+      <description># Import the random and string Module import random import string  # Utilize the string module&amp;#39;s custom method: &amp;#34;.ascii_letters&amp;#34; print(string.ascii_letters)  # Utilize the random module&amp;#39;s custom method randint for x in range(10):  print(random.randint(1, 10)) </description>
+    </item>
+    
+    <item>
+      <title>07. Module Playground   👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/07-module-playground/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/07-module-playground/</guid>
+      <description>In this activity, you will have the opportunity to explore and play around with some Python modules.
+Instructions There are tons of built-in modules for Python. Review some of Python&amp;rsquo;s modules and play around with them. Use the following link:
+👉 List of Built-In Python Modules
+ </description>
+    </item>
+    
+    <item>
+      <title>08. Read CSV 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/08-read-csv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/08-read-csv/</guid>
+      <description># First we&amp;#39;ll import the os module # This will allow us to create file paths across operating systems import os  # Module for reading CSV files import csv   csvpath = os.path.join(&amp;#39;.&amp;#39;, &amp;#39;Resources&amp;#39;, &amp;#39;contacts.csv&amp;#39;)  # Method 1: Plain Reading of CSV files with open(csvpath, &amp;#39;r&amp;#39;) as file_handler:  lines = file_handler.read()  print(lines)  print(type(lines))  # Method 2: Improved Reading using CSV module  with open(csvpath) as csvfile:   # CSV reader specifies delimiter and variable that holds contents  csvreader = csv.</description>
+    </item>
+    
+    <item>
+      <title>09. Reading Comic Book  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/09-reading-comic-book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/09-reading-comic-book/</guid>
+      <description>In this activity, you will create an application that searches the provided CSV file for a specific graphic novel title and then returns the title, publisher’s name, and the year it was published.
+Instructions   Prompt the user for the book title they’d like to search.
+  Search through the comic_books.csv to find the user&amp;rsquo;s book.
+  If the CSV contains the user&amp;rsquo;s title, then print out the title, the publisher name, and the year it was published.</description>
+    </item>
+    
+    <item>
+      <title>10. Write File  👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/10-write-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/10-write-file/</guid>
+      <description># Dependencies import os import csv  # Specify the file to write to output_path = os.path.join(&amp;#34;.&amp;#34;, &amp;#34;output&amp;#34;, &amp;#34;new.csv&amp;#34;)   # Open the file using &amp;#34;write&amp;#34; mode. Specify the variable to hold the contents with open(output_path, &amp;#39;w&amp;#39;) as csvfile:   # Initialize csv.writer  csvwriter = csv.writer(csvfile, delimiter=&amp;#39;,&amp;#39;)   # Write the first row (column headers)  csvwriter.writerow([&amp;#39;First Name&amp;#39;, &amp;#39;Last Name&amp;#39;, &amp;#39;SSN&amp;#39;])   # Write the second row  csvwriter.</description>
+    </item>
+    
+    <item>
+      <title>11. Zip 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/11-zip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/11-zip/</guid>
+      <description>import csv import os  # Three Lists indexes = [1, 2, 3, 4] employees = [&amp;#34;Michael&amp;#34;, &amp;#34;Dwight&amp;#34;, &amp;#34;Meredith&amp;#34;, &amp;#34;Kelly&amp;#34;] department = [&amp;#34;Boss&amp;#34;, &amp;#34;Sales&amp;#34;, &amp;#34;Sales&amp;#34;, &amp;#34;HR&amp;#34;]  # Zip all three lists together into tuples roster = zip(indexes, employees, department) print(roster)  # Print the contents of each row for employee in roster:  print(employee)  # save the output file path output_file = os.path.join(&amp;#34;./output/activity-11-output.csv&amp;#34;)  # open the output file, create a header row, and then write the zipped object to the csv with open(output_file, &amp;#34;w&amp;#34;) as datafile:  writer = csv.</description>
+    </item>
+    
+    <item>
+      <title>12. Census Breakdown  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/12-census-breakdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/12-census-breakdown/</guid>
+      <description>In this activity, you will be provided with a large dataset from the 2019 U.S. Census. Your task is to clean up this dataset and create a new CSV file that is easier to comprehend.
+Instructions   Create a Python application that reads in the data from the 2019 U.S. Census.
+  Then, store the contents of Place, Population, Per Capita Income, and Poverty Count into Python Lists.</description>
+    </item>
+    
+    <item>
+      <title>13. Functions 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/13-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/13-functions/</guid>
+      <description># Define the function and tell it to print &amp;#34;Hello!&amp;#34; when called def print_hello():  print(f&amp;#34;Hello!&amp;#34;)   # Call the function within the application to ensure the code is run print_hello() # -------------#  # Functions that take in and use parameters can also be defined def print_name(name):  print(&amp;#34;Hello &amp;#34; + name + &amp;#34;!&amp;#34;)   # When calling a function with a parameter, a parameter must be passed into the function print_name(&amp;#34;Bob Smith&amp;#34;) # -------------#  # The prime use case for functions is in being able to run the same code for different values list_one = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] list_two = [11, 12, 13, 14, 15]   def list_information(simple_list):  print(f&amp;#34;The values within the list are.</description>
+    </item>
+    
+  </channel>
+</rss>

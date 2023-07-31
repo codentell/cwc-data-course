@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scraping on </title>
+    <link>/tags/scraping/</link>
+    <description>Recent content in scraping on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/scraping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Automated Web Scrape 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-03/01-automated-web-scrape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/01-automated-web-scrape/</guid>
+      <description>Practice Performing an Automated Web Scrape In this activity, we&amp;rsquo;ll scrape data from a website that was created specifically for practicing our skills: Quotes to Scrape.
+Instructions   First, open up Quotes to Scrape in Chrome and familiarize yourself with the page layout.
+  Now let’s use DevTools to review the details of the “Top Ten tags” line. Right-click anywhere on the webpage, and then click Inspect. Note that in the DevTools panel, we can use a shortcut to choose an element on the page instead of searching through the tags.</description>
+    </item>
+    
+    <item>
+      <title>01. CSS Identifier 👩‍🏫🧑‍🏫</title>
+      <link>/11-data-collection/activities/day-02/01-css-identifier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-02/01-css-identifier/</guid>
+      <description>from bs4 import BeautifulSoup html = &amp;#34;&amp;#34;&amp;#34; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta http-equiv=&amp;#34;X-UA-Compatible&amp;#34; content=&amp;#34;IE=edge&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; &amp;lt;title&amp;gt;My First CSS Adventure&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; #cities { color: purple; } .meat { color: brown; } .vegetarian { color: green; } #favorite { color: orange; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;ol id=&amp;#34;cities&amp;#34;&amp;gt; &amp;lt;li&amp;gt;New York&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Paris&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Seoul&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Prague&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li class=&amp;#34;meat&amp;#34;&amp;gt;Taco&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;meat&amp;#34;&amp;gt;Burger&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;vegetarian&amp;#34;&amp;gt;Cheese pizza&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;#34;vegetarian&amp;#34;&amp;gt;Mac and cheese&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li id=&amp;#34;favorite&amp;#34;&amp;gt;Star Wars&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Lion King&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Godfather&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Lord of the Rings&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; &amp;#34;&amp;#34;&amp;#34;  # Parse the code with Beautiful Soup soup = BeautifulSoup(html, &amp;#39;html.</description>
+    </item>
+    
+    <item>
+      <title>01. Hello HTML 👩‍🏫🧑‍🏫</title>
+      <link>/11-data-collection/activities/day-01/01-hello-html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/01-hello-html/</guid>
+      <description>&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en-us&amp;#34;&amp;gt;  &amp;lt;head&amp;gt;  &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;  &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;  &amp;lt;title&amp;gt;My First Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;   &amp;lt;!-- Header --&amp;gt;  &amp;lt;h1&amp;gt;Hello World!&amp;lt;/h1&amp;gt;   &amp;lt;!-- Image --&amp;gt;  &amp;lt;img src=&amp;#34;https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/11-Web/kids_dancing_hip_hop.png&amp;#34; alt=&amp;#34;children learning to dance hip-hop&amp;#34; /&amp;gt;  &amp;lt;br /&amp;gt;   &amp;lt;!-- Link with New Tab --&amp;gt;  &amp;lt;a href=&amp;#34;https://www.google.com&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;Opens new tab&amp;lt;/a&amp;gt;  &amp;lt;br /&amp;gt;   &amp;lt;!-- Bold Link --&amp;gt;  &amp;lt;strong&amp;gt;&amp;lt;a href=&amp;#34;https://www.</description>
+    </item>
+    
+    <item>
+      <title>02. Case Study 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-02/02-case-study/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-02/02-case-study/</guid>
+      <description>CSS Case Study In this activity, you’ll use CSS selectors in a basic web scraping example. First, you’ll use the class selector. Then, you’ll use the id selector.
+Instructions   Import BeautifulSoup.
+  Save the provided HTML code as a Python string.
+  Convert the HTML string into a BeautifulSoup object.
+  Use the find_all function to retrieve all of the elements that belong to the odd class.</description>
+    </item>
+    
+    <item>
+      <title>02. first HTML 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-01/02-first-html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/02-first-html/</guid>
+      <description>In this activity, you will create a simple HTML page.
+Instructions In a new HTML file, create the basic structure of an HTML document and include in it the following:
+  DOCTYPE declaration
+  &amp;lt;head&amp;gt; element with nested &amp;lt;title&amp;gt; element
+  &amp;lt;h1&amp;gt; element with a title of your choice
+  An image
+  A link to an external page, such as google.com
+  An ordered list of things to do on your next vacation</description>
+    </item>
+    
+    <item>
+      <title>02. Scrape Multiple Pages 👩‍🏫🧑‍🏫</title>
+      <link>/11-data-collection/activities/day-03/02-scrape-multiple-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/02-scrape-multiple-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>03. BeautifulSoup</title>
+      <link>/11-data-collection/activities/day-01/03-beautifulsoup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/03-beautifulsoup/</guid>
+      <description># Introduction to BeautifulSoup # Import BeautifulSoup  from bs4 import BeautifulSoup   # Store html site as a string html = &amp;#34;&amp;#34;&amp;#34; &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en-us&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;My First Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;!-- Header --&amp;gt; &amp;lt;h1&amp;gt;Hello World!&amp;lt;/h1&amp;gt; &amp;lt;!-- Image --&amp;gt; &amp;lt;img src=&amp;#34;https://static.wikia.nocookie.net/spongebob/images/4/46/SVG_SpongeBob_SquarePants.svg/revision/latest/scale-to-width-down/195?cb=20181117230211&amp;#34; alt=&amp;#34;Spongebob!&amp;#34; /&amp;gt; &amp;lt;br /&amp;gt; &amp;lt;!-- Link with New Tab --&amp;gt; &amp;lt;a href=&amp;#34;https://www.google.com&amp;#34;&amp;gt;Google&amp;lt;/a&amp;gt; &amp;lt;br /&amp;gt; &amp;lt;!-- An ordered list --&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt;Visit Grand Canyon&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Hike the trails&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Take photos&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Bach&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Mozart&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Beethoven&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Adele&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; &amp;#34;&amp;#34;&amp;#34;  # Create a BeautifulSoup object to parse the html code soup = BeautifulSoup(html, &amp;#39;html.</description>
+    </item>
+    
+    <item>
+      <title>03. Pandas CSS Scrape 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-02/03-pandas-css-scrape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-02/03-pandas-css-scrape/</guid>
+      <description>Pandas Scrape In this activity, you will use BeautifulSoup to extract information from a simplified version of the official Pandas website.
+Instructions   Follow these steps to set up for web scraping:
+  Create a new Jupyter notebook and import BeautifulSoup.
+  Copy and paste the code of the provided HTML file into a Python string.
+  Create an instance of BeautifulSoup to parse the HTML.</description>
+    </item>
+    
+    <item>
+      <title>03. Scrape Book Links 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-03/03-scrape-book-links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/03-scrape-book-links/</guid>
+      <description>Scrape Book Links In this activity, you&amp;rsquo;ll practice automated scraping on another website that was created specifically for practicing our skills: Books to Scrape.
+Inspect the Website You&amp;rsquo;ll be scraping the links associated with each of the books on this website, so get started by using DevTools to review the details for each book.
+  First, open up the website in Chrome and familiarize yourself with the page layout. Where can you find a link to more details about each book?</description>
+    </item>
+    
+    <item>
+      <title>04. DevTools 👩‍🏫🧑‍🏫</title>
+      <link>/11-data-collection/activities/day-02/04-devtools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-02/04-devtools/</guid>
+      <description>!pip install webdriver-manager  # This version uses selenium  from selenium import webdriver from bs4 import BeautifulSoup from webdriver_manager.chrome import ChromeDriverManager  # Set up using selenium browser = webdriver.Chrome(ChromeDriverManager().install())  url = &amp;#34;https://stackoverflow.com/questions/tagged/python?sort=MostVotes&amp;amp;edited=true&amp;#34;  browser.get(url)  html = browser.page_source  soup = BeautifulSoup(html, &amp;#39;html.parser&amp;#39;)  soup.find(&amp;#39;h1&amp;#39;).text  soup.find(&amp;#39;h1&amp;#39;).text.strip()  questions = soup.find_all(&amp;#39;a&amp;#39;, class_=&amp;#34;s-link&amp;#34;)  questions  for question in questions:  print(question[&amp;#39;class&amp;#39;])  questions = [question for question in questions if question[&amp;#39;class&amp;#39;]==[&amp;#39;s-link&amp;#39;]] questions  questions[0][&amp;#39;href&amp;#39;]  questions[0].</description>
+    </item>
+    
+    <item>
+      <title>04. News 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-03/04-news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/04-news/</guid>
+      <description>News Scraping  In this activity, you will scrape news summaries across multiple pages from the Global Voices news site.  Instructions   Open page 2 of Global Voices news. Use DevTools to identify the elements that contain the data you need to scrape.
+  Within your Jupyter notebook, use Splinter to click on any popup or lightbox to make it disappear.
+  Create an empty list to store your article summaries.</description>
+    </item>
+    
+    <item>
+      <title>04. Soup to Nuts 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-01/04-soup-to-nuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/04-soup-to-nuts/</guid>
+      <description>From Soup to Nuts   In this activity, you will perform basic scraping of HTML.
+  Create a new Jupyter notebook, and import BeautifulSoup into it.
+  Open html-tags.html in VS Code. Copy and paste the code into your Jupyter notebook as a Python string. Use triple quotation marks, as it will be a multi-line string.
+  html = &amp;#34;&amp;#34;&amp;#34; &amp;lt;html code&amp;gt; &amp;#34;&amp;#34;&amp;#34;   Parse the HTML code with BeautifulSoup.</description>
+    </item>
+    
+    <item>
+      <title>05. CSS 👩‍🏫🧑‍🏫</title>
+      <link>/11-data-collection/activities/day-01/05-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/05-css/</guid>
+      <description>css demo 01 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;  &amp;lt;head&amp;gt;  &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;  &amp;lt;meta http-equiv=&amp;#34;X-UA-Compatible&amp;#34; content=&amp;#34;IE=edge&amp;#34;&amp;gt;  &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;  &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;   &amp;lt;p&amp;gt;I&amp;#39;m first!&amp;lt;/p&amp;gt;  &amp;lt;p&amp;gt;I&amp;#39;m second!&amp;lt;/p&amp;gt;   &amp;lt;p&amp;gt;I&amp;#39;m third!&amp;lt;/p&amp;gt;  &amp;lt;p&amp;gt;I&amp;#39;m fourth!&amp;lt;/p&amp;gt;  &amp;lt;/body&amp;gt;  &amp;lt;/html&amp;gt; css demo 02 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;  &amp;lt;head&amp;gt;  &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;  &amp;lt;meta http-equiv=&amp;#34;X-UA-Compatible&amp;#34; content=&amp;#34;IE=edge&amp;#34;&amp;gt;  &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;  &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt;   &amp;lt;style&amp;gt;   &amp;lt;/style&amp;gt;  &amp;lt;/head&amp;gt;  &amp;lt;body&amp;gt;   &amp;lt;div&amp;gt;  &amp;lt;p&amp;gt;I&amp;#39;m first!</description>
+    </item>
+    
+    <item>
+      <title>05. Mars Facts Scrape 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-03/05-mars-fact-scrape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/05-mars-fact-scrape/</guid>
+      <description>Mars Facts Scrape In this activity, you&amp;rsquo;ll practice scraping data that was stored in a table on a website.
+Instructions   First, open up the Mars Facts website in Chrome and become familiar with the layout.
+  You&amp;rsquo;ll scrape the data from the table labeled &amp;ldquo;Mars Planet Profile.&amp;rdquo; Use Chrome DevTools to inspect that element. What is the class of the table you want to scrape?
+  Now that you know the class you are looking for, begin the scraping process by importing the necessary libraries and setting up Splinter.</description>
+    </item>
+    
+    <item>
+      <title>05. StackOverflow 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-02/05-stackoverflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-02/05-stackoverflow/</guid>
+      <description>Stack Scrape In this activity, you will scrape Stack Overflow&amp;rsquo;s Python page and store the results in a Python list of dictionaries.
+Instructions Visit Stack Overflow&amp;rsquo;s Python page with Splinter&amp;rsquo;s automated browser. Scrape information from all the questions on the first page. For each question, use BeautifulSoup to scrape the following pieces of information:
+  The summary (e.g. &amp;lsquo;What does the &amp;ldquo;yield&amp;rdquo; keyword do?&amp;rsquo; for the first question)
+  The number of votes for that question</description>
+    </item>
+    
+    <item>
+      <title>06. CSS 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-01/06-css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/06-css/</guid>
+      <description>CSS Instructions   In a new HTML file, create three ordered lists. Each list should have four items.
+  The first should be a list of four cities. The entire list should have an id of &amp;ldquo;cities&amp;rdquo;.
+  The second should be a list of four food entrees. Two of them should contain meat, and two of them should be vegetarian. The meat list items should have a class called &amp;ldquo;meat&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>06. Scrape Pandas 👩‍🏫🧑‍🏫</title>
+      <link>/11-data-collection/activities/day-03/06-scrape-pandas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/06-scrape-pandas/</guid>
+      <description>import pandas as pd  # Read in HTML tables into a DataFrame df = pd.read_html(&amp;#39;https://static.bc-edx.com/data/web/mars_facts/index.html&amp;#39;)  # Select the second table mars_df = df[1]  # Rename columns mars_df.columns=[&amp;#39;description&amp;#39;, &amp;#39;Mars&amp;#39;, &amp;#39;Earth&amp;#39;]  # Remove the first row from the DataFrame mars_df = mars_df.iloc[1:]  mars_df </description>
+    </item>
+    
+    <item>
+      <title>06. Scraping Mars News 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-02/06-scraping-mars-news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-02/06-scraping-mars-news/</guid>
+      <description>Mars News In this activity, you&amp;rsquo;ll get additional web scraping practice by collecting data from a website based on NASA&amp;rsquo;s Mars News.
+Instructions   First, open up the website in Chrome and become familiar with the layout. In this exercise, you&amp;rsquo;ll scrape the title and the summary of a news article.
+  Right-click anywhere on the page, and then click Inspect. In DevTools, search for the HTML elements that you&amp;rsquo;ll use to identify the title and the summary paragraph that you want.</description>
+    </item>
+    
+  </channel>
+</rss>

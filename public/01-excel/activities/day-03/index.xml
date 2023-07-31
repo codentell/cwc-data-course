@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 3 on </title>
+    <link>/01-excel/activities/day-03/</link>
+    <description>Recent content in Day 3 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/01-excel/activities/day-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Github Playground 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-03/01-github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/01-github/</guid>
+      <description>Guide for Github steps:
+  Visit https://github.com, and ask students to log in to their personal accounts.
+  From the main page, create a new repository with an initializing README.md file, as detailed in the following screenshots and instructions. Explain that it’s standard in the tech world to include a &amp;ldquo;README&amp;rdquo; file that explains what each repository contains.
+  Make the repository public so Graders can always access it for grading.</description>
+    </item>
+    
+    <item>
+      <title>02. Basic Charting  👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-03/02-basic-charting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/02-basic-charting/</guid>
+      <description>PC Excel chart options are captured in the following image:
+  Mac Excel chart options are captured in the following image:
+  Excel enables users to create many kinds of charts, but first we’ll create a bar chart since that fits our data nicely.
+  Whenever you select a charting option from the “Charts” group, a new menu will appear that allows you to select various visual options.</description>
+    </item>
+    
+    <item>
+      <title>03. Line and Bar  👩‍🎓👨‍🎓</title>
+      <link>/01-excel/activities/day-03/03-line-and-bar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/03-line-and-bar/</guid>
+      <description>Line and Bar Grades For this activity, you’ll take on the role of the teacher as you create bar and line graphs to visualize your class’s grades over a semester.
+Instructions   Create a series of bar graphs that visualize the grades of all students in the class, with one graph for every month.
+  Create a line graph using all available data to compare students&amp;rsquo; grades over the semester.</description>
+    </item>
+    
+    <item>
+      <title>04. Scatter plot 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-03/04-scatter-plot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/04-scatter-plot/</guid>
+      <description>Open 04-Ins_ScatterPlot/ScatterPlot.xlsx in Excel, navigate into the &amp;ldquo;Normal Trend&amp;rdquo; worksheet, and we can use a scatter plot to compare an individual&amp;rsquo;s salary to the price of their car.
+  PC steps
+  Adding a trend line to a chart is a quick process. Click the plus symbol to the right of your selected chart, then, under “Chart Elements”, select the &amp;ldquo;Trendline&amp;rdquo; option, as in the following image:</description>
+    </item>
+    
+    <item>
+      <title>05. Homesale Scatter plot 👩‍🎓👨‍🎓</title>
+      <link>/01-excel/activities/day-03/05-homesales-scatterplots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/05-homesales-scatterplots/</guid>
+      <description>Home Sales For this activity, you will work in pairs to create a series of scatter plots that compare home prices in the St. Louis, MO, region with different home attributes, including square footage, number of bedrooms, and number of bathrooms.
+Instructions   Create a scatter plot that compares the price of the home with the square feet of the home (sqft_living). Make sure to add in axis titles, a chart title, and a trend line.</description>
+    </item>
+    
+    <item>
+      <title>06. Walrus Group  👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-03/06-walrus-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/06-walrus-group/</guid>
+      <description>Now, open 06-Evr_WalrusGroup-Filter/Unsolved/Walrus_Group_Unsolved.xlsx activity.
+  This is real data from the U.S. Geological Survey studying walruses hauled out on ice floes in Alaska.
+  Select the first row of data on the sheet, then, in the “Editing” group of the “Home” tab, click the &amp;ldquo;Sort &amp;amp; Filter&amp;rdquo; button. Next, select &amp;ldquo;Filter&amp;rdquo; from the menu that pops up.
+  Each column should now have an arrow button in the header cell.</description>
+    </item>
+    
+    <item>
+      <title>07. Filter Home Sales 👩‍🎓👨‍🎓 </title>
+      <link>/01-excel/activities/day-03/07-filter-home-sales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/07-filter-home-sales/</guid>
+      <description>Filtering Home Sales Now that you can apply filters to a spreadsheet and create charts based on filtered datasets, you’ll work in pairs to create charts that compare the sales of homes in St. Louis, MO. Specifically, you&amp;rsquo;ll create a filtered chart that visualizes increases in waterfront properties over time in the St. Louis Area.
+Instructions   Use the St. Louis Home Sales Dataset provided.
+  Examine the data and check out the available columns.</description>
+    </item>
+    
+    <item>
+      <title>08. Variance SDZ Score Review 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-03/08-variance-sd-zscore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/08-variance-sd-zscore/</guid>
+      <description>We will discuss the summary statistics that are used to describe the variability of a dataset.
+  variance, standard deviation, and z-score are the summary statistics used to describe the variability in data.
+  variance is an overall description of how far values in the dataset are from the mean. In other words, variance describes how much variation exists within the data.
+  the equation for variance with the as captured in the following image:</description>
+    </item>
+    
+    <item>
+      <title>09. Var SDZ Score Review  👩‍🎓👨‍🎓</title>
+      <link>/01-excel/activities/day-03/09-var-sdz-score-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/09-var-sdz-score-review/</guid>
+      <description>Variance, Standard Deviation and Z-Score Review It is now your turn to practice summarizing the variability of a data set using heart disease death rate data from the CDC. This data is unchanged from its source, and requires some cleaning before our calculations.
+Instructions   Open the variance_review.xlsx workbook that contains your raw data.
+  Since the dataset needs to be cleaned up, start with making a copy of the worksheet, which you will work on cleaning.</description>
+    </item>
+    
+    <item>
+      <title>10. Quantiles Outliers Boxplots 👩‍🏫🧑‍🏫 </title>
+      <link>/01-excel/activities/day-03/10-quantiles-outliers-boxplots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/10-quantiles-outliers-boxplots/</guid>
+      <description>Wwe are characterizing a dataset, we need to be careful that our summary statistics don&amp;rsquo;t misrepresent the data.
+  The biggest challenges in statistics is that real-world data is imperfect. Oftentimes, real-world data will contain extreme values that can skew our interpretations, especially when we try to describe the center of a dataset.
+  We use quantiles to describe segments of a dataset.
+  quantiles are the &amp;ldquo;cut points&amp;rdquo; that separate a sorted dataset into equal-sized fragments.</description>
+    </item>
+    
+    <item>
+      <title>11. Cereal Outliers 👩‍🎓👨‍🎓</title>
+      <link>/01-excel/activities/day-03/11-cereal-outliers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/11-cereal-outliers/</guid>
+      <description>Cereal Outliers In this activity, you will be investigating data from a dataset called 80 Cereals. Your task is to search through the ratings of each product and determine if there are any potential outliers in the dataset.
+Instructions   Open up the activity workbook 11-Stu_CerealOutliers/Unsolved/Outliers_Activity_Unsolved.xlsx , and familiarize yourself with the raw data.
+  Create a new worksheet, and name it &amp;ldquo;Outlier Testing&amp;rdquo;.
+  In the &amp;ldquo;Outlier Testing&amp;rdquo; worksheet, create a summary statistics table of the rating for the following statistics:</description>
+    </item>
+    
+    <item>
+      <title>12. Statistics Addon 👩‍🏫🧑‍🏫</title>
+      <link>/01-excel/activities/day-03/12-statistics-addon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-03/12-statistics-addon/</guid>
+      <description>Excel is a fantastic tool for quickly accessing, manipulating, and visualizing small-to-medium-sized datasets. However, Excel does not contain many statistical algorithms or tests &amp;ldquo;out of the box.&amp;rdquo;
+  As we progress through the curriculum, we will cover a number of more robust statistical functions, tests, and concepts.
+  If we enable Excel&amp;rsquo;s Analysis ToolPak add-on, we can always return to Excel to perform statistical tests on smaller datasets.</description>
+    </item>
+    
+  </channel>
+</rss>

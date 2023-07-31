@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 1 on </title>
+    <link>/01-excel/activities/day-01/</link>
+    <description>Recent content in Day 1 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/01-excel/activities/day-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>00. Great Debate</title>
+      <link>/01-excel/activities/day-01/00-great-debate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/01-excel/activities/day-01/00-great-debate/</guid>
+      <description>Thought Experiment #1 &amp;ldquo;Which food do Americans prefer: Italian food or Mexican food?&amp;rdquo; The task is to develop a strategy for answering this question in 10 hours or less, using data. Note: Have fun! Slides Click here for 1.1 Slides that has the prompt as well</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 3 on </title>
+    <link>/03-python/activities/day-03/</link>
+    <description>Recent content in Day 3 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/03-python/activities/day-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Cereal Cleaner 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/01-cereal-cleaner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/01-cereal-cleaner/</guid>
+      <description>In this activity, you will create an application that reads in cereal data from a CSV file and then prints only those cereals that contain 5 or more grams of fiber.
+Instructions   Read the file using the code in the notebook, cereal.csv and start by skipping the header row. See hints below for this.
+  Read through the remaining rows and find the cereals that contain five grams of fiber or more, printing the data from those rows to the terminal.</description>
+    </item>
+    
+    <item>
+      <title>02. Dictionary 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-03/02-dictionary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/02-dictionary/</guid>
+      <description># Unlike lists, dictionaries store information in pairs # ---------------------------------------------------------------  # Create a dictionary to hold the actor&amp;#39;s names. actors = {}  # Create a dictionary using the built-in function. actors = dict()  # A dictionary of an actor. actors = {&amp;#34;name&amp;#34;: &amp;#34;Tom Cruise&amp;#34;} print(f&amp;#39;{actors[&amp;#34;name&amp;#34;]}&amp;#39;)  # Add an actor to the dictionary with the key &amp;#34;name&amp;#34; # and the value &amp;#34;Denzel Washington&amp;#34;. actors[&amp;#34;name&amp;#34;] = &amp;#34;Denzel Washington&amp;#34;  # Print the actors dictionary.</description>
+    </item>
+    
+    <item>
+      <title>03. Dictionary  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/03-dictionary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/03-dictionary/</guid>
+      <description>In this activity, you will create and access dictionaries that are based on your own hobbies.
+Instructions  Create a dictionary to store the following information:   Your name Your age A list of a few of your hobbies A dictionary that includes a few days and the time you typically wake up on those days  Print out your name, how many hobbies you have, and a time you typically wake up during the week.</description>
+    </item>
+    
+    <item>
+      <title>04. List Comprehensions 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-03/04-list-comprehensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/04-list-comprehensions/</guid>
+      <description>fish = &amp;#34;halibut&amp;#34;  # Loop through each letter in the string # and push to an array letters = [] for letter in fish:  letters.append(letter)  print(letters)  # List comprehensions provide concise syntax for creating lists letters = [letter for letter in fish]  print(letters)  # We can manipulate each element as we go capital_letters = [] for letter in fish:  capital_letters.append(letter.upper())  print(capital_letters)  # List Comprehension for the above capital_letters = [letter.</description>
+    </item>
+    
+    <item>
+      <title>05. List Comprehensions 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/05-list-comprehensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/05-list-comprehensions/</guid>
+      <description>In this activity, you’ll use list comprehensions to compose a wedding invitation, which you will send to every name on your mailing list.
+Instructions   Fill the cell below.
+  Run the provided program. Note that nothing forces you to write the name properly in title case—for example, as &amp;ldquo;Jane&amp;rdquo; instead of &amp;ldquo;jAnE&amp;rdquo;. You will use list comprehensions to fix this.
+  First, use list comprehensions to create a new list that contains the lowercase version of each of the names your user provided.</description>
+    </item>
+    
+    <item>
+      <title>06. Functions 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-03/06-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/06-functions/</guid>
+      <description># Basic Definition def name(parameters):  # code goes here  return   # Simple Function with no parameters def show():  print(f&amp;#34;Hi!&amp;#34;)   # you use parentheses to run the code in a function show()  # Simple function with one parameter def show(message):  print(message)   # Think of the parameter `message` as a variable # You assign the string &amp;#34;Hello, World!&amp;#34; when you call the function # This is like saying `message = &amp;#34;Hello, World!</description>
+    </item>
+    
+    <item>
+      <title>07. Functions 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/07-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/07-functions/</guid>
+      <description>In this activity, you will write a function to compute the arithmetic mean (average) for a list of numbers.
+Instructions   Write a function called average that accepts a list of numbers.
+ The function average should return the arithmetic mean (average) for a list of numbers.    Test your function by calling it with different values and printing the results.
+   ✅ Solutions   Solutions Click Here   # Write a function that returns the arithmetic average for a list of numbers def average(numbers):  length = len(numbers)  total = 0.</description>
+    </item>
+    
+    <item>
+      <title>08. Graduation  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/08-graduation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/08-graduation/</guid>
+      <description>Graduating Functions In this activity, you will create a function that searches a list of students and graduates by state to determine state graduation rates for public, private nonprofit, and private for-profit institutions.
+Instructions   Analyze the code and CSV provided, looking specifically for what needs to still be added to the application.
+  Using the starter code provided, create a function called print_percentages which takes in a parameter called state_data and does the following:</description>
+    </item>
+    
+    <item>
+      <title>09. Git 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/09-adding-more-to-the-repo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/09-adding-more-to-the-repo/</guid>
+      <description>You only added files using the GitHub website, which works well enough when just dealing with one or two files. What happens when we need to quickly add multiple files?
+ The command line comes to the rescue!    Creating a repo and adding files with Terminal/Git Bash.
+  First, create a new repo.
+  From the repo page, click the green box in the top-right labeled &amp;ldquo;Clone or download&amp;rdquo;, select &amp;ldquo;Use SSH&amp;rdquo;, and copy the link to the clipboard, as captured in the following GIF:</description>
+    </item>
+    
+  </channel>
+</rss>

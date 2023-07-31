@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pandas on </title>
+    <link>/tags/pandas/</link>
+    <description>Recent content in pandas on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/pandas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01.  Jupyter Intro 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-01/01-jupyter-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/01-jupyter-intro/</guid>
+      <description> # Running the basic &amp;#34;Hello World&amp;#34; code hello = &amp;#34;Hello World&amp;#34; print(hello) Hello World  # Doing simple math 4 + 4 8  # Storing results in variables a = 5  # Using those variables elsewhere in the code a 5   # Variables will hold the value most recently run # This means that, if we run the code above, it will now print 2 a = 2 </description>
+    </item>
+    
+    <item>
+      <title>01.  Merging 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-03/01-merging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/01-merging/</guid>
+      <description># Dependencies import pandas as pd raw_data_info = {  &amp;#34;customer_id&amp;#34;: [112, 403, 999, 543, 123],  &amp;#34;name&amp;#34;: [&amp;#34;John&amp;#34;, &amp;#34;Kelly&amp;#34;, &amp;#34;Sam&amp;#34;, &amp;#34;April&amp;#34;, &amp;#34;Bobbo&amp;#34;],  &amp;#34;email&amp;#34;: [&amp;#34;jman@gmail&amp;#34;, &amp;#34;kelly@aol.com&amp;#34;, &amp;#34;sports@school.edu&amp;#34;, &amp;#34;April@yahoo.com&amp;#34;, &amp;#34;HeyImBobbo@msn.com&amp;#34;] } info_df = pd.DataFrame(raw_data_info, columns=[&amp;#34;customer_id&amp;#34;, &amp;#34;name&amp;#34;, &amp;#34;email&amp;#34;]) info_df  # Create DataFrames raw_data_items = {  &amp;#34;customer_id&amp;#34;: [403, 112, 543, 999, 654],  &amp;#34;item&amp;#34;: [&amp;#34;soda&amp;#34;, &amp;#34;chips&amp;#34;, &amp;#34;TV&amp;#34;, &amp;#34;Laptop&amp;#34;, &amp;#34;Cooler&amp;#34;],  &amp;#34;cost&amp;#34;: [3.00, 4.50, 600, 900, 150] } items_df = pd.DataFrame(raw_data_items, columns=[  &amp;#34;customer_id&amp;#34;, &amp;#34;item&amp;#34;, &amp;#34;cost&amp;#34;]) items_df  # Merge two dataframes using an inner join merge_df = pd.</description>
+    </item>
+    
+    <item>
+      <title>01. Loc And Iloc 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-02/01-loc-and-iloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/01-loc-and-iloc/</guid>
+      <description>import pandas as pd file = &amp;#34;./resources/baton_streets.csv&amp;#34; original_df = pd.read_csv(file) original_df.head()  # Set new index to STREET NAME df = original_df.set_index(&amp;#34;STREET NAME&amp;#34;) df.head()  # Grab the data contained within the &amp;#34;ADDINGTON&amp;#34; row and the &amp;#34;STREET FULL NAME&amp;#34; column addington_name = df.loc[&amp;#34;ADDINGTON&amp;#34;, &amp;#34;STREET FULL NAME&amp;#34;] print(&amp;#34;Using Loc: &amp;#34; + addington_name)  also_addington_name = df.iloc[3, 1] print(&amp;#34;Using Iloc: &amp;#34; + also_addington_name)  # Grab the first five rows of data and the columns from &amp;#34;STREET NAME ID&amp;#34; to &amp;#34;POSTAL COMMUNITY&amp;#34; # The problem with using &amp;#34;STREET NAME&amp;#34; as the index is that the values are not unique so duplicates are returned # If there are duplicates and loc[] is being used, Pandas will return an error private_to_chalfont = df.</description>
+    </item>
+    
+    <item>
+      <title>Activities ✅</title>
+      <link>/04-pandas/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/</guid>
+      <description>Video Speed Run of the Activities if you get stuck or miss class
+📺 Pandas Activities Video Speed Runs 🏃‍♀️🏃    Day Mac 🍎 Duration Window 🖼️ Duration     01 Video 📺 00:57:04 ⏲️ Video 📺 00:57:04 ⏲️   02 Video 📺 00:49:48 ⏲️ Video 📺 00:49:48 ⏲️   03 Video 📺 00:43:14 ⏲️ Video 📺 00:43:14 ⏲️    Activities Required ✅ ⬆️ Back to Top Instructor Turn = 👩‍🏫🧑‍🏫 Students Turn = 👩‍🎓👨‍🎓</description>
+    </item>
+    
+    <item>
+      <title>Day 1</title>
+      <link>/04-pandas/activities/day-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/</guid>
+      <description>4.1 Introduction to Pandas and Jupyter Overview Today&amp;rsquo;s lesson will introduce students to Jupyter Notebook and the basics of the Pandas module.
+Class Objectives By the end of this lesson, the students will be able to:
+  Serve Jupyter Notebook files from local directories and connect to their development environment.
+  Create Pandas DataFrames from scratch.
+  Run functions on Pandas DataFrames.
+  Read and write DataFrames to and from CSV files by using Pandas.</description>
+    </item>
+    
+    <item>
+      <title>Day 2</title>
+      <link>/04-pandas/activities/day-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/</guid>
+      <description>4.2 Exploring Pandas Overview Today&amp;rsquo;s lesson takes a deep dive into Pandas and covers some of the library&amp;rsquo;s more complex functions, such as loc, iloc, and grouping, while also solidifying the concepts introduced in the last class.
+Class Objectives By the end of this lesson, the students will be able to:
+  Navigate through DataFrames by using loc and iloc.
+  Filter and slice Pandas DataFrames.
+  Create and access Pandas groupby objects.</description>
+    </item>
+    
+    <item>
+      <title>Day 3</title>
+      <link>/04-pandas/activities/day-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/</guid>
+      <description>4.3 Merging and Data Cleaning Overview Today&amp;rsquo;s lesson is split into two parts. The first part will test the Pandas skills of the class by having them identify and fix buggy code so it functions properly. In the second part, the students will use all the tools they have developed this week to understand the concept of programmatically manipulating data.
+Class Objectives By the end of this lesson, the students will be able to:</description>
+    </item>
+    
+    <item>
+      <title>Module 4 Challenge ⭐</title>
+      <link>/04-pandas/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/challenges/</guid>
+      <description>In this assignment, you’ll create and manipulate Pandas DataFrames to analyze school and standardized test data.
+Background You are the new Chief Data Scientist for your city&amp;rsquo;s school district. In this capacity, you&amp;rsquo;ll be helping the school board and mayor make strategic decisions regarding future school budgets and priorities.
+As a first task, you&amp;rsquo;ve been asked to analyze the district-wide standardized test results. You&amp;rsquo;ll be given access to every student&amp;rsquo;s math and reading scores, as well as various information on the schools they attend.</description>
+    </item>
+    
+    <item>
+      <title>02.  Census Merging 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-03/02-census-merging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/02-census-merging/</guid>
+      <description>Census Merging In this activity, you will merge the two Census datasets that we created in the last class and then do a calculation and sort the values.
+Instructions   Read in both of the CSV files, and print out their DataFrames.
+  Perform an inner merge that combines both DataFrames on the &amp;ldquo;Year&amp;rdquo; and &amp;ldquo;State&amp;rdquo; columns.
+  Create a DataFrame that filters the data on only 2019.</description>
+    </item>
+    
+    <item>
+      <title>02.  Comic Remix 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-01/02-comics-remix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/02-comics-remix/</guid>
+      <description>For this activity, you will be creating a Jupyter notebook that performs the same functions as the Comic Book activity from last week.
+Instructions   Using comicbooks.py as a starting point, convert the application so that it runs properly within a Jupyter Notebook.
+  Have the application print out the user&amp;rsquo;s input, the path to comic_books.csv, and the publisher/date published for the book in different cells.
+  Bonus  Go through any of the activities from last week, and attempt to convert them to run within a Jupyter Notebook.</description>
+    </item>
+    
+    <item>
+      <title>02.  Good Movies Loc 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-02/02-good-movies-loc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/02-good-movies-loc/</guid>
+      <description>Good Movies In this activity, you will create an application that searches through IMDb data to find only the best movies out there.
+Instructions   Use Pandas to load and display the CSV provided in resources.
+  List all the columns in the dataset.
+  We&amp;rsquo;re only interested in IMDb data, so create a new table that takes the film and all the columns related to IMDb.</description>
+    </item>
+    
+    <item>
+      <title>03.  Census Merging 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-03/03-binning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/03-binning/</guid>
+      <description># Import Dependencies import pandas as pd raw_data = {  &amp;#39;Class&amp;#39;: [&amp;#39;Oct&amp;#39;, &amp;#39;Oct&amp;#39;, &amp;#39;Jan&amp;#39;, &amp;#39;Jan&amp;#39;, &amp;#39;Oct&amp;#39;, &amp;#39;Jan&amp;#39;],  &amp;#39;Name&amp;#39;: [&amp;#34;Cyndy&amp;#34;, &amp;#34;Logan&amp;#34;, &amp;#34;Laci&amp;#34;, &amp;#34;Elmer&amp;#34;, &amp;#34;Crystle&amp;#34;, &amp;#34;Emmie&amp;#34;],  &amp;#39;Test Score&amp;#39;: [90, 59, 72, 88, 98, 60]} df = pd.DataFrame(raw_data) df  # Create the bins in which Data will be held # Bins are 0, 59.9, 69.9, 79.9, 89.9, 100.  bins = [0, 59.9, 69.9, 79.9, 89.9, 100]  # Create the names for the five bins group_names = [&amp;#34;F&amp;#34;, &amp;#34;D&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;B&amp;#34;, &amp;#34;A&amp;#34;] df[&amp;#34;Test Score Summary&amp;#34;] = pd.</description>
+    </item>
+    
+    <item>
+      <title>03.  Cleaning Data 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-02/03-cleaning-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/03-cleaning-data/</guid>
+      <description># Dependencies import pandas as pd # Name of the CSV file file = &amp;#39;resources/donors2021_unclean.csv&amp;#39; # The correct encoding must be used to read the CSV in pandas df = pd.read_csv(file, encoding=&amp;#34;ISO-8859-1&amp;#34;) # Preview of the DataFrame # Note that Memo_CD is likely a meaningless column df.head()  # Delete extraneous column del df[&amp;#39;Memo_CD&amp;#39;] df.head()  # Identify incomplete rows df.count()  # Drop all rows with missing information df = df.</description>
+    </item>
+    
+    <item>
+      <title>03. Intro to pandas 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-01/03-intro-to-pandas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/03-intro-to-pandas/</guid>
+      <description># Dependencies import pandas as pd # We can create a Pandas Series from a raw list data_series = pd.Series([&amp;#34;UCLA&amp;#34;, &amp;#34;UC Berkeley&amp;#34;, &amp;#34;UC Irvine&amp;#34;,  &amp;#34;University of Central Florida&amp;#34;, &amp;#34;Rutgers University&amp;#34;]) print(data_series) # 0 UCLA # 1 UC Berkeley # 2 UC Irvine # 3 University of Central Florida # 4 Rutgers University # dtype: object   # Convert a list of dictionaries into a dataframe states_dicts = [{&amp;#34;STATE&amp;#34;: &amp;#34;New Jersey&amp;#34;, &amp;#34;ABBREVIATION&amp;#34;: &amp;#34;NJ&amp;#34;},  {&amp;#34;STATE&amp;#34;: &amp;#34;New York&amp;#34;, &amp;#34;ABBREVIATION&amp;#34;: &amp;#34;NY&amp;#34;}]  states_df = pd.</description>
+    </item>
+    
+    <item>
+      <title>04.  DataFrame Pandas 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-01/04-dataframe-pandas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/04-dataframe-pandas/</guid>
+      <description>In this activity, you will create DataFrames from scratch using both a list of dictionaries and a dictionary of lists.
+Instructions   Create a DataFrame for a frame shop. The DataFrame should contain three columns, &amp;ldquo;Frame&amp;rdquo;, &amp;ldquo;Price&amp;rdquo;, and &amp;ldquo;Sales&amp;rdquo;, and have five rows of data stored within it.
+  Using an alternative method, create a DataFrame for an art gallery. The DataFrame should contain three columns, &amp;ldquo;Painting&amp;rdquo;, &amp;ldquo;Price&amp;rdquo;, and &amp;ldquo;Popularity&amp;rdquo;, and have four rows of data stored within it.</description>
+    </item>
+    
+    <item>
+      <title>04.  Movie Ratings Binning  👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-03/04-movie-ratings-binning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/04-movie-ratings-binning/</guid>
+      <description>Binning Movies In this activity, you will test your binning skills by creating bins for movies based on their IMDb user vote count.
+Instructions   Read in the CSV file provided, and print it to the screen.
+  Find the minimum &amp;ldquo;IMDB user vote count&amp;rdquo; and maximum &amp;ldquo;IMDB user vote count&amp;rdquo;.
+  Using the minimum and maximum &amp;ldquo;votes&amp;rdquo; as a reference, create 9 bins to slice the data into.</description>
+    </item>
+    
+    <item>
+      <title>04. Cleaning Appliance Data 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-02/04-cleaning-appliance-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/04-cleaning-appliance-data/</guid>
+      <description>Hong Kong LPG Appliances In this activity, you will take an LPG appliance dataset from Hong Kong, and clean it up so that the DataFrame is consistent and does not have any rows with missing data.
+Instructions   Read in the CSV using Pandas, and print out the DataFrame that is returned.
+ Note: This dataset uses Chinese characters and should be read in using UTF-8 encoding.    Reduce the DataFrame to only the columns in English.</description>
+    </item>
+    
+    <item>
+      <title>05.  Data Functions 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-01/05-data-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/05-data-functions/</guid>
+      <description># Dependencies import pandas as pd  # Save path to data set in a variable data_file = &amp;#34;./Resources/dataSet.csv&amp;#34;  # Use Pandas to read data data_file_df = pd.read_csv(data_file) data_file_df.head()  # Display a statistical overview of the DataFrame data_file_df.describe()  # Reference a single column within a DataFrame data_file_df[&amp;#34;Amount&amp;#34;].head()  # Reference multiple columns within a DataFrame data_file_df[[&amp;#34;Amount&amp;#34;, &amp;#34;Gender&amp;#34;]].head()  # The mean method averages the series average = data_file_df[&amp;#34;Amount&amp;#34;].</description>
+    </item>
+    
+    <item>
+      <title>05.  Mapping 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-03/05-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/05-mapping/</guid>
+      <description> import pandas as pd # Mapping lets you format an entire DataFrame file = &amp;#34;Resources/Seattle_Housing_Cost_Burden.csv&amp;#34; file_df = pd.read_csv(file) file_df.head()  # Use Map to format all the columns file_df[&amp;#34;INCOME&amp;#34;] = file_df[&amp;#34;INCOME&amp;#34;].map(&amp;#34;${:,.2f}&amp;#34;.format) file_df[&amp;#34;COSTS&amp;#34;] = file_df[&amp;#34;COSTS&amp;#34;].map(&amp;#34;${:,.2f}&amp;#34;.format) file_df[&amp;#34;PERCENT30&amp;#34;] = (file_df[&amp;#34;PERCENT30&amp;#34;]*100).map(&amp;#34;{:.1f}%&amp;#34;.format) file_df[&amp;#34;PERCENT3050&amp;#34;] = (file_df[&amp;#34;PERCENT3050&amp;#34;]*100).map(&amp;#34;{:.1f}%&amp;#34;.format) file_df[&amp;#34;PERCENT50&amp;#34;] = (file_df[&amp;#34;PERCENT50&amp;#34;]*100).map(&amp;#34;{:.1f}%&amp;#34;.format) file_df[&amp;#34;PERCENT_NODATA&amp;#34;] = (file_df[&amp;#34;PERCENT_NODATA&amp;#34;]*100).map(&amp;#34;{:.1f}%&amp;#34;.format) file_df[&amp;#34;PERCENT_NOBURDEN&amp;#34;] = (file_df[&amp;#34;PERCENT_NOBURDEN&amp;#34;]*100).map(&amp;#34;{:.1f}%&amp;#34;.format) file_df[&amp;#34;TOTAL&amp;#34;] = file_df[&amp;#34;TOTAL&amp;#34;].map(&amp;#34;{:,}&amp;#34;.format) file_df.head()  # Mapping has changed the datatypes of the columns to strings file_df.dtypes </description>
+    </item>
+    
+    <item>
+      <title>05. Pandas Recap 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-02/05-pandas-recap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/05-pandas-recap/</guid>
+      <description>Pandas Recap and Data Types In this activity, we will recap what we have learned about Pandas up to this point.
+Instructions   Open ‘PandasRecap.ipynb’ under the ‘unsolved’ folder in your Jupyter notebook.
+  Go through the cells, and follow the instructions in the comments.
+  Hints   A list of a DataFrame&amp;rsquo;s data types can be checked by accessing its dtypes property.
+  To change a non-numeric column to a numeric column, use the df.</description>
+    </item>
+    
+    <item>
+      <title>06.  Cleaning Crowdfunding  👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-03/06-cleaning-crowdfunding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/06-cleaning-crowdfunding/</guid>
+      <description>Cleaning Crowdfunding In this activity, you will take the dataset from your first homework, clean it up, and format it.
+Instructions  The instructions for this activity are contained within the Jupyter notebook.  References Data for this dataset was generated by edX Boot Camps LLC, and is intended for educational purposes only.
+ ✅ Solutions   Solutions Click Here    import pandas as pd # The path to our CSV file file = &amp;#34;Resources/CrowdfundingData.</description>
+    </item>
+    
+    <item>
+      <title>06.  Group By 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-02/06-group-by/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/06-group-by/</guid>
+      <description># Import the Pandas library import pandas as pd # Create a reference the CSV file desired csv_path = &amp;#34;Resources/CT_fires_2015.csv&amp;#34;  # Read the CSV into a Pandas DataFrame fires_df = pd.read_csv(csv_path)  # Print the first five rows of data to the screen fires_df.head()  	# Rename mistyped columns &amp;#34;Propery Loss&amp;#34; fires_df = fires_df.rename(columns={&amp;#34;Propery Loss&amp;#34;: &amp;#34;Property Loss&amp;#34;})  # Reduce to columns: Fire Department Name, Incident date, Incident Type Code, Incident Type, # Alarm Date and Time, Arrival Date and Time, Last Unit Cleared Date and Time,  # Property Loss, Contents Loss, Fire Service Deaths, Fire Service Injuries,  # Other Fire Deaths, Other Fire Injuries, Incident City, Incident Zip Code  fires_reduced = fires_df[[&amp;#34;Fire Department Name&amp;#34;, &amp;#34;Incident date&amp;#34;, &amp;#34;Incident Type Code&amp;#34;,  &amp;#34;Incident Type&amp;#34;, &amp;#34;Alarm Date and Time&amp;#34;, &amp;#34;Arrival Date and Time&amp;#34;,  &amp;#34;Last Unit Cleared Date and Time&amp;#34;, &amp;#34;Property Loss&amp;#34;, &amp;#34;Contents Loss&amp;#34;,  &amp;#34;Fire Service Deaths&amp;#34;, &amp;#34;Fire Service Injuries&amp;#34;, &amp;#34;Other Fire Deaths&amp;#34;,  &amp;#34;Other Fire Injuries&amp;#34;, &amp;#34;Incident City&amp;#34;, &amp;#34;Incident Zip Code&amp;#34;]] fires_reduced.</description>
+    </item>
+    
+    <item>
+      <title>06.  Training Grounds 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-01/06-training-grounds-data-funtions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/06-training-grounds-data-funtions/</guid>
+      <description>In this activity, you will take a large DataFrame containing 200 rows, analyze it with data functions, and then add a new column into it.
+Instructions Using the DataFrame provided, perform all of the following actions:
+  Provide a simple analytical overview of the dataset&amp;rsquo;s numeric columns.
+  Collect all of the names of the trainers within the dataset.
+  Figure out how many students each trainer has.</description>
+    </item>
+    
+    <item>
+      <title>07.  Column Manipulation 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-01/07-column-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/07-column-manipulation/</guid>
+      <description># Import Dependencies import pandas as pd  # A gigantic DataFrame of individuals&amp;#39; names, their trainers, their weight, and their days as gym members training_df = pd.DataFrame({  &amp;#34;Name&amp;#34;:[&amp;#34;Gino Walker&amp;#34;,&amp;#34;Hiedi Wasser&amp;#34;,&amp;#34;Kerrie Wetzel&amp;#34;,&amp;#34;Elizabeth Sackett&amp;#34;,&amp;#34;Jack Mitten&amp;#34;,&amp;#34;Madalene Wayman&amp;#34;,&amp;#34;Jamee Horvath&amp;#34;,&amp;#34;Arlena Reddin&amp;#34;,&amp;#34;Tula Levan&amp;#34;,&amp;#34;Teisha Dreier&amp;#34;,&amp;#34;Leslie Carrier&amp;#34;,&amp;#34;Arlette Hartson&amp;#34;,&amp;#34;Romana Merkle&amp;#34;,&amp;#34;Heath Viviani&amp;#34;,&amp;#34;Andres Zimmer&amp;#34;,&amp;#34;Allyson Osman&amp;#34;,&amp;#34;Yadira Caggiano&amp;#34;,&amp;#34;Jeanmarie Friedrichs&amp;#34;,&amp;#34;Leann Ussery&amp;#34;,&amp;#34;Bee Mom&amp;#34;,&amp;#34;Pandora Charland&amp;#34;,&amp;#34;Karena Wooten&amp;#34;,&amp;#34;Elizabet Albanese&amp;#34;,&amp;#34;Augusta Borjas&amp;#34;,&amp;#34;Erma Yadon&amp;#34;,&amp;#34;Belia Lenser&amp;#34;,&amp;#34;Karmen Sancho&amp;#34;,&amp;#34;Edison Mannion&amp;#34;,&amp;#34;Sonja Hornsby&amp;#34;,&amp;#34;Morgan Frei&amp;#34;,&amp;#34;Florencio Murphy&amp;#34;,&amp;#34;Christoper Hertel&amp;#34;,&amp;#34;Thalia Stepney&amp;#34;,&amp;#34;Tarah Argento&amp;#34;,&amp;#34;Nicol Canfield&amp;#34;,&amp;#34;Pok Moretti&amp;#34;,&amp;#34;Barbera Stallings&amp;#34;,&amp;#34;Muoi Kelso&amp;#34;,&amp;#34;Cicely Ritz&amp;#34;,&amp;#34;Sid Demelo&amp;#34;,&amp;#34;Eura Langan&amp;#34;,&amp;#34;Vanita An&amp;#34;,&amp;#34;Frieda Fuhr&amp;#34;,&amp;#34;Ernest Fitzhenry&amp;#34;,&amp;#34;Ashlyn Tash&amp;#34;,&amp;#34;Melodi Mclendon&amp;#34;,&amp;#34;Rochell Leblanc&amp;#34;,&amp;#34;Jacqui Reasons&amp;#34;,&amp;#34;Freeda Mccroy&amp;#34;,&amp;#34;Vanna Runk&amp;#34;,&amp;#34;Florinda Milot&amp;#34;,&amp;#34;Cierra Lecompte&amp;#34;,&amp;#34;Nancey Kysar&amp;#34;,&amp;#34;Latasha Dalton&amp;#34;,&amp;#34;Charlyn Rinaldi&amp;#34;,&amp;#34;Erline Averett&amp;#34;,&amp;#34;Mariko Hillary&amp;#34;,&amp;#34;Rosalyn Trigg&amp;#34;,&amp;#34;Sherwood Brauer&amp;#34;,&amp;#34;Hortencia Olesen&amp;#34;,&amp;#34;Delana Kohut&amp;#34;,&amp;#34;Geoffrey Mcdade&amp;#34;,&amp;#34;Iona Delancey&amp;#34;,&amp;#34;Donnie Read&amp;#34;,&amp;#34;Cesar Bhatia&amp;#34;,&amp;#34;Evia Slate&amp;#34;,&amp;#34;Kaye Hugo&amp;#34;,&amp;#34;Denise Vento&amp;#34;,&amp;#34;Lang Kittle&amp;#34;,&amp;#34;Sherry Whittenberg&amp;#34;,&amp;#34;Jodi Bracero&amp;#34;,&amp;#34;Tamera Linneman&amp;#34;,&amp;#34;Katheryn Koelling&amp;#34;,&amp;#34;Tonia Shorty&amp;#34;,&amp;#34;Misha Baxley&amp;#34;,&amp;#34;Lisbeth Goering&amp;#34;,&amp;#34;Merle Ladwig&amp;#34;,&amp;#34;Tammie Omar&amp;#34;,&amp;#34;Jesusa Avilla&amp;#34;,&amp;#34;Alda Zabala&amp;#34;,&amp;#34;Junita Dogan&amp;#34;,&amp;#34;Jessia Anglin&amp;#34;,&amp;#34;Peggie Scranton&amp;#34;,&amp;#34;Dania Clodfelter&amp;#34;,&amp;#34;Janis Mccarthy&amp;#34;,&amp;#34;Edmund Galusha&amp;#34;,&amp;#34;Tonisha Posey&amp;#34;,&amp;#34;Arvilla Medley&amp;#34;,&amp;#34;Briana Barbour&amp;#34;,&amp;#34;Delfina Kiger&amp;#34;,&amp;#34;Nia Lenig&amp;#34;,&amp;#34;Ricarda Bulow&amp;#34;,&amp;#34;Odell Carson&amp;#34;,&amp;#34;Nydia Clonts&amp;#34;,&amp;#34;Andree Resendez&amp;#34;,&amp;#34;Daniela Puma&amp;#34;,&amp;#34;Sherill Paavola&amp;#34;,&amp;#34;Gilbert Bloomquist&amp;#34;,&amp;#34;Shanon Mach&amp;#34;,&amp;#34;Justin Bangert&amp;#34;,&amp;#34;Arden Hokanson&amp;#34;,&amp;#34;Evelyne Bridge&amp;#34;,&amp;#34;Hee Simek&amp;#34;,&amp;#34;Ward Deangelis&amp;#34;,&amp;#34;Jodie Childs&amp;#34;,&amp;#34;Janis Boehme&amp;#34;,&amp;#34;Beaulah Glowacki&amp;#34;,&amp;#34;Denver Stoneham&amp;#34;,&amp;#34;Tarra Vinton&amp;#34;,&amp;#34;Deborah Hummell&amp;#34;,&amp;#34;Ulysses Neil&amp;#34;,&amp;#34;Kathryn Marques&amp;#34;,&amp;#34;Rosanna Dake&amp;#34;,&amp;#34;Gavin Wheat&amp;#34;,&amp;#34;Tameka Stoke&amp;#34;,&amp;#34;Janella Clear&amp;#34;,&amp;#34;Kaye Ciriaco&amp;#34;,&amp;#34;Suk Bloxham&amp;#34;,&amp;#34;Gracia Whaley&amp;#34;,&amp;#34;Philomena Hemingway&amp;#34;,&amp;#34;Claudette Vaillancourt&amp;#34;,&amp;#34;Olevia Piche&amp;#34;,&amp;#34;Trey Chiles&amp;#34;,&amp;#34;Idalia Scardina&amp;#34;,&amp;#34;Jenine Tremble&amp;#34;,&amp;#34;Herbert Krider&amp;#34;,&amp;#34;Alycia Schrock&amp;#34;,&amp;#34;Miss Weibel&amp;#34;,&amp;#34;Pearlene Neidert&amp;#34;,&amp;#34;Kina Callender&amp;#34;,&amp;#34;Charlotte Skelley&amp;#34;,&amp;#34;Theodora Harrigan&amp;#34;,&amp;#34;Sydney Shreffler&amp;#34;,&amp;#34;Annamae Trinidad&amp;#34;,&amp;#34;Tobi Mumme&amp;#34;,&amp;#34;Rosia Elliot&amp;#34;,&amp;#34;Debbra Putt&amp;#34;,&amp;#34;Rena Delosantos&amp;#34;,&amp;#34;Genna Grennan&amp;#34;,&amp;#34;Nieves Huf&amp;#34;,&amp;#34;Berry Lugo&amp;#34;,&amp;#34;Ayana Verdugo&amp;#34;,&amp;#34;Joaquin Mazzei&amp;#34;,&amp;#34;Doris Harmon&amp;#34;,&amp;#34;Patience Poss&amp;#34;,&amp;#34;Magaret Zabel&amp;#34;,&amp;#34;Marylynn Hinojos&amp;#34;,&amp;#34;Earlene Marcantel&amp;#34;,&amp;#34;Yuki Evensen&amp;#34;,&amp;#34;Rema Gay&amp;#34;,&amp;#34;Delana Haak&amp;#34;,&amp;#34;Patricia Fetters&amp;#34;,&amp;#34;Vinnie Elrod&amp;#34;,&amp;#34;Octavia Bellew&amp;#34;,&amp;#34;Burma Revard&amp;#34;,&amp;#34;Lakenya Kato&amp;#34;,&amp;#34;Vinita Buchner&amp;#34;,&amp;#34;Sierra Margulies&amp;#34;,&amp;#34;Shae Funderburg&amp;#34;,&amp;#34;Jenae Groleau&amp;#34;,&amp;#34;Louetta Howie&amp;#34;,&amp;#34;Astrid Duffer&amp;#34;,&amp;#34;Caron Altizer&amp;#34;,&amp;#34;Kymberly Amavisca&amp;#34;,&amp;#34;Mohammad Diedrich&amp;#34;,&amp;#34;Thora Wrinkle&amp;#34;,&amp;#34;Bethel Wiemann&amp;#34;,&amp;#34;Patria Millet&amp;#34;,&amp;#34;Eldridge Burbach&amp;#34;,&amp;#34;Alyson Eddie&amp;#34;,&amp;#34;Zula Hanna&amp;#34;,&amp;#34;Devin Goodwin&amp;#34;,&amp;#34;Felipa Kirkwood&amp;#34;,&amp;#34;Kurtis Kempf&amp;#34;,&amp;#34;Kasey Lenart&amp;#34;,&amp;#34;Deena Blankenship&amp;#34;,&amp;#34;Kandra Wargo&amp;#34;,&amp;#34;Sherrie Cieslak&amp;#34;,&amp;#34;Ron Atha&amp;#34;,&amp;#34;Reggie Barreiro&amp;#34;,&amp;#34;Daria Saulter&amp;#34;,&amp;#34;Tandra Eastman&amp;#34;,&amp;#34;Donnell Lucious&amp;#34;,&amp;#34;Talisha Rosner&amp;#34;,&amp;#34;Emiko Bergh&amp;#34;,&amp;#34;Terresa Launius&amp;#34;,&amp;#34;Margy Hoobler&amp;#34;,&amp;#34;Marylou Stelling&amp;#34;,&amp;#34;Lavonne Justice&amp;#34;,&amp;#34;Kala Langstaff&amp;#34;,&amp;#34;China Truett&amp;#34;,&amp;#34;Louanne Dussault&amp;#34;,&amp;#34;Thomasena Samaniego&amp;#34;,&amp;#34;Charlesetta Tarbell&amp;#34;,&amp;#34;Fatimah Lade&amp;#34;,&amp;#34;Malisa Cantero&amp;#34;,&amp;#34;Florencia Litten&amp;#34;,&amp;#34;Francina Fraise&amp;#34;,&amp;#34;Patsy London&amp;#34;,&amp;#34;Deloris Mclaughlin&amp;#34;],  &amp;#34;Trainer&amp;#34;:[&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Calvin North&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Calvin North&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Calvin North&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Calvin North&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Calvin North&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Calvin North&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Calvin North&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Bettyann Savory&amp;#39;,&amp;#39;Barton Stecklein&amp;#39;,&amp;#39;Harland Coolidge&amp;#39;,&amp;#39;Junie Ritenour&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Pa Dargan&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Brittani Brin&amp;#39;,&amp;#39;Blanch Victoria&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Gordon Perrine&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Mariah Barberio&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Aldo Byler&amp;#39;,&amp;#39;Williams Camire&amp;#39;,&amp;#39;Coleman Dunmire&amp;#39;,&amp;#39;Phyliss Houk&amp;#39;],  &amp;#34;Weight&amp;#34;:[128,180,193,177,237,166,224,208,177,241,114,161,162,151,220,142,193,193,124,130,132,141,190,239,213,131,172,127,184,157,215,122,181,240,218,205,239,217,234,158,180,131,194,171,177,110,117,114,217,123,248,189,198,127,182,121,224,111,151,170,188,150,137,231,222,186,139,175,178,246,150,154,129,216,144,198,228,183,173,129,157,199,186,232,172,157,246,239,214,161,132,208,187,224,164,177,175,224,219,235,112,241,243,179,208,196,131,207,182,233,191,162,173,197,190,182,231,196,196,143,250,174,138,135,164,204,235,192,114,179,215,127,185,213,250,213,153,217,176,190,119,167,118,208,113,206,200,236,159,218,168,159,156,183,121,203,215,209,179,219,174,220,129,188,217,250,166,157,112,236,182,144,189,243,238,147,165,115,160,134,245,174,238,157,150,184,174,134,134,248,199,165,117,119,162,112,170,224,247,217],  &amp;#34;Membership(Days)&amp;#34;:[52,70,148,124,186,157,127,155,37,185,158,129,93,69,124,13,76,153,164,161,48,121,167,69,39,163,7,34,176,169,108,162,195,86,155,77,197,200,80,142,179,67,58,145,188,147,125,15,13,173,125,4,61,29,132,110,62,137,197,135,162,174,32,151,149,65,18,42,63,62,104,200,189,40,38,199,1,12,8,2,195,30,7,72,130,144,2,34,200,143,43,196,22,115,171,54,143,59,14,52,109,115,187,185,26,19,178,18,120,169,45,52,130,69,168,178,96,22,78,152,39,51,118,130,60,156,108,69,103,158,165,142,86,91,117,77,57,169,86,188,97,111,22,83,81,177,163,35,12,164,21,181,171,138,22,107,58,51,38,128,19,193,157,13,104,89,13,10,26,190,179,101,7,159,100,49,120,109,56,199,51,108,47,171,69,162,74,119,148,88,32,159,65,146,140,171,88,18,59,13] }) training_df.</description>
+    </item>
+    
+    <item>
+      <title>07.  Intro to bug fixing 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-03/07-intro-to-bug-fixing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/07-intro-to-bug-fixing/</guid>
+      <description># Import dependencies import pandas as pd # Reference to CSV and reading CSV into Pandas DataFrame csv_path = &amp;#34;Resources/veterans.csv&amp;#34; veterans_df = pd.read_csv(csv_path) veterans_df.head()  veterans_df.columns  # Converting the &amp;#34;Percentage&amp;#34; column to floats veterans_df[&amp;#34;Percentage&amp;#34;] = veterans_df[&amp;#34;Percentage&amp;#34;].str.replace(&amp;#34;%&amp;#34;, &amp;#34;&amp;#34;).astype  # Finding the average percentage of veterans living within 75 miles of a cemetery veterans_df[&amp;#34;Percentage&amp;#34;].mean() </description>
+    </item>
+    
+    <item>
+      <title>07. Census Group By 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-02/07-census-groupby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/07-census-groupby/</guid>
+      <description>Exploring Census Data In this activity, you will revisit the U.S. Census data and create DataFrames with calculated totals and averages for each state by year.
+Instructions   Read in the census CSV file with Pandas.
+  Create two new DataFrames, one to find totals and another to find averages. DataFrames should include:
+  Totals for population, employed civilians, unemployed civilians, people in the military, and poverty count.</description>
+    </item>
+    
+    <item>
+      <title>08.  Hey Arnold DataFrame 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-01/08-hey-arnold-dataframe-formatting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/08-hey-arnold-dataframe-formatting/</guid>
+      <description>In this activity, you will take a premade DataFrame of “Hey Arnold!” characters and reorganize it so that it is easier to understand.
+Instructions Use Pandas to create a DataFrame with the following columns and values:
+  “Character_in_show”: Arnold, Gerald, Helga, Phoebe, Harold, Eugene
+  “color_of_hair”: blonde, black, blonde, black, unknown, red
+  “Height”: average, tallish, tallish, short, tall, short
+  “Football_Shaped_Head”: True, False, False, False, False, False</description>
+    </item>
+    
+    <item>
+      <title>08.  Sorting 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-02/08-sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/08-sorting/</guid>
+      <description># Import Dependencies import pandas as pd csv_path = &amp;#34;Resources/VT_tax_statistics.csv&amp;#34; taxes_df = pd.read_csv(csv_path, encoding=&amp;#34;UTF-8&amp;#34;) taxes_df.head()  # Sorting the DataFrame based on &amp;#34;Meals&amp;#34; column # Will sort from lowest to highest if no other parameter is passed meals_taxes_df = taxes_df.sort_values(&amp;#34;Meals&amp;#34;) meals_taxes_df.head()  # To sort from highest to lowest, ascending=False must be passed in meals_taxes_df = taxes_df.sort_values(&amp;#34;Meals&amp;#34;, ascending=False) meals_taxes_df.head()  # It is possible to sort based upon multiple columns meals_and_rent_count_df = taxes_df.</description>
+    </item>
+    
+    <item>
+      <title>08. Bug Fixing Bonanza  👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-03/08-bug-fixing-bonanza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/08-bug-fixing-bonanza/</guid>
+      <description>✅ Solutions   Solutions Click Here    import pandas as pd # Create a reference to the CSV and import it into a Pandas DataFrame csv_path = &amp;#34;Resources/Bedbug_Reporting.csv&amp;#34; bugs_df = pd.read_csv(csv_path) bugs_df.head()  bugs_df.columns  # Remove the extra space from &amp;#34;Re-infested Dwelling Unit Count&amp;#34; column bugs_df = bugs_df.rename(  columns={&amp;#34;Re-infested Dwelling Unit Count&amp;#34;: &amp;#34;Re-infested Dwelling Unit Count&amp;#34;}) # Columns we&amp;#39;re interested in: &amp;#39;Building ID&amp;#39;, &amp;#39;Borough&amp;#39;, &amp;#39;Postcode&amp;#39;, &amp;#39;# of Dwelling Units&amp;#39;, # &amp;#39;Infested Dwelling Unit Count&amp;#39;, &amp;#39;Eradicated Unit Count&amp;#39;, # &amp;#39;Re-infested Dwelling Unit Count&amp;#39;, &amp;#39;Filing Date&amp;#39;, &amp;#39;Latitude&amp;#39;, &amp;#39;Longitude&amp;#39; bugs_df = bugs_df[[&amp;#39;Building ID&amp;#39;, &amp;#39;Borough&amp;#39;, &amp;#39;Postcode&amp;#39;, &amp;#39;# of Dwelling Units&amp;#39;,  &amp;#39;Infested Dwelling Unit Count&amp;#39;, &amp;#39;Eradicated Unit Count&amp;#39;,  &amp;#39;Re-infested Dwelling Unit Count&amp;#39;, &amp;#39;Filing Date&amp;#39;,  &amp;#39;Latitude&amp;#39;, &amp;#39;Longitude&amp;#39;]] bugs_df.</description>
+    </item>
+    
+    <item>
+      <title>09.  Reading Writing CSV 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-01/09-reading-writing-csv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/09-reading-writing-csv/</guid>
+      <description># Dependencies import pandas as pd  # Store filepath in a variable file_one = &amp;#34;./Resources/DataOne.csv&amp;#34;  # Read our Data file with the pandas library # Not every CSV requires an encoding, but be aware this can come up file_one_df = pd.read_csv(file_one, encoding=&amp;#34;ISO-8859-1&amp;#34;)  # Show just the header file_one_df.head()  # Show a single column file_one_df[&amp;#34;full_name&amp;#34;].head()  # Show mulitple specific columns--note the extra brackets file_one_df[[&amp;#34;full_name&amp;#34;, &amp;#34;email&amp;#34;]].head()  # Head does not change the DataFrame--it only displays it file_one_df.</description>
+    </item>
+    
+    <item>
+      <title>09.  Search for the worst 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-02/09-search-for-the-worst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/09-search-for-the-worst/</guid>
+      <description>Search For The Worst In this activity, you will take a dataset on San Francisco Airport&amp;rsquo;s utility consumption and determine which day in the dataset had the worst consumption for each utility.
+Instructions   Read in the CSV file provided, and print it to the screen.
+  Print out a list of all the values within the &amp;ldquo;Utility&amp;rdquo; column.
+  Select a value from this list, and create a new DataFrame that only includes that utility.</description>
+    </item>
+    
+    <item>
+      <title>10. Comic Books CSV 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-01/10-comic-books-csv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/10-comic-books-csv/</guid>
+      <description>In this activity, you will take a large CSV of books, read it into Jupyter Notebook by using Pandas, clean up the columns, and then write a modified DataFrame to a new CSV file.
+This dataset is an expanded version of the Comic Books dataset from the British Library, which you’ve already worked with.
+Instructions   Read in the comic books CSV by using Pandas.
+  Remove unnecessary columns from the DataFrame so that only the following columns remain:</description>
+    </item>
+    
+    <item>
+      <title>11.  Comic Books Summary 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-01/11-comic-books-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-01/11-comic-books-summary/</guid>
+      <description>In this activity, you use some of Pandas’ built-in functions to create a new summary DataFrame based on the modified version of the comic book DataFrame.
+Instructions Using the modified DataFrame that was created earlier, create a summary table for the dataset that includes the following pieces of information:
+  The count of unique authors within the DataFrame
+  The count of unique countries of publication within the DataFrame</description>
+    </item>
+    
+  </channel>
+</rss>

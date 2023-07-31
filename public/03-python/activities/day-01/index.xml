@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 1 on </title>
+    <link>/03-python/activities/day-01/</link>
+    <description>Recent content in Day 1 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/03-python/activities/day-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01.  Terminal 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/01-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/01-terminal/</guid>
+      <description>cd Desktop will change to the desktop directory
+mkdir PythonStuff will make a new directory/folder on the desktop.
+cd PythonStuff will move to the newly created folder
+open . on a Mac or
+explorer . on a Windows will open the current folder
+touch first_file.py will create a file
+touch second_file.py will create a second file
+ls will show what is in the current directory
+cd .. will move us up a directory back to Desktop</description>
+    </item>
+    
+    <item>
+      <title>02. Terminal 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/02-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/02-terminal/</guid>
+      <description>Terminal Now, it&amp;rsquo;s your turn to do some work in the terminal. You&amp;rsquo;ll create three folders and a pair of Python files to print strings of your own creation to the console.
+Instructions Use the following instructions to write commands in your terminal:
+  Create a folder called LearnPython.
+  Navigate into the folder.
+  Inside LearnPython, create another folder called Assignment1.
+  Inside Assignment1, create a file called quick_python.</description>
+    </item>
+    
+    <item>
+      <title>03.  Variables 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/03-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/03-variables/</guid>
+      <description># Creates a variable with a string &amp;#34;Frankfurter&amp;#34; title = &amp;#34;Frankfurter&amp;#34;  # Creates a variable with an integer 80 years = 80  # Creates a variable with the boolean value of True expert_status = True  # Prints a statement adding the variable print(&amp;#34;Nick is a professional &amp;#34; + title)  # Convert the integer years into a string and prints print(&amp;#34;He has been coding for &amp;#34; + str(years) + &amp;#34; years&amp;#34;)  # Converts a boolean into a string and prints print(&amp;#34;Expert status: &amp;#34; + str(expert_status))  # An f-string accepts all data types without conversion print(f&amp;#34;Expert status: {expert_status}&amp;#34;) </description>
+    </item>
+    
+    <item>
+      <title>04. Hello Variable World 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/04-hello-variable-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/04-hello-variable-world/</guid>
+      <description>Hello, Variable World In this activity, you will create a simple Python application that uses variables to run calculations on integers and print strings out to the console.
+Instructions   Create two variables, called name and country, that will hold strings.
+  Create two variables, called age and hourly_wage, that will hold integers.
+  Create a variable called satisfied, which will hold a Boolean.
+  Create a variable called daily_wage, which will hold the value of hourly_wage multiplied by 8.</description>
+    </item>
+    
+    <item>
+      <title>05.  Prompts 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/05-prompts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/05-prompts/</guid>
+      <description># Collects the user&amp;#39;s input for the prompt &amp;#34;What is your name?&amp;#34; name = input(&amp;#34;What is your name? &amp;#34;)  # Collects the user&amp;#39;s input for the prompt &amp;#34;How old are you?&amp;#34; and converts the string to an integer. age = int(input(&amp;#34;How old are you? &amp;#34;))  # Collects the user&amp;#39;s input for the prompt &amp;#34;Is input truthy?&amp;#34; and converts it to a boolean. Note that non-zero, # non-empty objects are truth-y.</description>
+    </item>
+    
+    <item>
+      <title>06. Down to Input 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/06-down-to-input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/06-down-to-input/</guid>
+      <description>In this activity, you store inputs from the command line and run code based on those inputs.
+Instructions   Create two different variables, one to take the input of your first name and one for your neighbour’s first name.
+  Create two more inputs to ask how many months you and your neighbour have been coding.
+  Finally, display a result with both your names and the total amount of months coding.</description>
+    </item>
+    
+    <item>
+      <title>07.  Conditionals 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/07-conditionals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/07-conditionals/</guid>
+      <description>x = 1 y = 10  # Checks if one value is equal to another if x == 1:  print(&amp;#34;x is equal to 1&amp;#34;)  # Checks if one value is NOT equal to another if y != 1:  print(&amp;#34;y is not equal to 1&amp;#34;)  # Checks if one value is less than another if x &amp;lt; y:  print(&amp;#34;x is less than y&amp;#34;)  # Checks if one value is greater than another if y &amp;gt; x:  print(&amp;#34;y is greater than x&amp;#34;)  # Checks if a value is greater than or equal to another if x &amp;gt;= 1:  print(&amp;#34;x is greater than or equal to 1&amp;#34;)  # Checks for two conditions to be met using &amp;#34;and&amp;#34; if x == 1 and y == 10:  print(&amp;#34;Both values returned true&amp;#34;)  # Checks if either of two conditions is met if x &amp;lt; 45 or y &amp;lt; 5:  print(&amp;#34;One or more of the statements were true&amp;#34;)  # Nested if statements if x &amp;lt; 10:  if y &amp;lt; 5:  print(&amp;#34;x is less than 10 and y is less than 5&amp;#34;)  elif y == 5:  print(&amp;#34;x is less than 10 and y is equal to 5&amp;#34;)  else:  print(&amp;#34;x is less than 10 and y is greater than 5&amp;#34;) </description>
+    </item>
+    
+    <item>
+      <title>08.  Conditionals Conundrum 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/08-conditionals-conundrum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/08-conditionals-conundrum/</guid>
+      <description>In this activity, you’ll review prewritten conditionals and predict the lines that will be printed to the console.
+Instructions   Go through the conditionals in the provided code, and predict the lines that will be printed to the console.
+  Do not run the code at first. Try to follow the thought process for each chunk of code and then make a guess. Only after coming up with a guess for each section should you run the application.</description>
+    </item>
+    
+    <item>
+      <title>09.  List 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/09-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/09-list/</guid>
+      <description># Create a variable and set it as an List myList = [&amp;#34;Kirra&amp;#34;, 25, &amp;#34;Ahmed&amp;#34;, 80] print(myList)   # Adds an element onto the end of a List myList.append(&amp;#34;Matt&amp;#34;) print(myList)  # Returns the index of the first object with a matching value print(myList.index(&amp;#34;Matt&amp;#34;))   # Changes a specified element within an List at the given index myList[3] = 85 print(myList)   # Returns the length of the List print(len(myList))  # Removes a specified object from an List myList.</description>
+    </item>
+    
+    <item>
+      <title>10.  Rock Paper Scissors 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/10-rps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/10-rps/</guid>
+      <description>Create a Rock, Paper, Scissors game that takes user input from the command line and plays against the computer.
+Instructions   Using the notebook, take an input of r, p, or s for rock, paper, or scissors.
+  Have the computer randomly pick one of these three choices.
+  Compare the user&amp;rsquo;s input to the computer&amp;rsquo;s choice to determine if the user won, lost, or tied.
+  Hint  Check out this Stack Overflow question for help with using the random module to select a value from a list.</description>
+    </item>
+    
+    <item>
+      <title>11.  Loops 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/11-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/11-loops/</guid>
+      <description># Loop through a range of numbers (0 through 4) for x in range(5):  print(x)  print(&amp;#34;-----------------------------------------&amp;#34;)  # Loop through a range of numbers (2 through 6 - yes 6! Up to, but not including, 7) for x in range(2, 7):  print(x)  print(&amp;#34;----------------------------------------&amp;#34;)   # Iterate through letters in a string word = &amp;#34;Peace&amp;#34; for letter in word:  print(letter) print(&amp;#34;----------------------------------------&amp;#34;)  # Iterate through a list zoo = [&amp;#34;cow&amp;#34;, &amp;#34;dog&amp;#34;, &amp;#34;bee&amp;#34;, &amp;#34;zebra&amp;#34;] for animal in zoo:  print(animal)  print(&amp;#34;----------------------------------------&amp;#34;)  # Loop while a condition is being met run = &amp;#34;y&amp;#34;  while run == &amp;#34;y&amp;#34;:  print(&amp;#34;Hi!</description>
+    </item>
+    
+    <item>
+      <title>12.  Number Chain 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/12-number-chain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/12-number-chain/</guid>
+      <description>In this activity, you will take user input and print out a string of numbers.
+Instructions   Using a while loop, ask the user &amp;ldquo;How many numbers?&amp;rdquo;, and then print out a chain of numbers in increasing order, from 0 to the user-input number.
+  After the results have been printed, ask the user if they would like to continue.
+  If &amp;ldquo;y&amp;rdquo; is entered, keep the chain running by inputting a new number and starting a new count from 0 to the new user-input number.</description>
+    </item>
+    
+  </channel>
+</rss>

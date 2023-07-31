@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 1 on </title>
+    <link>/05-data-visualization/activities/day-01/</link>
+    <description>Recent content in Day 1 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/05-data-visualization/activities/day-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Basic Line Graphs 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-01/01-basic-line-graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/01-basic-line-graphs/</guid>
+      <description>exponential chart  # Import Numpy for calculations and matplotlib for charting import numpy as np import matplotlib.pyplot as plt # Creates a numpy array from 0 to 5 with each step being 0.1 higher than the last x_axis = np.arange(0, 5, 0.1) x_axis  # Creates an exponential series of values which we can then chart e_x = [np.exp(x) for x in x_axis] e_x  # Create a graph based upon the list and array we have created plt.</description>
+    </item>
+    
+    <item>
+      <title>02. NJ Templ Line Plots 👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-01/02-nj-temp-line-plots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/02-nj-temp-line-plots/</guid>
+      <description>New Jersey Weather In this activity, you will visualize the differences between temperature recorded in degrees Fahrenheit versus degrees Celsius.
+Instructions   Using the following data, plot the monthly averages for temperature in New Jersey in both degrees Fahrenheit and degrees Celsius.
+ Average temperature per month in Fahrenheit: 39, 42, 51, 62, 72, 82, 86, 84, 77, 65, 55, 44.    Assign to the x-axis a range of numerical values representing each month of the year.</description>
+    </item>
+    
+    <item>
+      <title>03. Configuring Line Plots 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-01/03-configuring-line-plots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/03-configuring-line-plots/</guid>
+      <description>%matplotlib notebook # Dependencies import matplotlib.pyplot as plt import numpy as np # Set x axis and variables x_axis = np.arange(0, 10, 0.1) sin = np.sin(x_axis) cos = np.cos(x_axis) # Draw a horizontal line with 0.25 transparency plt.hlines(0, 0, 10, alpha=0.25)   # Assign plots to tuples that stores result of plot  # Each point on the sine chart is marked by a blue circle sine_handle, = plt.</description>
+    </item>
+    
+    <item>
+      <title>04. Legendary Temperature 👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-01/04-legendary-temperature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/04-legendary-temperature/</guid>
+      <description>Legendary Temperature In this activity, you will expand upon your temperature plots to add a legend.
+Instructions   Modify the New Jersey temperature line charts from earlier so that they match the image provided.
+  Once the plot has been created, check the Matplotlib documentation to see what additional formatting could be added to the chart.
+   ✅ Solutions   Solutions Click Here    # Include this line to make plots interactive %matplotlib notebook # Dependencies import matplotlib.</description>
+    </item>
+    
+    <item>
+      <title>05. Aesthetics 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-01/05-aesthetics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/05-aesthetics/</guid>
+      <description>%matplotlib notebook  # Dependencies import matplotlib.pyplot as plt import numpy as np # Generate the x values from 0 to 10 using a step of 0.1 x_axis = np.arange(0, 10, 0.1) sin = np.sin(x_axis) cos = np.cos(x_axis) # Add a semi-transparent horizontal line at y = 0 plt.hlines(0, 0, 10, alpha=0.25)   # Use dots or other markers for your plots, and change their colors plt.plot(x_axis, sin, linewidth=0, marker=&amp;#34;o&amp;#34;, color=&amp;#34;blue&amp;#34;) plt.</description>
+    </item>
+    
+    <item>
+      <title>06. Roller Coaster Styling 👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-01/06-rollercoaster-styling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/06-rollercoaster-styling/</guid>
+      <description>Coaster Speed In this activity, you will create a line chart that graphs the speed of a roller coaster over time. You will then style the chart and add aesthetics to it.
+Instructions   Create a visualization with two line plots using the following data:
+  Danger Drop: [9, 8, 90, 85, 80, 70, 70, 65, 55, 60, 70, 65, 50]
+  RailGun: [75, 70, 60, 65, 60, 45, 55, 50, 40, 40, 35, 35, 30]</description>
+    </item>
+    
+    <item>
+      <title>07. Barcharts 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-01/07-barcharts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/07-barcharts/</guid>
+      <description>%matplotlib notebook import matplotlib.pyplot as plt import numpy as np  # Create an array that contains the number of users each language has users = [13000, 26000, 52000, 30000, 9000] x_axis = np.arange(len(users))  # Tell matplotlib that we will be making a bar chart # Users is our y axis and x_axis is, of course, our x axis # We apply align=&amp;#34;edge&amp;#34; to ensure our bars line up with our tick marks plt.</description>
+    </item>
+    
+    <item>
+      <title>08. PyBars  👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-01/08-pybars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/08-pybars/</guid>
+      <description>Cars Bar Chart In this activity, you will create a bar chart that visualizes the commuting cars per 1,000 population aged 16 and over within major U.S. cities.
+Instructions create a bar chart that matches the following image:
+  Title: Density of Commuting Cars in Cities
+  x-axis label: Cities
+  x-tick labels: San Francisco, Omaha, New Orleans, Cincinnati, Pittsburgh
+  y-axis label: Commuting Cars Per 1,000 Population Age 16+</description>
+    </item>
+    
+    <item>
+      <title>09. Pie Charts 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-01/09-piecharts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/09-piecharts/</guid>
+      <description>%matplotlib notebook # Import our dependencies  import matplotlib.pyplot as plt import numpy as np # Labels for the sections of our pie chart labels = [&amp;#34;Humans&amp;#34;, &amp;#34;Smurfs&amp;#34;, &amp;#34;Hobbits&amp;#34;, &amp;#34;Ninjas&amp;#34;]  # The values of each section of the pie chart sizes = [220, 95, 80, 100]  # The colors of each section of the pie chart colors = [&amp;#34;red&amp;#34;, &amp;#34;orange&amp;#34;, &amp;#34;lightcoral&amp;#34;, &amp;#34;lightskyblue&amp;#34;]  # Tells matplotlib to separate the &amp;#34;Humans&amp;#34; section from the others explode = (0.</description>
+    </item>
+    
+    <item>
+      <title>10. Pypies  👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-01/10-pypies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/10-pypies/</guid>
+      <description>Pies Pie Chart In this activity, you will create a pie chart that visualizes pie flavor preferences in the United States.
+Instructions Using the starter file, create a pie chart that matches the following image:
+  Include all of the lists provided in the starter file: pies, pie_votes, colors, explode.
+  Display the popularity percentages to one decimal place.
+  Include a shadow, and determine the starting angle so the exploded pie piece is in the middle left section of the pie.</description>
+    </item>
+    
+    <item>
+      <title>11. Scatter Plots 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-01/11-scatter-plots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/11-scatter-plots/</guid>
+      <description>%matplotlib notebook # Import Dependencies import random import matplotlib.pyplot as plt import numpy as np # The maximum x value for our chart will be 100 x_limit = 100  # List of values from 0 to 100 each value being 1 greater than the last x_axis = np.arange(0, x_limit, 1)  # Create a random array of data that we will use for our y values data = [random.</description>
+    </item>
+    
+    <item>
+      <title>12. Scatter Py 👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-01/12-scatterpy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/12-scatterpy/</guid>
+      <description>Scatter Py In this activity, you will create a scatter plot that visualizes ice cream sales in comparison to temperature increases.
+Instructions Create a scatter plot that matches the following image:
+Bonus Create a new list called scoop_price, fill it with values, and then set it so that the size of the dots are set according to those values.
+ ✅ Solutions   Solutions Click Here    %matplotlib notebook import matplotlib.</description>
+    </item>
+    
+    <item>
+      <title>13. Average Rain Bar Charts 👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-01/13-avg-rain-bar-charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-01/13-avg-rain-bar-charts/</guid>
+      <description>Average Rainfall In this activity, you will create a bar chart that shows the average rainfall in different states by importing data from a CSV file.
+Instructions  Review the raw data (resources/avg_rain_state.csv) in the Resources folder. This dataset contains the average rainfall per state in any given year.  *Ggenerate a plot that shows the average rainfall per state, as per image below:
+Hint   Think critically about the different plots we discussed today.</description>
+    </item>
+    
+  </channel>
+</rss>

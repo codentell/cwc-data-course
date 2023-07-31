@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 2 on </title>
+    <link>/02-vba/activities/day-02/</link>
+    <description>Recent content in Day 2 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/02-vba/activities/day-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Warmup 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-02/01-warmup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/01-warmup/</guid>
+      <description>Budget Checker In this activity, you&amp;rsquo;ll write a VBA script to run a budget checker in Excel.
+Instructions   There are three parts to this problem.
+  Part 1: Calculate the total amount after adding in the fee, and enter the value in the &amp;ldquo;Total&amp;rdquo; cell.
+  Part 2: Create a message box to alert the user if the total amount, including the fee, is within or over budget.</description>
+    </item>
+    
+    <item>
+      <title>02. For Loop 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-02/02-forloops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/02-forloops/</guid>
+      <description>Sub forLoop()   &amp;#39; Create a variable to hold the counter  Dim i As Integer   &amp;#39; Loop through from numbers 1 through 20  For i = 1 To 20   &amp;#39; Iterate through the rows placing a value of 1 throughout  Cells(i, 1).Value = 1   &amp;#39; Iterate through the columns placing a value of 5 throughout  Cells(1, i).Value = 5   &amp;#39; Places increasing values based upon the variable &amp;#34;i&amp;#34; in B2 to B21  Cells(i + 1, 2).</description>
+    </item>
+    
+    <item>
+      <title>03. Chicken Nuggets 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-02/03-chicken-nuggets-for-loop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/03-chicken-nuggets-for-loop/</guid>
+      <description>Looping on Through Now, it&amp;rsquo;s your chance to see how quickly we can create data using the power of a computer and for loops!
+Instructions Create a for loop that will produce the following example. The lines signify new cells.
+   A B C     I will eat 11 Chicken Nuggets   I will eat 12 Chicken Nuggets   I will eat 13 Chicken Nuggets   I will eat 14 Chicken Nuggets   I will eat 15 Chicken Nuggets   I will eat 16 Chicken Nuggets   I will eat 17 Chicken Nuggets   I will eat 18 Chicken Nuggets   I will eat 19 Chicken Nuggets   I will eat 20 Chicken Nuggets    Bonus If you finish early, consider why you may prefer using a for loop over the range() function.</description>
+    </item>
+    
+    <item>
+      <title>04.  Loop Conditional 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-02/04-loop-conditionals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/04-loop-conditionals/</guid>
+      <description>conditional Sub conditional_loops()   &amp;#39; Create a for loop from 1 to 10  For i = 1 To 10   &amp;#39; Use the modulus function to determine if a number is divisible by 2 (even number)  If Cells(i, 1).Value Mod 2 = 0 Then   &amp;#39; Enter &amp;#34;Even Row&amp;#34; the adjacent cell  Cells(i, 2).Value = &amp;#34;Even Row&amp;#34;   &amp;#39; If the number is not divisible by 2 (odd number)  Else   &amp;#39; Enter &amp;#34;Even Row&amp;#34; the adjacent cell  Cells(i, 2).</description>
+    </item>
+    
+    <item>
+      <title>05. Fizz Buzz 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-02/05-fizz-buzz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/05-fizz-buzz/</guid>
+      <description>Fizz Buzz In this activity, you&amp;rsquo;ll work on a popular logic problem that countless coders have encountered in technical interviews.
+Instructions Create a VBA script that populates the second column with the word &amp;ldquo;Fizz&amp;rdquo;, &amp;ldquo;Buzz&amp;rdquo;, or &amp;ldquo;Fizzbuzz&amp;rdquo; based on the value in the first column.
+  If the value in Column 1 is a multiple of both 3 and 5, print &amp;ldquo;Fizzbuzz&amp;rdquo; in Column 2.
+  If the value in Column 1 is a multiple of just 3, print &amp;ldquo;Fizz&amp;rdquo; in Column 2.</description>
+    </item>
+    
+    <item>
+      <title>06. Lotto 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-02/06-lotto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/06-lotto/</guid>
+      <description>The VBA Lotto For this activity, you&amp;rsquo;re in charge of finding the winners of a local lottery.
+Instructions The winning tickets are:
+ First place: 3957481 Second place: 5865187 Third place: 2817729  Create a script that will return those lucky winners and print them on the sheet. Make sure to do the following:
+  For each winner, include the following pieces of information: first name, last name, and the winning number.</description>
+    </item>
+    
+    <item>
+      <title>07.  Nested For Loop  👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-02/07-nested-for-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/07-nested-for-loops/</guid>
+      <description>&amp;#39; Nested For Loop  Sub ClassScanner()   Dim TargetStudent As String   &amp;#39; Loop through the rows  For i = 1 To 3   &amp;#39; Loop through the columns  For j = 1 To 5   &amp;#39; Print the Student Name  MsgBox (&amp;#34;Row: &amp;#34; &amp;amp; i &amp;amp; &amp;#34; Column: &amp;#34; &amp;amp; j &amp;amp; &amp;#34; | &amp;#34; &amp;amp; Cells(i, j).Value)   Next j   Next i  End Sub </description>
+    </item>
+    
+    <item>
+      <title>08. Cypto Kennel 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-02/08-cryptokennel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-02/08-cryptokennel/</guid>
+      <description>Crypto Kennel The spreadsheet you&amp;rsquo;ll be working with in this activity is full of animal inspired cryptocurrency! In place of numerical data, when you open your file you&amp;rsquo;ll be greeted by cells filled with the words &amp;ldquo;Shiba Inu&amp;rdquo;, &amp;ldquo;Dogecoin&amp;rdquo;, or &amp;ldquo;Cat Token&amp;rdquo;, however your crypto kennel is for canines only! Instead of manually removing the unwanted feline crypto, you&amp;rsquo;ll use VBA to do the work for you.
+Instructions   Create a VBA script to handle the over-abundance of the Cat Token currency in your spreadhseet&amp;rsquo;s &amp;ldquo;crypto kennel&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

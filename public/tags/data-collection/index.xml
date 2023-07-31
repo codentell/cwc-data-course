@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data collection on </title>
+    <link>/tags/data-collection/</link>
+    <description>Recent content in data collection on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/data-collection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Activities ✅</title>
+      <link>/11-data-collection/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/</guid>
+      <description>Video Speed Run of the Activities if you get stuck or miss class
+📺 Data Collection Activities Video Speed Runs 🏃‍♀️🏃    Day Mac 🍎 Duration Window 🖼️ Duration     01 Video 📺 00:00:00 ⏲️ Video 📺 00:00:00 ⏲️   02 Video 📺 00:00:00 ⏲️ Video 📺 00:00:00 ⏲️   03 Video 📺 00:00:00 ⏲️ Video 📺 00:00:00 ⏲️    Activities Required ✅ ⬆️ Back to Top Instructor Turn = 👩‍🏫🧑‍🏫 Students Turn = 👩‍🎓👨‍🎓</description>
+    </item>
+    
+    <item>
+      <title>Day 1</title>
+      <link>/11-data-collection/activities/day-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-01/</guid>
+      <description>11.1 Scraping HTML Overview Today&amp;rsquo;s lesson will introduce students to the basics of html, then allow them to apply this knowledge to scraping a website.
+Class Objectives By the end of this lesson, the students will be able to:
+  Identify HTML components in a website.
+  Create a basic HTML document.
+  Scrape data from a website by using BeautifulSoup.
+  Style HTML elements by using CSS.</description>
+    </item>
+    
+    <item>
+      <title>Day 2</title>
+      <link>/11-data-collection/activities/day-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-02/</guid>
+      <description>11.2 Web Scraping with CSS Selectors Overview Today&amp;rsquo;s lesson will introduce students to scraping websites by using CSS selectors.
+Class Objectives By the end of this lesson, the students will be able to:
+  Use CSS selectors to scrape targeted elements.
+  Use Chrome DevTools to identify elements and their CSS selectors.
+  Slides *11.2 Slides</description>
+    </item>
+    
+    <item>
+      <title>Day 3</title>
+      <link>/11-data-collection/activities/day-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

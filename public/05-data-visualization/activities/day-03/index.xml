@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 3 on </title>
+    <link>/05-data-visualization/activities/day-03/</link>
+    <description>Recent content in Day 3 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/05-data-visualization/activities/day-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Summary Statistics 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-03/01-summary-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-03/01-summary-statistics/</guid>
+      <description># Dependencies import pandas as pd import matplotlib.pyplot as plt import scipy.stats as st import numpy as np # Read in the LAX temperature data temperature_df = pd.read_csv(&amp;#39;../Resources/lax_temperature.csv&amp;#39;) temperatures = temperature_df[&amp;#39;HourlyDryBulbTemperature&amp;#39;] # Demonstrate calculating measures of central tendency mean_numpy = np.mean(temperatures) print(f&amp;#34;The mean temperature at the LAX airport is {mean_numpy}&amp;#34;)  median_numpy = np.median(temperatures) print(f&amp;#34;The median temperature at the LAX airport is {median_numpy}&amp;#34;)  mode_scipy = st.mode(temperatures) print(f&amp;#34;The mode temperature at the LAX airport is {mode_scipy}&amp;#34;)  # Characterize the data set using matplotlib and stats.</description>
+    </item>
+    
+    <item>
+      <title>02. Quartiles and Outliers 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-03/02-quartiles-and-outliers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-03/02-quartiles-and-outliers/</guid>
+      <description># Dependencies import pandas as pd import numpy as np import matplotlib.pyplot as plt # Example outlier plot of reaction times times = [96,98,100,105,85,88,95,100,101,102,97,98,5] fig1, ax1 = plt.subplots() ax1.set_title(&amp;#39;Reaction Times at Baseball Batting Cage&amp;#39;) ax1.set_ylabel(&amp;#39;Reaction Time (ms)&amp;#39;) ax1.boxplot(times) plt.show()  # We need to sort the data to determine which could be outliers times.sort() print(times)  # The second example again looks at the LAX temperature data set and computes quantiles temperature_df = pd.</description>
+    </item>
+    
+    <item>
+      <title>03. Summary Statistics 👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-03/03-summary-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-03/03-summary-statistics/</guid>
+      <description>Summary Statistics in Python In this activity, you will be tasked with calculating a number of summary statistics using California housing data.
+Instructions   Using Pandas, import the California housing dataset from the Resources folder.
+  Determine the most appropriate measure of central tendency to describe the population, and then calculate this value.
+  Use both data visualization and a quantitative measurement to find whether the age of houses in California is considered normally distributed using a small and large portion of the dataset.</description>
+    </item>
+    
+    <item>
+      <title>04. Standard Error 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-03/04-standard-error/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-03/04-standard-error/</guid>
+      <description># Dependencies import pandas as pd import random import matplotlib.pyplot as plt import numpy as np from scipy.stats import sem  # Set the seed so our data is reproducible random.seed(42) # Sample versus population example fuel economy fuel_economy = pd.read_csv(&amp;#39;../Resources/2019_fuel_economy.csv&amp;#39;)  # First overview the data set - how many factors, etc. print(fuel_economy.head())  # Calculate the summary statistics and plot the histogram of the entire population data print(f&amp;#34;The mean MPG of all vehicles is: {round(fuel_economy[&amp;#39;Combined_MPG&amp;#39;].</description>
+    </item>
+    
+    <item>
+      <title>05. SEM and Error Bars 👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-03/05-sem-error-bars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-03/05-sem-error-bars/</guid>
+      <description>SEM and Error Bars In this activity, you will work with a partner to characterize sample data from a California housing dataset. Make sure to compare your calculated values as you progress through the activity.
+Instructions Work with a partner on this activity. Be sure to compare your calculated values as you progress through the activity.
+  Execute the starter code to import the California housing dataset from Scikit-learn.</description>
+    </item>
+    
+    <item>
+      <title>06. Correlation Conundrum 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-03/06-correlation-conundrum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-03/06-correlation-conundrum/</guid>
+      <description># Dependencies import pandas as pd import matplotlib.pyplot as plt import scipy.stats as st # Import the WDI dataset, drop missing data wdi_data = pd.read_csv(&amp;#39;../Resources/WDI_2018.csv&amp;#39;) wdi_data = wdi_data.dropna() wdi_data.head() 	# For the first example, determine which pairs of factors are correlated.  plt.scatter(wdi_data.iloc[:,1],wdi_data.iloc[:,8]) plt.xlabel(&amp;#39;Income Per Capita&amp;#39;) plt.ylabel(&amp;#39;Average Alcohol Consumed Per Person Per Year (L)&amp;#39;) plt.show()  plt.scatter(wdi_data.iloc[:,3],wdi_data.iloc[:,10]) plt.xlabel(&amp;#39;Population Median Age&amp;#39;) plt.ylabel(&amp;#39;Cell Phones Per 100 People&amp;#39;) plt.show()  plt.scatter(wdi_data.iloc[:,9],wdi_data.iloc[:,7]) plt.</description>
+    </item>
+    
+    <item>
+      <title>07. Correlation_Conquerors 👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-03/07-correlation-conquerors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-03/07-correlation-conquerors/</guid>
+      <description>✅ Solutions   Solutions Click Here      </description>
+    </item>
+    
+    <item>
+      <title>08. Fits and Regression 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-03/08-fits-and-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-03/08-fits-and-regression/</guid>
+      <description># Import dependencies from matplotlib import pyplot as plt from scipy.stats import linregress import numpy as np from sklearn import datasets import pandas as pd  # Read in the California housing dataset california_dataset = datasets.fetch_california_housing() housing_data = pd.DataFrame(data=california_dataset.data,columns=california_dataset.feature_names) housing_data[&amp;#39;MEDV&amp;#39;] = california_dataset.target # Reduce the dataset to remove AveRooms outliers housing_data_reduced = pd.DataFrame(housing_data.loc[housing_data[&amp;#39;AveRooms&amp;#39;]&amp;lt;10,:])  # Reduce the dataset to the San Diego Area (based on approx latitude &amp;amp; longitude area) san_diego_housing = pd.</description>
+    </item>
+    
+    <item>
+      <title>09. Fits and Regression 👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-03/09-fits-and-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-03/09-fits-and-regression/</guid>
+      <description>Fits and Regression This activity is an opportunity to use SciPy to fit data and Matplotlib to display the fit.
+Instructions   Generate a scatter plot with Matplotlib using the year as the independent (x) variable and the number of petrol-electric cars as the dependent (y) variable.
+  Use stats.linregress to perform a linear regression with the year as the independent variable (x) and the number of petrol-electric cars as the dependent variable (y).</description>
+    </item>
+    
+  </channel>
+</rss>

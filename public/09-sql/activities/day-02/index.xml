@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 2 on </title>
+    <link>/09-sql/activities/day-02/</link>
+    <description>Recent content in Day 2 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/09-sql/activities/day-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Import Data 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/01-import-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/01-import-data/</guid>
+      <description>Option 1 copy csv to sql table command COPY actor FROM &amp;#39;&amp;lt;path to actor.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY address FROM &amp;#39;&amp;lt;path to actor.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY city FROM &amp;#39;&amp;lt;path to city.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY country FROM &amp;#39;&amp;lt;path to country.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY customer_list FROM &amp;#39;&amp;lt;path to customer_list.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY customer FROM &amp;#39;&amp;lt;path to customer.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY film_actor FROM &amp;#39;&amp;lt;path to film_actor.</description>
+    </item>
+    
+    <item>
+      <title>02. Aggregates 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-02/02-aggregates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/02-aggregates/</guid>
+      <description>-- Select everything from film table SELECT * FROM film;  -- Count the amount of film_id&amp;#39;s in film table SELECT COUNT(film_id) FROM film;  -- Create an alias SELECT COUNT(film_id) AS &amp;#34;Total films&amp;#34; FROM film;  -- Group by rating and aggregate the film_id count SELECT rating, COUNT(film_id) AS &amp;#34;Total films&amp;#34; FROM film GROUP BY rating;  -- Select the average rental duration SELECT AVG(rental_duration) FROM film;  -- Create an Alias SELECT AVG(rental_duration) AS &amp;#34;Average rental period&amp;#34; FROM film;  -- Group by the rental duration, average the rental rate and give alias SELECT rental_duration, AVG(rental_rate) AS &amp;#34;Average rental rate&amp;#34; FROM film GROUP BY rental_duration;  -- Find the rows with the minimum rental rate SELECT rental_duration, MIN(rental_rate) AS &amp;#34;Min rental rate&amp;#34; FROM film GROUP BY rental_duration;  -- Find the rows with the maximum rental rate SELECT rental_duration, MAX(rental_rate) AS &amp;#34;Max rental rate&amp;#34; FROM film GROUP BY rental_duration; </description>
+    </item>
+    
+    <item>
+      <title>03.  Gregarious Aggregates 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/03-gregarious-aggregates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/03-gregarious-aggregates/</guid>
+      <description>✅ Solutions   Solutions Click Here   -- 1. What is the average cost to rent a film in the pagila stores? SELECT AVG(rental_rate) AS &amp;#34;Average rental rate&amp;#34; FROM film;  -- 2. What is the average rental cost of films by rating? On average, what is the cheapest rating of films to rent? Most expensive? SELECT rating, AVG(rental_rate) AS &amp;#34;Average rental rate&amp;#34; FROM film GROUP BY rating;  -- 3.</description>
+    </item>
+    
+    <item>
+      <title>04. Order by  👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-02/04-order-by/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/04-order-by/</guid>
+      <description>-- Select the average length of movies by rental rate SELECT rental_rate, AVG(length) AS &amp;#34;avg length&amp;#34; FROM film GROUP BY rental_rate ORDER BY &amp;#34;avg length&amp;#34;;  -- Round the results to use only two decimal places SELECT rental_rate, ROUND(AVG(length),2) AS &amp;#34;avg length&amp;#34; FROM film GROUP BY rental_rate ORDER BY &amp;#34;avg length&amp;#34;;  -- Order by descending values SELECT rental_rate, ROUND(AVG(length),2) AS &amp;#34;avg length&amp;#34; FROM film GROUP BY rental_rate ORDER BY &amp;#34;avg length&amp;#34; DESC;  -- Limit results to 5 SELECT rental_rate, ROUND(AVG(length),2) AS &amp;#34;avg length&amp;#34; FROM film GROUP BY rental_rate ORDER BY &amp;#34;avg length&amp;#34; DESC LIMIT 5; </description>
+    </item>
+    
+    <item>
+      <title>05. Order By  👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/05-order-by/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/05-order-by/</guid>
+      <description>Movies Ordered By In this activity, you will use ORDER BY in combination with other SQL methods to query and order the tables.
+Instructions   Determine the count of actor first names with the names ordered in descending order.
+  Determine the average rental duration for each rating rounded to two decimals. Order these in ascending order.
+  Determine the top 10 average replacement costs for movies, ordered by their length.</description>
+    </item>
+    
+    <item>
+      <title>06. Subqueries 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-02/06-subqueries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/06-subqueries/</guid>
+      <description>-- First select title and id for movie EARLY HOME SELECT title, film_id FROM film WHERE title = &amp;#39;EARLY HOME&amp;#39;;  -- Using the film_id located in the previous query find it in the inventory table SELECT * FROM inventory WHERE film_id = 268;  -- Use Join to find the inventory, film and store id SELECT i.inventory_id, i.film_id, i.store_id FROM inventory i JOIN film f ON (i.film_id = f.film_id) WHERE f.</description>
+    </item>
+    
+    <item>
+      <title>07. Subqueries 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/07-subqueries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/07-subqueries/</guid>
+      <description>Subqueries In this activity, you will practice creating subqueries.
+Instructions   List the names and ID numbers of cities that are in the following list: Qalyub, Qinhuangdao, Qomsheh, Quilmes.
+  Display the districts in the above list of cities.
+Hint: Use the address and city tables.
+  Bonus Using subqueries, find the first and last names of customers who reside in cities that begin with the letter Q.</description>
+    </item>
+    
+    <item>
+      <title>08. Create Views 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-02/08-create-views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/08-create-views/</guid>
+      <description>SELECT s.store_id, SUM(amount) AS Gross FROM payment AS p  JOIN rental AS r  ON (p.rental_id = r.rental_id)  JOIN inventory AS i  ON (i.inventory_id = r.inventory_id)  JOIN store AS s  ON (s.store_id = i.store_id)  GROUP BY s.store_id;   -- Create view from query CREATE VIEW total_sales AS SELECT s.store_id, SUM(amount) AS Gross FROM payment AS p JOIN rental AS r ON (p.rental_id = r.</description>
+    </item>
+    
+    <item>
+      <title>09. View Room Queries 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/09-view-room-queries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/09-view-room-queries/</guid>
+      <description>A View with a Roomful of Queries In this activity, you will work with a partner to practice your join and subquery skills, as well as build out a view.
+Instructions   Write a query to get the number of copies of a film title that exist in the inventory. The results should look like those shown in the following image. Your challenge is to use a subquery (a query embedded within another query) instead of a join.</description>
+    </item>
+    
+    <item>
+      <title>10. Revisit Subquery 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-02/10-revisit-subquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/10-revisit-subquery/</guid>
+      <description>-- Find how many people rented BLANKET BEVERLY  SELECT COUNT(*) FROM customer WHERE customer_id IN  (  SELECT customer_id  FROM payment  WHERE rental_id IN  (  SELECT rental_id  FROM rental  WHERE inventory_id IN  (  SELECT inventory_id  FROM inventory  WHERE film_id IN  (  SELECT film_id  FROM film  WHERE title = &amp;#39;BLANKET BEVERLY&amp;#39;  )  )  ) ); </description>
+    </item>
+    
+    <item>
+      <title>11. Mine the Subquery 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/11-mine-the-subquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/11-mine-the-subquery/</guid>
+      <description>Mine the Subqueries In this activity, you will continue to practice subqueries. Work individually or in pairs. You can use the ERD for help with the queries.
+Instructions   Using subqueries, identify all actors who appear in the film ALTER VICTORY in the pagila database.
+  Using subqueries, display the titles of films that the employee Jon Stephens rented to customers.
+   ✅ Solutions   Solutions Click Here   SELECT first_name, last_name FROM actor WHERE actor_id IN (  SELECT actor_id  FROM film_actor  WHERE film_id IN  (  SELECT film_id  FROM film  WHERE title = &amp;#39;ALTER VICTORY&amp;#39;  ) );  -- Using subqueries, display the titles of films that were rented out by an employee named Jon Stephens.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 2 on </title>
+    <link>/05-data-visualization/activities/day-02/</link>
+    <description>Recent content in Day 2 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/05-data-visualization/activities/day-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Plots Review  👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-02/01-plot-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-02/01-plot-review/</guid>
+      <description>PyPlot Warmup In this activity, you will use PyPlot to create the most effective visualization for a variety of datasets.
+Instructions   Examine the starter code for each dataset.
+  Determine what chart or plot fits with the starter code for each dataset.
+  Complete the code block to create a plot for each of the datasets.
+  Be sure to provide each plot with a title and labels.</description>
+    </item>
+    
+    <item>
+      <title>02. Pandas plot 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-02/02-pandas-plot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-02/02-pandas-plot/</guid>
+      <description>%matplotlib notebook # Dependencies import matplotlib.pyplot as plt import numpy as np import pandas as pd  ## Using MatplotLib to Chart a DataFrame # Load in csv rain_df = pd.read_csv(&amp;#34;../Resources/avg_rain_state.csv&amp;#34;) rain_df.head()  # Set x axis and tick locations x_axis = np.arange(len(rain_df)) tick_locations = [value for value in x_axis]  # Create a list indicating where to write x labels and set figure size to adjust for space plt.</description>
+    </item>
+    
+    <item>
+      <title>03. Group Plots 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-02/04-group-plots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-02/04-group-plots/</guid>
+      <description>%matplotlib notebook  # Import Dependencies import matplotlib.pyplot as plt import pandas as pd # Import our data into pandas from CSV accident_string = &amp;#39;../Resources/accidents.csv&amp;#39; accidents_df = pd.read_csv(accident_string, low_memory=False)  accidents_df  # Create a group based on the values in the &amp;#39;FUNC_SYSNAME&amp;#39; column # &amp;#39;FUNC_SYSNAME&amp;#39; stores the type of road the accident occurred accident_road_type = accidents_df.groupby(&amp;#39;FUNC_SYSNAME&amp;#39;)  # Count how many times each road type appears in our group count_road_types = accident_road_type[&amp;#39;FUNC_SYSNAME&amp;#39;].</description>
+    </item>
+    
+    <item>
+      <title>03. Settlements Plotting Pandas 👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-02/03-settlements-plotting-pandas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-02/03-settlements-plotting-pandas/</guid>
+      <description>Union Settlements In this activity, you will use a dataset of 523 partial records, reduced from 13,758 total records, about major collective bargaining settlements in 1995. The Access to Archival Databases (AAD) limits downloads to 1,000 records, so this collection was reduced to the following unions: Actors Equity Association (AEA), Air Line Pilots (ALPA), Auto Workers (UAW), Bakery, Confectionery Workers International Union of America (BCW), Clothing and Textile Workers (ACTWU), and Elevator Constructors (IUEC).</description>
+    </item>
+    
+    <item>
+      <title>05. Library Usage Groupby  👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-02/05-library-usage-groupby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-02/05-library-usage-groupby/</guid>
+      <description>Library Usage In this activity, you will create a pair of charts based on library usage collected from San Francisco. This dataset includes information on library patrons who became patrons of San Francisco Public Library between 2003 and 2016, and tracks their total library usage during that period.
+Instructions   Open the starter file and follow the prompts to import, split, and summarize the library dataset.
+  Create a bar chart by using Pandas and Matplotlib that visualizes how many patrons checked out items by patron type.</description>
+    </item>
+    
+    <item>
+      <title>06. Miles Per Gallon ScatterPlot  👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-02/06-miles-per-gallon-scatterplot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-02/06-miles-per-gallon-scatterplot/</guid>
+      <description>Miles Per Gallon In this activity, you will create a scatter plot by using vehicle data, Pandas, and Matplotlib.
+Instructions Create a scatter plot by using the data provided Pandas, and Matplotlib, that compares the miles per gallon of a vehicle with its horsepower. Use the following image as guidance:
+References Auto MPG Dataset
+ ✅ Solutions   Solutions Click Here      </description>
+    </item>
+    
+    <item>
+      <title>07. Pandas Multi Line 👩‍🏫🧑‍🏫</title>
+      <link>/05-data-visualization/activities/day-02/07-pandas-multi-line/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-02/07-pandas-multi-line/</guid>
+      <description># Dependencies import matplotlib.pyplot as plt import numpy as np import pandas as pd # Read CSV unemployed_data_one = pd.read_csv(&amp;#34;../Resources/unemployment_2010-2015.csv&amp;#34;) unemployed_data_two = pd.read_csv(&amp;#34;../Resources/unemployment_2016-2020.csv&amp;#34;)  # Merge our two data frames together combined_unemployed_data = pd.merge(unemployed_data_one, unemployed_data_two, on=&amp;#34;Country Name&amp;#34;) combined_unemployed_data.head()  # Delete the duplicate &amp;#39;Country Code&amp;#39; column and rename the first one back to &amp;#39;Country Code&amp;#39; del combined_unemployed_data[&amp;#39;Country Code_y&amp;#39;] combined_unemployed_data = combined_unemployed_data.rename(columns={&amp;#34;Country Code_x&amp;#34;:&amp;#34;Country Code&amp;#34;}) combined_unemployed_data.head() 	# Set the &amp;#39;Country Code&amp;#39; to be our index for easy referencing of rows combined_unemployed_data = combined_unemployed_data.</description>
+    </item>
+    
+    <item>
+      <title>08. Traveling Companions  Part 1  👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-02/08-traveling-companion-part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-02/08-traveling-companion-part-1/</guid>
+      <description>Traveling Companions, Part 1 This is Part 1 of a three-part mini-project.
+In this first part of the activity, you will take three separate CSVs that were gathered from Tourism Malaysia, merge them together, and then create charts to visualize a comparison of travelers to Malaysia from different countries of origin over three years.
+Instructions   Check the comments in each cell of this Jupyter Notebook file for activity instructions.</description>
+    </item>
+    
+    <item>
+      <title>09. Traveling Companions  Part 2  👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-02/09-traveling-companion-part-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-02/09-traveling-companion-part-2/</guid>
+      <description>Traveling Companions, Part 2 This is Part 2 of a three-part mini-project.
+In this second part, you will examine the averages of each column and reduce the DataFrame to include only types of companion travelers that are above 1% across all three years.
+Instructions  Your final table should align with the following table:  References Tourism Malaysia
+ ✅ Solutions   Solutions Click Here    # Check the mean of the columns combined_travel_df.</description>
+    </item>
+    
+    <item>
+      <title>10. Traveling Companions  Part 3  👩‍🎓👨‍🎓</title>
+      <link>/05-data-visualization/activities/day-02/10-traveling-companion-part-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/05-data-visualization/activities/day-02/10-traveling-companion-part-3/</guid>
+      <description>Traveling Companions, Part 3 This is the third and final part of a three-part mini-project.
+In this final part, you will take the DataFrame you created and, using Matplotlib, chart a comparison of three different countries for one type of traveling companion between 2016 and 2018.
+Instructions   Check the comments in each cell of this Jupyter Notebook file for activity instructions.
+  Your output should align with the following figure, depending on the user’s input variable:</description>
+    </item>
+    
+  </channel>
+</rss>

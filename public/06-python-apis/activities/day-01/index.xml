@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 1 on </title>
+    <link>/06-python-apis/activities/day-01/</link>
+    <description>Recent content in Day 1 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/06-python-apis/activities/day-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Request Intro  👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-01/01-requests-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/01-requests-intro/</guid>
+      <description># Dependencies import requests import json   # URL for GET requests to retrieve vehicle data url = &amp;#34;https://api.spacexdata.com/v4/launchpads&amp;#34; # Print the response object to the console print(requests.get(url))  # Retrieving data and converting it into JSON print(requests.get(url).json())  # Pretty Print the output of the JSON response = requests.get(url).json() print(json.dumps(response, indent=4, sort_keys=True)) </description>
+    </item>
+    
+    <item>
+      <title>02. 👩‍🎓👨‍🎓</title>
+      <link>/06-python-apis/activities/day-01/02-spacex-request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/02-spacex-request/</guid>
+      <description>Requesting SpaceX In this activity, you will dig into a simple, well-documented API—The SpaceX API—and make calls to the API using the Requests library.
+Instructions   Take a few minutes to explore the SpaceX V3 API:
+  GitHub
+  API Documentation
+    Once you understand the structure of the API and its endpoint, choose one of the endpoints and do the following:
+  Retrieve and print the JSON for all of the records from your chosen endpoint.</description>
+    </item>
+    
+    <item>
+      <title>03. Manipulating Response  👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-01/03-manipulating-responses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/03-manipulating-responses/</guid>
+      <description># Dependencies import requests import json  # Performing a GET Request and saving the  # API&amp;#39;s response within a variable url = &amp;#34;https://api.spacexdata.com/v2/rockets/falcon9&amp;#34; response = requests.get(url) response_json = response.json() print(json.dumps(response_json, indent=4, sort_keys=True))  # It is possible to grab a specific value  # from within the JSON object print(response_json[&amp;#34;cost_per_launch&amp;#34;])  # It is also possible to perform some # analyses on values stored within the JSON object number_payloads = len(response_json[&amp;#34;payload_weights&amp;#34;]) print(f&amp;#34;There are {number_payloads}payloads.</description>
+    </item>
+    
+    <item>
+      <title>04. Requesting a Galaxy Far Far Away 👩‍🎓👨‍🎓</title>
+      <link>/06-python-apis/activities/day-01/04-farfaraway-apidata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/04-farfaraway-apidata/</guid>
+      <description>Requesting a Galaxy Far Far Away In this activity you will create an application that accesses data from the Star Wars API and prints out values from within it.
+Instructions   Using the starter file provided, collect the following pieces of information from the Star Wars API.
+  The name of the character
+  The number of films they were in
+  The name of their first starship</description>
+    </item>
+    
+    <item>
+      <title>05. Number Facts API 👩‍🎓👨‍🎓</title>
+      <link>/06-python-apis/activities/day-01/05-number-facts-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/05-number-facts-api/</guid>
+      <description>Number Facts API In this activity, you’ll use Python to create a user-friendly way to get data from an API.
+Instructions Using the Numbers API, create an application that takes in a user&amp;rsquo;s inputs and returns a number fact based upon it.
+Hints   The URL to make your request must have ?json at its end so that the data format returned is JSON. The default response is pure text.</description>
+    </item>
+    
+    <item>
+      <title>06. OMDb Requests  👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-01/06-omdb-requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/06-omdb-requests/</guid>
+      <description>import requests import json from config import api_key # New Dependency! Use this to pretty print the JSON # https://docs.python.org/3/library/pprint.html from pprint import pprint # Note that the ?t= is a query param for the t-itle of the # movie we want to search for. url = &amp;#34;http://www.omdbapi.com/?t=&amp;#34; api_key = &amp;#34;&amp;amp;apikey=&amp;#34; + api_key # Performing a GET request similar to the one we executed # earlier response = requests.get(url + &amp;#34;Aliens&amp;#34; + api_key) # Converting the response to JSON, and printing the result.</description>
+    </item>
+    
+    <item>
+      <title>07. Explore OMDb API 👩‍🎓👨‍🎓</title>
+      <link>/06-python-apis/activities/day-01/07-explore-omdb-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/07-explore-omdb-api/</guid>
+      <description>OMDb API In this activity, you’ll review the OMDb API documentation, and you’ll practice using the API.
+Instructions Read the OMDb documentation, and make a few API calls to get some information about your favorite movie.
+ ✅ Solutions   Solutions Click Here      </description>
+    </item>
+    
+    <item>
+      <title>08. Movie Questions 👩‍🎓👨‍🎓</title>
+      <link>/06-python-apis/activities/day-01/08-movie-questions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/08-movie-questions/</guid>
+      <description>Movie Questions In this activity, you will test your skills with the OMDb API by collecting data to answer a series of questions.
+Instructions Use the OMDb API to retrieve and print answers to the following questions:
+  Who was the director of the movie Aliens?
+  What was the movie Gladiator rated?
+  What year was 50 First Dates released?
+  Who wrote Moana?
+  What was the plot of the movie Sing?</description>
+    </item>
+    
+    <item>
+      <title>09. Iterative Requests 👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-01/09-iterative-requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/09-iterative-requests/</guid>
+      <description># Dependencies import random import json import requests  # Let&amp;#39;s get the JSON for 100 posts sequentially. url = &amp;#34;http://jsonplaceholder.typicode.com/posts/&amp;#34; # Create an empty list to store the responses response_json = [] # Create random indices representing # a user&amp;#39;s choice of posts indices = random.sample(list(range(1, 100)), 10) indices  # Make a request for each of the indices for x in range(len(indices)):  print(f&amp;#34;Making request number: {x}for ID: {indices[x]}&amp;#34;)   # Get one of the posts  post_response = requests.</description>
+    </item>
+    
+    <item>
+      <title>10. Iterative Requests 👩‍🎓👨‍🎓</title>
+      <link>/06-python-apis/activities/day-01/10-iterative-requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/10-iterative-requests/</guid>
+      <description>Iterative Requests In this activity, you will test your knowledge of iterative requests by looping through a list of movies and collecting data from the OMDB API on each movie.
+Instructions   Consider the following list of movie titles.
+movies = [&amp;#34;Aliens&amp;#34;, &amp;#34;Sing&amp;#34;, &amp;#34;Moana&amp;#34;]   Make a request to the OMDb API for each movie in the list. Then:
+  Print the director of each movie
+  Save the responses in another list</description>
+    </item>
+    
+    <item>
+      <title>11.  NYT API 👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-01/11-movie-loop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/11-movie-loop/</guid>
+      <description> # Dependencies import requests from pprint import pprint from config import api_key  url = &amp;#34;https://api.nytimes.com/svc/search/v2/articlesearch.json?&amp;#34; # Search for articles that mention granola query = &amp;#34;granola&amp;#34; # Build query URL query_url = url + &amp;#34;api-key=&amp;#34; + api_key + &amp;#34;&amp;amp;q=&amp;#34; + query # Request articles articles = requests.get(query_url).json()  # The &amp;#34;response&amp;#34; property in articles contains the actual articles # list comprehension. articles_list = articles[&amp;#34;response&amp;#34;][&amp;#34;docs&amp;#34;] pprint(articles_list)  # Print the web_url of each stored article print(&amp;#34;Your Reading List&amp;#34;) for article in articles_list:  print(article[&amp;#34;web_url&amp;#34;])   </description>
+    </item>
+    
+    <item>
+      <title>12. Retrieving Articles 👩‍🎓👨‍🎓</title>
+      <link>/06-python-apis/activities/day-01/12-retrieving-articles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-01/12-retrieving-articles/</guid>
+      <description>Retrieving Articles In this activity, you will create an application that grabs articles from the NYT API, stores them within a list, and prints snippets of the articles to the screen.
+Instructions   Save the NYT API endpoint to a variable. Make sure that you include the right query parameter for retrieving JSON data!
+  Register for and save your API Key to a variable.
+  Decide on a search term, and save it to a variable.</description>
+    </item>
+    
+  </channel>
+</rss>

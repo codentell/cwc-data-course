@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 2 on </title>
+    <link>/04-pandas/activities/day-02/</link>
+    <description>Recent content in Day 2 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/04-pandas/activities/day-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Loc And Iloc 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-02/01-loc-and-iloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/01-loc-and-iloc/</guid>
+      <description>import pandas as pd file = &amp;#34;./resources/baton_streets.csv&amp;#34; original_df = pd.read_csv(file) original_df.head()  # Set new index to STREET NAME df = original_df.set_index(&amp;#34;STREET NAME&amp;#34;) df.head()  # Grab the data contained within the &amp;#34;ADDINGTON&amp;#34; row and the &amp;#34;STREET FULL NAME&amp;#34; column addington_name = df.loc[&amp;#34;ADDINGTON&amp;#34;, &amp;#34;STREET FULL NAME&amp;#34;] print(&amp;#34;Using Loc: &amp;#34; + addington_name)  also_addington_name = df.iloc[3, 1] print(&amp;#34;Using Iloc: &amp;#34; + also_addington_name)  # Grab the first five rows of data and the columns from &amp;#34;STREET NAME ID&amp;#34; to &amp;#34;POSTAL COMMUNITY&amp;#34; # The problem with using &amp;#34;STREET NAME&amp;#34; as the index is that the values are not unique so duplicates are returned # If there are duplicates and loc[] is being used, Pandas will return an error private_to_chalfont = df.</description>
+    </item>
+    
+    <item>
+      <title>02.  Good Movies Loc 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-02/02-good-movies-loc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/02-good-movies-loc/</guid>
+      <description>Good Movies In this activity, you will create an application that searches through IMDb data to find only the best movies out there.
+Instructions   Use Pandas to load and display the CSV provided in resources.
+  List all the columns in the dataset.
+  We&amp;rsquo;re only interested in IMDb data, so create a new table that takes the film and all the columns related to IMDb.</description>
+    </item>
+    
+    <item>
+      <title>03.  Cleaning Data 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-02/03-cleaning-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/03-cleaning-data/</guid>
+      <description># Dependencies import pandas as pd # Name of the CSV file file = &amp;#39;resources/donors2021_unclean.csv&amp;#39; # The correct encoding must be used to read the CSV in pandas df = pd.read_csv(file, encoding=&amp;#34;ISO-8859-1&amp;#34;) # Preview of the DataFrame # Note that Memo_CD is likely a meaningless column df.head()  # Delete extraneous column del df[&amp;#39;Memo_CD&amp;#39;] df.head()  # Identify incomplete rows df.count()  # Drop all rows with missing information df = df.</description>
+    </item>
+    
+    <item>
+      <title>04. Cleaning Appliance Data 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-02/04-cleaning-appliance-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/04-cleaning-appliance-data/</guid>
+      <description>Hong Kong LPG Appliances In this activity, you will take an LPG appliance dataset from Hong Kong, and clean it up so that the DataFrame is consistent and does not have any rows with missing data.
+Instructions   Read in the CSV using Pandas, and print out the DataFrame that is returned.
+ Note: This dataset uses Chinese characters and should be read in using UTF-8 encoding.    Reduce the DataFrame to only the columns in English.</description>
+    </item>
+    
+    <item>
+      <title>05. Pandas Recap 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-02/05-pandas-recap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/05-pandas-recap/</guid>
+      <description>Pandas Recap and Data Types In this activity, we will recap what we have learned about Pandas up to this point.
+Instructions   Open ‘PandasRecap.ipynb’ under the ‘unsolved’ folder in your Jupyter notebook.
+  Go through the cells, and follow the instructions in the comments.
+  Hints   A list of a DataFrame&amp;rsquo;s data types can be checked by accessing its dtypes property.
+  To change a non-numeric column to a numeric column, use the df.</description>
+    </item>
+    
+    <item>
+      <title>06.  Group By 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-02/06-group-by/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/06-group-by/</guid>
+      <description># Import the Pandas library import pandas as pd # Create a reference the CSV file desired csv_path = &amp;#34;Resources/CT_fires_2015.csv&amp;#34;  # Read the CSV into a Pandas DataFrame fires_df = pd.read_csv(csv_path)  # Print the first five rows of data to the screen fires_df.head()  	# Rename mistyped columns &amp;#34;Propery Loss&amp;#34; fires_df = fires_df.rename(columns={&amp;#34;Propery Loss&amp;#34;: &amp;#34;Property Loss&amp;#34;})  # Reduce to columns: Fire Department Name, Incident date, Incident Type Code, Incident Type, # Alarm Date and Time, Arrival Date and Time, Last Unit Cleared Date and Time,  # Property Loss, Contents Loss, Fire Service Deaths, Fire Service Injuries,  # Other Fire Deaths, Other Fire Injuries, Incident City, Incident Zip Code  fires_reduced = fires_df[[&amp;#34;Fire Department Name&amp;#34;, &amp;#34;Incident date&amp;#34;, &amp;#34;Incident Type Code&amp;#34;,  &amp;#34;Incident Type&amp;#34;, &amp;#34;Alarm Date and Time&amp;#34;, &amp;#34;Arrival Date and Time&amp;#34;,  &amp;#34;Last Unit Cleared Date and Time&amp;#34;, &amp;#34;Property Loss&amp;#34;, &amp;#34;Contents Loss&amp;#34;,  &amp;#34;Fire Service Deaths&amp;#34;, &amp;#34;Fire Service Injuries&amp;#34;, &amp;#34;Other Fire Deaths&amp;#34;,  &amp;#34;Other Fire Injuries&amp;#34;, &amp;#34;Incident City&amp;#34;, &amp;#34;Incident Zip Code&amp;#34;]] fires_reduced.</description>
+    </item>
+    
+    <item>
+      <title>07. Census Group By 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-02/07-census-groupby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/07-census-groupby/</guid>
+      <description>Exploring Census Data In this activity, you will revisit the U.S. Census data and create DataFrames with calculated totals and averages for each state by year.
+Instructions   Read in the census CSV file with Pandas.
+  Create two new DataFrames, one to find totals and another to find averages. DataFrames should include:
+  Totals for population, employed civilians, unemployed civilians, people in the military, and poverty count.</description>
+    </item>
+    
+    <item>
+      <title>08.  Sorting 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-02/08-sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/08-sorting/</guid>
+      <description># Import Dependencies import pandas as pd csv_path = &amp;#34;Resources/VT_tax_statistics.csv&amp;#34; taxes_df = pd.read_csv(csv_path, encoding=&amp;#34;UTF-8&amp;#34;) taxes_df.head()  # Sorting the DataFrame based on &amp;#34;Meals&amp;#34; column # Will sort from lowest to highest if no other parameter is passed meals_taxes_df = taxes_df.sort_values(&amp;#34;Meals&amp;#34;) meals_taxes_df.head()  # To sort from highest to lowest, ascending=False must be passed in meals_taxes_df = taxes_df.sort_values(&amp;#34;Meals&amp;#34;, ascending=False) meals_taxes_df.head()  # It is possible to sort based upon multiple columns meals_and_rent_count_df = taxes_df.</description>
+    </item>
+    
+    <item>
+      <title>09.  Search for the worst 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-02/09-search-for-the-worst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-02/09-search-for-the-worst/</guid>
+      <description>Search For The Worst In this activity, you will take a dataset on San Francisco Airport&amp;rsquo;s utility consumption and determine which day in the dataset had the worst consumption for each utility.
+Instructions   Read in the CSV file provided, and print it to the screen.
+  Print out a list of all the values within the &amp;ldquo;Utility&amp;rdquo; column.
+  Select a value from this list, and create a new DataFrame that only includes that utility.</description>
+    </item>
+    
+  </channel>
+</rss>

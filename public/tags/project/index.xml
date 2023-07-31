@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project on </title>
+    <link>/tags/project/</link>
+    <description>Recent content in project on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Null Hypothesis 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/01-null-hypothesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/01-null-hypothesis/</guid>
+      <description>Forming a Null Hypothesis In this activity, you will turn two questions into a null hypothesis and an alternate hypothesis.
+Instructions Form a hypothesis and null hypothesis for the following questions:
+  Does dark chocolate affect arterial function in healthy individuals?
+  Does coffee have anti-aging properties?
+   Solutions Null Hypothesis   Does dark chocolate improve arterial function in healthy individuals?
+  Alternate hypothesis - If dark chocolate is related to arterial function in healthy individuals, then consuming 30g of dark chocolate over a one-year period will result in improved arterial function.</description>
+    </item>
+    
+    <item>
+      <title>01. Push 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-02/01-pull/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-02/01-pull/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>01. Workflows 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-01/01-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/01-workflow/</guid>
+      <description>Workflow Diagrams Imagine that you&amp;rsquo;re working on a Git project.
+ So far, you&amp;rsquo;ve made three different commits, all on your main branch. We&amp;rsquo;d write this as follows:  (main) | [m1] -&amp;gt; [m2] -&amp;gt; [m3]  [m1] is the first commit on the main branch; [m2] is the second, etc. The m comes from the fact that these commits are on the main branch.  Branching Whenever you want to either add something new or fix something broken, you should create a new branch for your work.</description>
+    </item>
+    
+    <item>
+      <title>01. Pull 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-02/02-pull/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-02/02-pull/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>02. TTest 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/02-ttest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/02-ttest/</guid>
+      <description>import warnings warnings.filterwarnings(&amp;#39;ignore&amp;#39;) %matplotlib inline from matplotlib import pyplot as plt import numpy as np import scipy.stats as stats  # Helper Functions to Generate and Plot Data # Generate some fake data to test with def gendata(loc=0):  population = stats.norm.rvs(size=1000, random_state=42)  sample = stats.norm.rvs(loc=loc, size=200, random_state=42)   # Scatter Plot of Data  plt.subplot(2, 1, 1)  plt.scatter(range(len(population)), population, label=&amp;#34;population&amp;#34;)  plt.scatter(range(len(sample)), sample, label=&amp;#34;sample&amp;#34;)  plt.</description>
+    </item>
+    
+    <item>
+      <title>02. Workflow 👩‍🎓👨‍🎓</title>
+      <link>/07-project-1-part-1/activities/day-01/02-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/02-workflow/</guid>
+      <description>Review Questions This document contains review questions about Git basics.
+Instructions For the following diagramming exercises, either draw your solutions on paper or use the interface provided at Git Viz.
+Overview   Consider the example from the lecture, where we created a branch for our data analysis. Why did we create a new branch for this? Why not simply do this on main?
+  Write down two advantages to creating branches instead of working directly on main.</description>
+    </item>
+    
+    <item>
+      <title>03. Branch 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-01/03-branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/03-branch/</guid>
+      <description>Branch Demo 0. Getting the Repo Before we can work with Git, we must either create a new repository, or clone one from GitHub.
+Note that, in the examples below, we use git status before every git commit. This is a best practice that helps ensure a deliberate commit history. For brevity&amp;rsquo;s sake, this line will be omitted in future files, but assume we&amp;rsquo;ve always run git status before any git commit.</description>
+    </item>
+    
+    <item>
+      <title>03. Pull 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-02/03-merge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-02/03-merge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>03. Stanger Height TTest 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/03-stranger-heights-ttest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/03-stranger-heights-ttest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>04. Anova 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/04-anova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/04-anova/</guid>
+      <description>import warnings warnings.filterwarnings(&amp;#39;ignore&amp;#39;) %matplotlib inline import pandas as pd import scipy.stats as stats  # Comparison of 5 Durations of Workouts # The problem: How do we know if working out on a regular basis will reduce overall average resting heart rate?  # The solution: ANOVA - does working out more regularly reduce average resting heart rate?  # Dataset: resting_heart_rate.csv # Source: Internally generated data.  # Description: Comparison of people who work out during the week and average resting heart rate.</description>
+    </item>
+    
+    <item>
+      <title>04. Branches 👩‍🎓👨‍🎓</title>
+      <link>/07-project-1-part-1/activities/day-01/04-branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/04-branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>04. Pull Request 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-02/04-pull-requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-02/04-pull-requests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>05. Anova 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/05-anova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/05-anova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>05. Push 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-01/05-push/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/05-push/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>06. Chi Square 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/06-chi-square/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/06-chi-square/</guid>
+      <description>import numpy as np import pandas as pd # The statistical module used to run chi square test import scipy.stats as stats # Observed data in a (hypothetical) survey of 300 people  observed = pd.Series([220,55,25], index=[&amp;#34;omnivores&amp;#34;, &amp;#34;carnivores&amp;#34;, &amp;#34;herbivores&amp;#34;]) # Create a data frame df = pd.DataFrame([observed]).T # Add a column whose default values are the expected values df[1] = 100 # Rename columns df.columns = [&amp;#34;observed&amp;#34;, &amp;#34;expected&amp;#34;] # View the data frame df  # The degree of freedom is 3-1 = 2 # With a p-value of 0.</description>
+    </item>
+    
+    <item>
+      <title>06. Push 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-01/06-push/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/06-push/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>07. Chi Square 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/07-chi-square/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/07-chi-square/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

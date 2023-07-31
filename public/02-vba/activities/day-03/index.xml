@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 3 on </title>
+    <link>/02-vba/activities/day-03/</link>
+    <description>Recent content in Day 3 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/02-vba/activities/day-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Star Counter 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/01-star-counter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/01-star-counter/</guid>
+      <description>Star Counter The dataset you&amp;rsquo;ll be working with for this activity contains 50 rows of customer review data for French and Spanish online learning programs. Columns D through H contain the number of stars each program received as feedback. For example, the first row of the data indicates that a French program received two out of five stars in Monnie Mccasland&amp;rsquo;s review.
+Data stored this way can be difficult to analyze, so you&amp;rsquo;ll be using VBA to convert it to numerical data.</description>
+    </item>
+    
+    <item>
+      <title>02. Formatter 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-03/02-formatter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/02-formatter/</guid>
+      <description>Sub formatter()   &amp;#39; Set the Font color to Red  Range(&amp;#34;A1&amp;#34;).Font.ColorIndex = 3   &amp;#39; Set the Cell Colors to Red  Range(&amp;#34;A2:A5&amp;#34;).Interior.ColorIndex = 3   &amp;#39; Set the Font Color to Green  Range(&amp;#34;B1&amp;#34;).Font.ColorIndex = 4   &amp;#39; Set the Cell Colors to Green  Range(&amp;#34;B2:B5&amp;#34;).Interior.ColorIndex = 4   &amp;#39; Set the Color Index to Blue  Range(&amp;#34;C1&amp;#34;).Font.ColorIndex = 5   &amp;#39; Set the Cell Colors to Blue  Range(&amp;#34;C2:C5&amp;#34;).</description>
+    </item>
+    
+    <item>
+      <title>03. Gradebook 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/03-vba-gradebook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/03-vba-gradebook/</guid>
+      <description>VBA Grade Book In this activity, you will create a macro that will check a student’s numerical grade, assign them a letter grade, and apply different formatting changes to a cell depending on the value of the student’s grade.
+Instructions With grader.xlsm as your starting point, create a grade calculator using conditionals. This calculator will convert a student&amp;rsquo;s numeric grade into a letter grade and then style the resulting cell accordingly.</description>
+    </item>
+    
+    <item>
+      <title>04. Checkerboard layout 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/04-checkerboard-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/04-checkerboard-layout/</guid>
+      <description>Checkerboard Layout In this activity, you will work with a partner to create a checkerboard.
+Instructions Using VBA scripts, create an 8-by-8 grid with alternating red and black squares.
+Hints   You will need to use nested for loops, conditionals, the MOD function, and formatting to create the board.
+  This is a tricky problem! Try to pseudocode a plan first.
+  Unlike previous activities, this one can be solved in many different ways.</description>
+    </item>
+    
+    <item>
+      <title>05. Next Cells 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-03/05-next-cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/05-next-cells/</guid>
+      <description>Sub NextCells()   &amp;#39; Set a variable for specifying the column of interest  Dim column As Integer  column = 1   &amp;#39; Loop through rows in the column  For i = 2 To 6   &amp;#39; Searches for when the value of the next cell is different than that of the current cell  If Cells(i + 1, column).Value &amp;lt;&amp;gt; Cells(i, column).Value Then   &amp;#39; Message Box the value of the current cell and value of the next cell  MsgBox (Cells(i, column).</description>
+    </item>
+    
+    <item>
+      <title>06. Credit Card Checker 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/06-credit-card-checker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/06-credit-card-checker/</guid>
+      <description>Credit Card Checker In this activity, you will practice comparing cells to calculate the total transaction amount for different credit card brands.
+Instructions   Create a VBA script that will process the credit card purchases by identifying each of the unique brands listed.
+  Create a single pop-up message for each of the credit card brands listed by looping through the list.
+  Bonus Add up the total value of credit card purchases for each brand, and put the information in the summary table.</description>
+    </item>
+    
+    <item>
+      <title>07. Census Part 1 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/07-census-pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/07-census-pt1/</guid>
+      <description>U.S. Census, Part 1 In this first part of the activity, you will create a VBA script that loops through the sheets in the workbook and formats each one to be more readable.
+Instructions   Extract the number before the phrase &amp;ldquo;_census_data&amp;rdquo; to figure out the year.
+  Add the year to the first column of each spreadsheet.
+  Split the &amp;ldquo;Place&amp;rdquo; column into &amp;ldquo;County&amp;rdquo; and &amp;ldquo;State&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>08. Census Part 2 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-03/08-census-pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-03/08-census-pt2/</guid>
+      <description>U.S. Census, Part 2 In this second part of this activity, you will combine all the worksheets into one massive table in a new sheet.
+Instructions   Loop through every worksheet, and select the year contents.
+  Copy the year contents, and paste them into the Combined_Data tab.
+  References Data Source: U.S. Census API - ACS 5-Year Estimates 2016-2019
+—</description>
+    </item>
+    
+  </channel>
+</rss>

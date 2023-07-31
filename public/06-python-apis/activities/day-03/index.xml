@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 3 on </title>
+    <link>/06-python-apis/activities/day-03/</link>
+    <description>Recent content in Day 3 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/06-python-apis/activities/day-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Geoapify Geocode  👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-03/01-geoapify-geocode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-03/01-geoapify-geocode/</guid>
+      <description># Dependencies import requests import json  # Import the API key from config import geoapify_key # Target city target_city = &amp;#34;Sydney, Australia&amp;#34;  # Build the endpoint URL target_url = f&amp;#34;https://api.geoapify.com/v1/geocode/search?text={target_city}&amp;amp;format=json&amp;amp;apiKey={geoapify_key}&amp;#34; target_url &amp;#39;https://api.geoapify.com/v1/geocode/search?text=Sydney, Australia&amp;amp;format=json&amp;amp;apiKey=7757f89767bc454db74be2b640389f77&amp;#39; # Run a request to endpoint and convert result to json geo_data = requests.get(target_url).json()  # Print the json print(geo_data)  # Print the json (pretty printed) print(json.dumps(geo_data, indent=4, sort_keys=True))  # Extract latitude and longitude lat = geo_data[&amp;#34;results&amp;#34;][0][&amp;#34;lat&amp;#34;] lon = geo_data[&amp;#34;results&amp;#34;][0][&amp;#34;lon&amp;#34;]  # Print the latitude and longitude print(&amp;#39;&amp;#39;&amp;#39; City: {0}Latitude: {1}Longitude: {2}&amp;#39;&amp;#39;&amp;#39;.</description>
+    </item>
+    
+    <item>
+      <title>02. Geoapify Places  👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-03/02-geoapify-places/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-03/02-geoapify-places/</guid>
+      <description>Geoapify Places Demo # Dependencies import requests import json  # Import the API key from config import geoapify_key # Set the geographical coordinates for Sydney, Australia latitude = -33.8698439 longitude = 151.2082848  # Set the parameters for the type of place categories = &amp;#34;catering.restaurant&amp;#34; conditions = &amp;#34;vegetarian&amp;#34; radius = 8000  # Set the parameters for the type of search filters = f&amp;#34;circle:{longitude},{latitude},{radius}&amp;#34; bias = f&amp;#34;proximity:{longitude},{latitude}&amp;#34; limit = 20  # set up a parameters dictionary params = {  &amp;#34;categories&amp;#34;:categories,  &amp;#34;conditions&amp;#34;:conditions,  &amp;#34;limit&amp;#34;:limit,  &amp;#34;filter&amp;#34;:filters,  &amp;#34;bias&amp;#34;:bias,  &amp;#34;apiKey&amp;#34;:geoapify_key }  # Set base URL base_url = &amp;#34;https://api.</description>
+    </item>
+    
+    <item>
+      <title>03.  Geoapify Drills👩‍🎓👨‍🎓</title>
+      <link>/06-python-apis/activities/day-03/03-geoapify-drills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-03/03-geoapify-drills/</guid>
+      <description>Geoapify Drills In this activity, you will perform API calls to the Geoapify places and geocoding endpoints.
+Instructions  Complete each of the six drills articulated in the code provided in geoapify_drills.ipynb. Feel encouraged to look back at the previous examples, but know that you will have to consult the Geoapify API documentation.  Hints   See the Geoapify Geocoding Documentation.
+  See the Geoapify Places Documentation.
+   </description>
+    </item>
+    
+    <item>
+      <title>04. Nearest Restaurants  👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-03/04-nearest-restaurants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-03/04-nearest-restaurants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>05. Exploring Airports 👩‍🎓👨‍🎓</title>
+      <link>/06-python-apis/activities/day-03/05-exploring-airports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-03/05-exploring-airports/</guid>
+      <description>Exploring Airports in Australia In this activity, you&amp;rsquo;ll be tasked with obtaining information about some Australian airports. You&amp;rsquo;ll be given a list of cities, and you&amp;rsquo;ll need to use the Geoapify Geocoding API and Geoapify Places API to obtain the airports&amp;rsquo; information.
+Instructions   Using airports.ipynb as a starting point, use the Geoapify Geocoding API, the Geoapify Places API, and Python to create a script that retrieves information of some Australian airports in each of the cities found in Cities.</description>
+    </item>
+    
+    <item>
+      <title>06. Geoviews Maps  👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-03/06-geoviews-maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-03/06-geoviews-maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>07. Airport Map 👩‍🎓👨‍🎓</title>
+      <link>/06-python-apis/activities/day-03/07-airport-map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-03/07-airport-map/</guid>
+      <description>Australian Airports Map In this activity, you will create a map based on Australian airports information that you generated before using the Geoapify API.
+Instructions   Load airports&amp;rsquo; data into a Pandas DataFrame.
+  Create a simple map using GeoViews by adding a point per airport and setting a fixed size at your convenience.
+  Use GeoViews to create a custom map by setting values for color, size, and a title different than OSM.</description>
+    </item>
+    
+    <item>
+      <title>08. Census  👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-03/08-census/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-03/08-census/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>09. Banking Deserts  👩‍🏫🧑‍🏫</title>
+      <link>/06-python-apis/activities/day-03/09-banking-deserts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/06-python-apis/activities/day-03/09-banking-deserts/</guid>
+      <description>Banking Deserts In this activity, your task is to understand if there is a relationship between poverty, age, population, and the number of banks in a given area. To help, we’ve provided you with Census data for every U.S. zip code. You will also visualize this data using GeoViews.
+Instructions   Retrieve data from the U.S. Census using the Census Python library and the preconfigured labels.
+  Load the zip_bank_data.</description>
+    </item>
+    
+  </channel>
+</rss>

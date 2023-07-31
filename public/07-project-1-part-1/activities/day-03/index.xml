@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 3 on </title>
+    <link>/07-project-1-part-1/activities/day-03/</link>
+    <description>Recent content in Day 3 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/07-project-1-part-1/activities/day-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Null Hypothesis 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/01-null-hypothesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/01-null-hypothesis/</guid>
+      <description>Forming a Null Hypothesis In this activity, you will turn two questions into a null hypothesis and an alternate hypothesis.
+Instructions Form a hypothesis and null hypothesis for the following questions:
+  Does dark chocolate affect arterial function in healthy individuals?
+  Does coffee have anti-aging properties?
+   Solutions Null Hypothesis   Does dark chocolate improve arterial function in healthy individuals?
+  Alternate hypothesis - If dark chocolate is related to arterial function in healthy individuals, then consuming 30g of dark chocolate over a one-year period will result in improved arterial function.</description>
+    </item>
+    
+    <item>
+      <title>02. TTest 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/02-ttest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/02-ttest/</guid>
+      <description>import warnings warnings.filterwarnings(&amp;#39;ignore&amp;#39;) %matplotlib inline from matplotlib import pyplot as plt import numpy as np import scipy.stats as stats  # Helper Functions to Generate and Plot Data # Generate some fake data to test with def gendata(loc=0):  population = stats.norm.rvs(size=1000, random_state=42)  sample = stats.norm.rvs(loc=loc, size=200, random_state=42)   # Scatter Plot of Data  plt.subplot(2, 1, 1)  plt.scatter(range(len(population)), population, label=&amp;#34;population&amp;#34;)  plt.scatter(range(len(sample)), sample, label=&amp;#34;sample&amp;#34;)  plt.</description>
+    </item>
+    
+    <item>
+      <title>03. Stanger Height TTest 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/03-stranger-heights-ttest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/03-stranger-heights-ttest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>04. Anova 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/04-anova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/04-anova/</guid>
+      <description>import warnings warnings.filterwarnings(&amp;#39;ignore&amp;#39;) %matplotlib inline import pandas as pd import scipy.stats as stats  # Comparison of 5 Durations of Workouts # The problem: How do we know if working out on a regular basis will reduce overall average resting heart rate?  # The solution: ANOVA - does working out more regularly reduce average resting heart rate?  # Dataset: resting_heart_rate.csv # Source: Internally generated data.  # Description: Comparison of people who work out during the week and average resting heart rate.</description>
+    </item>
+    
+    <item>
+      <title>05. Anova 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/05-anova/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/05-anova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>06. Chi Square 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/06-chi-square/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/06-chi-square/</guid>
+      <description>import numpy as np import pandas as pd # The statistical module used to run chi square test import scipy.stats as stats # Observed data in a (hypothetical) survey of 300 people  observed = pd.Series([220,55,25], index=[&amp;#34;omnivores&amp;#34;, &amp;#34;carnivores&amp;#34;, &amp;#34;herbivores&amp;#34;]) # Create a data frame df = pd.DataFrame([observed]).T # Add a column whose default values are the expected values df[1] = 100 # Rename columns df.columns = [&amp;#34;observed&amp;#34;, &amp;#34;expected&amp;#34;] # View the data frame df  # The degree of freedom is 3-1 = 2 # With a p-value of 0.</description>
+    </item>
+    
+    <item>
+      <title>07. Chi Square 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-03/07-chi-square/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-03/07-chi-square/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

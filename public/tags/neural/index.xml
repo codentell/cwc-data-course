@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>neural on </title>
+    <link>/tags/neural/</link>
+    <description>Recent content in neural on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/neural/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01.  Work Through Logistics  👩‍🎓👨‍🎓</title>
+      <link>/21-neural-network-deep-learning/activities/day-01/01-work-through-logistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/21-neural-network-deep-learning/activities/day-01/01-work-through-logistics/</guid>
+      <description>Work Through Logistics In this activity, you&amp;rsquo;ll use a logistic regression to categorize data from the make_blobs function from scikit-learn to create data.
+Instructions   Use the starter code provided to create your make_blobs dataset from scikit-learn.
+  Split your dataset into training and testing sets using scikit-learn&amp;rsquo;s train_test_split module.
+  Create a LogisticRegression instance from scikit-learn&amp;rsquo;s LogisticRegression model.
+  Hint   If you need a reminder on how to create a LogisticRegression model, review the Scikit-learn documentation.</description>
+    </item>
+    
+    <item>
+      <title>Activities ✅</title>
+      <link>/21-neural-network-deep-learning/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/21-neural-network-deep-learning/activities/</guid>
+      <description>Video Speed Run of the Activities if you get stuck or miss class
+📺 Neural Network &amp;amp; Deep Learning Activities Video Speed Runs 🏃‍♀️🏃    Day Mac 🍎 Duration Window 🖼️ Duration     01 Video 📺 00:00:00 ⏲️ Video 📺 00:00:00 ⏲️   02 Video 📺 00:00:00 ⏲️ Video 📺 00:00:00 ⏲️   03 Video 📺 00:00:00 ⏲️ Video 📺 00:00:00 ⏲️    Activities Required ✅ ⬆️ Back to Top Instructor Turn = 👩‍🏫🧑‍🏫 Students Turn = 👩‍🎓👨‍🎓</description>
+    </item>
+    
+    <item>
+      <title>Day 1</title>
+      <link>/21-neural-network-deep-learning/activities/day-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/21-neural-network-deep-learning/activities/day-01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Day 2</title>
+      <link>/21-neural-network-deep-learning/activities/day-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/21-neural-network-deep-learning/activities/day-02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Day 3</title>
+      <link>/21-neural-network-deep-learning/activities/day-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/21-neural-network-deep-learning/activities/day-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>02.  Work through Neural Network 👩‍🏫🧑‍🏫</title>
+      <link>/21-neural-network-deep-learning/activities/day-01/02-work-through-nn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/21-neural-network-deep-learning/activities/day-01/02-work-through-nn/</guid>
+      <description>%matplotlib # Import our dependencies import pandas as pd import matplotlib as plt from sklearn.datasets import make_blobs import sklearn as skl import tensorflow as tf Using matplotlib backend: MacOSX # Generate dummy dataset X, y = make_blobs(n_samples=1000, centers=2, n_features=2, random_state=78)  # Creating a DataFrame with the dummy data df = pd.DataFrame(X, columns=[&amp;#34;Feature 1&amp;#34;, &amp;#34;Feature 2&amp;#34;]) df[&amp;#34;Target&amp;#34;] = y  # Plotting the dummy data df.plot.scatter(x=&amp;#34;Feature 1&amp;#34;, y=&amp;#34;Feature 2&amp;#34;, c=&amp;#34;Target&amp;#34;, colormap=&amp;#34;winter&amp;#34;)   # Use sklearn to split dataset from sklearn.</description>
+    </item>
+    
+    <item>
+      <title>03.  BYONNM 👩‍🎓👨‍🎓</title>
+      <link>/21-neural-network-deep-learning/activities/day-01/03-byonnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/21-neural-network-deep-learning/activities/day-01/03-byonnm/</guid>
+      <description>Bring Your Own Neural Network Model In this activity, you&amp;rsquo;ll use a neural network model to classify the data from make_blobs.
+Instructions   Using the starter code provided, visualize the blobs dummy dataset using a Pandas scatter plot.
+  Randomly split the dummy data into training and test datasets using scikit-learn&amp;rsquo;s train_test_split method.
+  Normalize both datasets using scikit-learn&amp;rsquo;s StandardScaler class.
+  Using the Keras module, create a basic neural network with five neurons in the hidden layer.</description>
+    </item>
+    
+  </channel>
+</rss>

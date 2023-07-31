@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 1 on </title>
+    <link>/07-project-1-part-1/activities/day-01/</link>
+    <description>Recent content in Day 1 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/07-project-1-part-1/activities/day-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Workflows 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-01/01-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/01-workflow/</guid>
+      <description>Workflow Diagrams Imagine that you&amp;rsquo;re working on a Git project.
+ So far, you&amp;rsquo;ve made three different commits, all on your main branch. We&amp;rsquo;d write this as follows:  (main) | [m1] -&amp;gt; [m2] -&amp;gt; [m3]  [m1] is the first commit on the main branch; [m2] is the second, etc. The m comes from the fact that these commits are on the main branch.  Branching Whenever you want to either add something new or fix something broken, you should create a new branch for your work.</description>
+    </item>
+    
+    <item>
+      <title>02. Workflow 👩‍🎓👨‍🎓</title>
+      <link>/07-project-1-part-1/activities/day-01/02-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/02-workflow/</guid>
+      <description>Review Questions This document contains review questions about Git basics.
+Instructions For the following diagramming exercises, either draw your solutions on paper or use the interface provided at Git Viz.
+Overview   Consider the example from the lecture, where we created a branch for our data analysis. Why did we create a new branch for this? Why not simply do this on main?
+  Write down two advantages to creating branches instead of working directly on main.</description>
+    </item>
+    
+    <item>
+      <title>03. Branch 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-01/03-branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/03-branch/</guid>
+      <description>Branch Demo 0. Getting the Repo Before we can work with Git, we must either create a new repository, or clone one from GitHub.
+Note that, in the examples below, we use git status before every git commit. This is a best practice that helps ensure a deliberate commit history. For brevity&amp;rsquo;s sake, this line will be omitted in future files, but assume we&amp;rsquo;ve always run git status before any git commit.</description>
+    </item>
+    
+    <item>
+      <title>04. Branches 👩‍🎓👨‍🎓</title>
+      <link>/07-project-1-part-1/activities/day-01/04-branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/04-branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>05. Push 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-01/05-push/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/05-push/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>06. Push 👩‍🏫🧑‍🏫</title>
+      <link>/07-project-1-part-1/activities/day-01/06-push/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/07-project-1-part-1/activities/day-01/06-push/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

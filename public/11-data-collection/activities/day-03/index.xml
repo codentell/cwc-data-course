@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 3 on </title>
+    <link>/11-data-collection/activities/day-03/</link>
+    <description>Recent content in Day 3 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/11-data-collection/activities/day-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Automated Web Scrape 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-03/01-automated-web-scrape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/01-automated-web-scrape/</guid>
+      <description>Practice Performing an Automated Web Scrape In this activity, we&amp;rsquo;ll scrape data from a website that was created specifically for practicing our skills: Quotes to Scrape.
+Instructions   First, open up Quotes to Scrape in Chrome and familiarize yourself with the page layout.
+  Now let’s use DevTools to review the details of the “Top Ten tags” line. Right-click anywhere on the webpage, and then click Inspect. Note that in the DevTools panel, we can use a shortcut to choose an element on the page instead of searching through the tags.</description>
+    </item>
+    
+    <item>
+      <title>02. Scrape Multiple Pages 👩‍🏫🧑‍🏫</title>
+      <link>/11-data-collection/activities/day-03/02-scrape-multiple-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/02-scrape-multiple-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>03. Scrape Book Links 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-03/03-scrape-book-links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/03-scrape-book-links/</guid>
+      <description>Scrape Book Links In this activity, you&amp;rsquo;ll practice automated scraping on another website that was created specifically for practicing our skills: Books to Scrape.
+Inspect the Website You&amp;rsquo;ll be scraping the links associated with each of the books on this website, so get started by using DevTools to review the details for each book.
+  First, open up the website in Chrome and familiarize yourself with the page layout. Where can you find a link to more details about each book?</description>
+    </item>
+    
+    <item>
+      <title>04. News 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-03/04-news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/04-news/</guid>
+      <description>News Scraping  In this activity, you will scrape news summaries across multiple pages from the Global Voices news site.  Instructions   Open page 2 of Global Voices news. Use DevTools to identify the elements that contain the data you need to scrape.
+  Within your Jupyter notebook, use Splinter to click on any popup or lightbox to make it disappear.
+  Create an empty list to store your article summaries.</description>
+    </item>
+    
+    <item>
+      <title>05. Mars Facts Scrape 👩‍🎓👨‍🎓</title>
+      <link>/11-data-collection/activities/day-03/05-mars-fact-scrape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/05-mars-fact-scrape/</guid>
+      <description>Mars Facts Scrape In this activity, you&amp;rsquo;ll practice scraping data that was stored in a table on a website.
+Instructions   First, open up the Mars Facts website in Chrome and become familiar with the layout.
+  You&amp;rsquo;ll scrape the data from the table labeled &amp;ldquo;Mars Planet Profile.&amp;rdquo; Use Chrome DevTools to inspect that element. What is the class of the table you want to scrape?
+  Now that you know the class you are looking for, begin the scraping process by importing the necessary libraries and setting up Splinter.</description>
+    </item>
+    
+    <item>
+      <title>06. Scrape Pandas 👩‍🏫🧑‍🏫</title>
+      <link>/11-data-collection/activities/day-03/06-scrape-pandas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-data-collection/activities/day-03/06-scrape-pandas/</guid>
+      <description>import pandas as pd  # Read in HTML tables into a DataFrame df = pd.read_html(&amp;#39;https://static.bc-edx.com/data/web/mars_facts/index.html&amp;#39;)  # Select the second table mars_df = df[1]  # Rename columns mars_df.columns=[&amp;#39;description&amp;#39;, &amp;#39;Mars&amp;#39;, &amp;#39;Earth&amp;#39;]  # Remove the first row from the DataFrame mars_df = mars_df.iloc[1:]  mars_df </description>
+    </item>
+    
+  </channel>
+</rss>

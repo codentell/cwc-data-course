@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 3 on </title>
+    <link>/04-pandas/activities/day-03/</link>
+    <description>Recent content in Day 3 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/04-pandas/activities/day-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01.  Merging 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-03/01-merging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/01-merging/</guid>
+      <description># Dependencies import pandas as pd raw_data_info = {  &amp;#34;customer_id&amp;#34;: [112, 403, 999, 543, 123],  &amp;#34;name&amp;#34;: [&amp;#34;John&amp;#34;, &amp;#34;Kelly&amp;#34;, &amp;#34;Sam&amp;#34;, &amp;#34;April&amp;#34;, &amp;#34;Bobbo&amp;#34;],  &amp;#34;email&amp;#34;: [&amp;#34;jman@gmail&amp;#34;, &amp;#34;kelly@aol.com&amp;#34;, &amp;#34;sports@school.edu&amp;#34;, &amp;#34;April@yahoo.com&amp;#34;, &amp;#34;HeyImBobbo@msn.com&amp;#34;] } info_df = pd.DataFrame(raw_data_info, columns=[&amp;#34;customer_id&amp;#34;, &amp;#34;name&amp;#34;, &amp;#34;email&amp;#34;]) info_df  # Create DataFrames raw_data_items = {  &amp;#34;customer_id&amp;#34;: [403, 112, 543, 999, 654],  &amp;#34;item&amp;#34;: [&amp;#34;soda&amp;#34;, &amp;#34;chips&amp;#34;, &amp;#34;TV&amp;#34;, &amp;#34;Laptop&amp;#34;, &amp;#34;Cooler&amp;#34;],  &amp;#34;cost&amp;#34;: [3.00, 4.50, 600, 900, 150] } items_df = pd.DataFrame(raw_data_items, columns=[  &amp;#34;customer_id&amp;#34;, &amp;#34;item&amp;#34;, &amp;#34;cost&amp;#34;]) items_df  # Merge two dataframes using an inner join merge_df = pd.</description>
+    </item>
+    
+    <item>
+      <title>02.  Census Merging 👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-03/02-census-merging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/02-census-merging/</guid>
+      <description>Census Merging In this activity, you will merge the two Census datasets that we created in the last class and then do a calculation and sort the values.
+Instructions   Read in both of the CSV files, and print out their DataFrames.
+  Perform an inner merge that combines both DataFrames on the &amp;ldquo;Year&amp;rdquo; and &amp;ldquo;State&amp;rdquo; columns.
+  Create a DataFrame that filters the data on only 2019.</description>
+    </item>
+    
+    <item>
+      <title>03.  Census Merging 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-03/03-binning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/03-binning/</guid>
+      <description># Import Dependencies import pandas as pd raw_data = {  &amp;#39;Class&amp;#39;: [&amp;#39;Oct&amp;#39;, &amp;#39;Oct&amp;#39;, &amp;#39;Jan&amp;#39;, &amp;#39;Jan&amp;#39;, &amp;#39;Oct&amp;#39;, &amp;#39;Jan&amp;#39;],  &amp;#39;Name&amp;#39;: [&amp;#34;Cyndy&amp;#34;, &amp;#34;Logan&amp;#34;, &amp;#34;Laci&amp;#34;, &amp;#34;Elmer&amp;#34;, &amp;#34;Crystle&amp;#34;, &amp;#34;Emmie&amp;#34;],  &amp;#39;Test Score&amp;#39;: [90, 59, 72, 88, 98, 60]} df = pd.DataFrame(raw_data) df  # Create the bins in which Data will be held # Bins are 0, 59.9, 69.9, 79.9, 89.9, 100.  bins = [0, 59.9, 69.9, 79.9, 89.9, 100]  # Create the names for the five bins group_names = [&amp;#34;F&amp;#34;, &amp;#34;D&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;B&amp;#34;, &amp;#34;A&amp;#34;] df[&amp;#34;Test Score Summary&amp;#34;] = pd.</description>
+    </item>
+    
+    <item>
+      <title>04.  Movie Ratings Binning  👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-03/04-movie-ratings-binning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/04-movie-ratings-binning/</guid>
+      <description>Binning Movies In this activity, you will test your binning skills by creating bins for movies based on their IMDb user vote count.
+Instructions   Read in the CSV file provided, and print it to the screen.
+  Find the minimum &amp;ldquo;IMDB user vote count&amp;rdquo; and maximum &amp;ldquo;IMDB user vote count&amp;rdquo;.
+  Using the minimum and maximum &amp;ldquo;votes&amp;rdquo; as a reference, create 9 bins to slice the data into.</description>
+    </item>
+    
+    <item>
+      <title>05.  Mapping 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-03/05-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/05-mapping/</guid>
+      <description> import pandas as pd # Mapping lets you format an entire DataFrame file = &amp;#34;Resources/Seattle_Housing_Cost_Burden.csv&amp;#34; file_df = pd.read_csv(file) file_df.head()  # Use Map to format all the columns file_df[&amp;#34;INCOME&amp;#34;] = file_df[&amp;#34;INCOME&amp;#34;].map(&amp;#34;${:,.2f}&amp;#34;.format) file_df[&amp;#34;COSTS&amp;#34;] = file_df[&amp;#34;COSTS&amp;#34;].map(&amp;#34;${:,.2f}&amp;#34;.format) file_df[&amp;#34;PERCENT30&amp;#34;] = (file_df[&amp;#34;PERCENT30&amp;#34;]*100).map(&amp;#34;{:.1f}%&amp;#34;.format) file_df[&amp;#34;PERCENT3050&amp;#34;] = (file_df[&amp;#34;PERCENT3050&amp;#34;]*100).map(&amp;#34;{:.1f}%&amp;#34;.format) file_df[&amp;#34;PERCENT50&amp;#34;] = (file_df[&amp;#34;PERCENT50&amp;#34;]*100).map(&amp;#34;{:.1f}%&amp;#34;.format) file_df[&amp;#34;PERCENT_NODATA&amp;#34;] = (file_df[&amp;#34;PERCENT_NODATA&amp;#34;]*100).map(&amp;#34;{:.1f}%&amp;#34;.format) file_df[&amp;#34;PERCENT_NOBURDEN&amp;#34;] = (file_df[&amp;#34;PERCENT_NOBURDEN&amp;#34;]*100).map(&amp;#34;{:.1f}%&amp;#34;.format) file_df[&amp;#34;TOTAL&amp;#34;] = file_df[&amp;#34;TOTAL&amp;#34;].map(&amp;#34;{:,}&amp;#34;.format) file_df.head()  # Mapping has changed the datatypes of the columns to strings file_df.dtypes </description>
+    </item>
+    
+    <item>
+      <title>06.  Cleaning Crowdfunding  👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-03/06-cleaning-crowdfunding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/06-cleaning-crowdfunding/</guid>
+      <description>Cleaning Crowdfunding In this activity, you will take the dataset from your first homework, clean it up, and format it.
+Instructions  The instructions for this activity are contained within the Jupyter notebook.  References Data for this dataset was generated by edX Boot Camps LLC, and is intended for educational purposes only.
+ ✅ Solutions   Solutions Click Here    import pandas as pd # The path to our CSV file file = &amp;#34;Resources/CrowdfundingData.</description>
+    </item>
+    
+    <item>
+      <title>07.  Intro to bug fixing 👩‍🏫🧑‍🏫</title>
+      <link>/04-pandas/activities/day-03/07-intro-to-bug-fixing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/07-intro-to-bug-fixing/</guid>
+      <description># Import dependencies import pandas as pd # Reference to CSV and reading CSV into Pandas DataFrame csv_path = &amp;#34;Resources/veterans.csv&amp;#34; veterans_df = pd.read_csv(csv_path) veterans_df.head()  veterans_df.columns  # Converting the &amp;#34;Percentage&amp;#34; column to floats veterans_df[&amp;#34;Percentage&amp;#34;] = veterans_df[&amp;#34;Percentage&amp;#34;].str.replace(&amp;#34;%&amp;#34;, &amp;#34;&amp;#34;).astype  # Finding the average percentage of veterans living within 75 miles of a cemetery veterans_df[&amp;#34;Percentage&amp;#34;].mean() </description>
+    </item>
+    
+    <item>
+      <title>08. Bug Fixing Bonanza  👩‍🎓👨‍🎓</title>
+      <link>/04-pandas/activities/day-03/08-bug-fixing-bonanza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/04-pandas/activities/day-03/08-bug-fixing-bonanza/</guid>
+      <description>✅ Solutions   Solutions Click Here    import pandas as pd # Create a reference to the CSV and import it into a Pandas DataFrame csv_path = &amp;#34;Resources/Bedbug_Reporting.csv&amp;#34; bugs_df = pd.read_csv(csv_path) bugs_df.head()  bugs_df.columns  # Remove the extra space from &amp;#34;Re-infested Dwelling Unit Count&amp;#34; column bugs_df = bugs_df.rename(  columns={&amp;#34;Re-infested Dwelling Unit Count&amp;#34;: &amp;#34;Re-infested Dwelling Unit Count&amp;#34;}) # Columns we&amp;#39;re interested in: &amp;#39;Building ID&amp;#39;, &amp;#39;Borough&amp;#39;, &amp;#39;Postcode&amp;#39;, &amp;#39;# of Dwelling Units&amp;#39;, # &amp;#39;Infested Dwelling Unit Count&amp;#39;, &amp;#39;Eradicated Unit Count&amp;#39;, # &amp;#39;Re-infested Dwelling Unit Count&amp;#39;, &amp;#39;Filing Date&amp;#39;, &amp;#39;Latitude&amp;#39;, &amp;#39;Longitude&amp;#39; bugs_df = bugs_df[[&amp;#39;Building ID&amp;#39;, &amp;#39;Borough&amp;#39;, &amp;#39;Postcode&amp;#39;, &amp;#39;# of Dwelling Units&amp;#39;,  &amp;#39;Infested Dwelling Unit Count&amp;#39;, &amp;#39;Eradicated Unit Count&amp;#39;,  &amp;#39;Re-infested Dwelling Unit Count&amp;#39;, &amp;#39;Filing Date&amp;#39;,  &amp;#39;Latitude&amp;#39;, &amp;#39;Longitude&amp;#39;]] bugs_df.</description>
+    </item>
+    
+  </channel>
+</rss>

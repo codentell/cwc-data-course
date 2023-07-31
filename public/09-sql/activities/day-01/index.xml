@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 1 on </title>
+    <link>/09-sql/activities/day-01/</link>
+    <description>Recent content in Day 1 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/09-sql/activities/day-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>00. Setup for Mac and PC 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/00-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/00-setup/</guid>
+      <description>Installing pgAdmin and Postgres on a Mac Similar to coding with Python using Visual Studio Code, SQL requires a code editor with the ability to execute the scripts that are created by developers. This section guides you through the process of installing pgAdmin and Postgres on a Mac.
+Before You Begin   Remember to choose the installation package specific to your operating system and download the latest version.
+  Be prepared to record a password—it will be needed later!</description>
+    </item>
+    
+    <item>
+      <title>01. Creating a Database 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-01/01-creating-a-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/01-creating-a-database/</guid>
+      <description>Create a Database In this activity, everyone will create a database in pgAdmin from scratch.
+Instructions To create a database in pgAdmin, follow these steps:
+  In the pgAdmin editor, right-click the newly established server to create a new database.
+  From the menu, select Create, and then select Database to create a new database.
+  Enter animals_db as the database name. Make sure the owner is set as the default postgres, and then click Save.</description>
+    </item>
+    
+    <item>
+      <title>02. Creating a Table 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-01/02-creating-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/02-creating-tables/</guid>
+      <description>-- Create a new table CREATE TABLE people (  name VARCHAR(30) NOT NULL,  has_pet BOOLEAN DEFAULT false,  pet_type VARCHAR(10) NOT NULL,  pet_name VARCHAR(30),  pet_age INT );  -- Query all fields from the table SELECT * FROM people;  -- Insert data into the table INSERT INTO people (name, has_pet, pet_type, pet_name, pet_age) VALUES (&amp;#39;Jacob&amp;#39;, true, &amp;#39;dog&amp;#39;, &amp;#39;Misty&amp;#39;, 10),  (&amp;#39;Ahmed&amp;#39;, true, &amp;#39;rock&amp;#39;, &amp;#39;Rockington&amp;#39;, 100),  (&amp;#39;Peter&amp;#39;, true, &amp;#39;cat&amp;#39;, &amp;#39;Franklin&amp;#39;, 2),  (&amp;#39;Dave&amp;#39;, true, &amp;#39;dog&amp;#39;, &amp;#39;Queso&amp;#39;, 1);  -- Query only the `pet_name` field SELECT pet_name FROM people;  -- Filter the query to show only dogs under the age of 5 SELECT pet_type, pet_name FROM people WHERE pet_type = &amp;#39;dog&amp;#39; AND pet_age &amp;lt; 5; </description>
+    </item>
+    
+    <item>
+      <title>03. Creating Tables 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/03-creating-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/03-creating-tables/</guid>
+      <description>In this activity, you will use pgAdmin to recreate and query a table based on an image provided to you.
+Instructions   Create a new database in pgAdmin named city_info.
+  Using the query tool, create an empty table named cities. Be sure to match the data types!
+  Insert data into the new table. The result should match the following image.
+   citycharacter varying (30) statecharacter varying (30) populationinteger     Alameda California 79177   Mesa Arizona 496401   Boerne Texas 16056   Anaheim California 352497   Tucson Arizona 535677   Garland Texas 238002      Query the table to recreate the image below.</description>
+    </item>
+    
+    <item>
+      <title>05. Making IDs 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/05-making-ids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/05-making-ids/</guid>
+      <description>Making and Using an ID In this activity, you will recreate a table and then query, insert, and update data.
+Instructions   Create a new database named programming_db.
+  Recreate the programming_languages table using the following image.
+   idinteger languagecharacter varying (20) ratinginteger     1 HTML 95   2 JS 99   3 JQuery 98   4 MySQL 70   5 MySQL 70      Query the table to return the rows containing MySQL, and then delete one of the duplicates.</description>
+    </item>
+    
+    <item>
+      <title>04. Values of Uniques 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-01/04-values-of-uniques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/04-values-of-uniques/</guid>
+      <description>-- Delete the table &amp;#34;people&amp;#34; DROP TABLE people;  -- Re-create the table &amp;#34;people&amp;#34; within animals_db CREATE TABLE people (  id SERIAL PRIMARY KEY,  name VARCHAR(30) NOT NULL,  has_pet BOOLEAN DEFAULT false,  pet_type VARCHAR(10) NOT NULL,  pet_name VARCHAR(30),  pet_age INT );  -- Insert data into the table INSERT INTO people (name, has_pet, pet_type, pet_name, pet_age) VALUES (&amp;#39;Jacob&amp;#39;, true, &amp;#39;dog&amp;#39;, &amp;#39;Misty&amp;#39;, 10),  (&amp;#39;Ahmed&amp;#39;, true, &amp;#39;rock&amp;#39;, &amp;#39;Rockington&amp;#39;, 100),  (&amp;#39;Ahmed&amp;#39;, true, &amp;#39;rock&amp;#39;, &amp;#39;Rockington&amp;#39;, 100),  (&amp;#39;Peter&amp;#39;, true, &amp;#39;cat&amp;#39;, &amp;#39;Franklin&amp;#39;, 2),  (&amp;#39;Dave&amp;#39;, true, &amp;#39;dog&amp;#39;, &amp;#39;Queso&amp;#39;, 1),  (&amp;#39;Dave&amp;#39;, true, &amp;#39;dog&amp;#39;, &amp;#39;Pringles&amp;#39;, 7);  -- Query all fields from the table SELECT * FROM people;  -- Query the data to return all the rows containing the name &amp;#34;Dave&amp;#34; SELECT id, name, pet_name, pet_age FROM people WHERE name = &amp;#39;Dave&amp;#39;;  -- Update a single row to change the `pet_name` and `pet_age` column data UPDATE people SET has_pet = true, pet_name = &amp;#39;Rocket&amp;#39;, pet_age = 8 WHERE id = 6;  SELECT * FROM people;  -- Delete the duplicate entry using a unique id DELETE FROM people WHERE id = 3;  SELECT * FROM people; </description>
+    </item>
+    
+    <item>
+      <title>06. Importing Data 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-01/06-importing-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/06-importing-data/</guid>
+      <description>Files: Fauna_Vertabrate.csv
+-- Drop table if exists DROP TABLE fauna_vertabrate;  -- Create new table CREATE TABLE fauna_vertabrate (  longitude DEC,  latitude DEC,  OBJECTID INT,  suburb VARCHAR,  property_name VARCHAR,  GI_class VARCHAR,  GI_type VARCHAR,  group_ VARCHAR,  family VARCHAR,  family_common_name VARCHAR,  scientific_name VARCHAR,  genus VARCHAR,  species VARCHAR,  common_name VARCHAR,  fauna_status VARCHAR );   -- View table columns and datatypes SELECT * FROM fauna_vertabrate; So far, the class has created their own tables and values manually using SQL code.</description>
+    </item>
+    
+    <item>
+      <title>07. Hide and Seek 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/07-hide-and-seek/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/07-hide-and-seek/</guid>
+      <description>Hide and Seek In this activity, you will create a new table and import data from a CSV file. To learn more about this dataset, you may review the reference at the end of this document.
+Instructions   Open the soft-attributes.csv CSV file from the Resources folder to analyze the data.
+  Using the column headers and data types from the CSV file, write the table schema to create a new table in the Miscellaneous_DB database called movie_words_comparison.</description>
+    </item>
+    
+    <item>
+      <title>08. CRUD 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/08-crud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/08-crud/</guid>
+      <description>Using CRUD: Create, Read, Update, and Delete In this activity, you will use CRUD operations (Create, Read, Update, Delete) on the provided data.
+Instructions   Create a new database named Malaysia in pgAdmin.
+  Create two new tables in the Malaysia database by copying the code provided in schema.sql into a new query window in pgAdmin.
+  Using the Import/Export tool, import the data from mys_road_accidents.csv into the road_accidents table, and then import the data from mys_accidents_by_state.</description>
+    </item>
+    
+    <item>
+      <title>09. Joins 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-01/09-joins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/09-joins/</guid>
+      <description>-- Drop table if exists DROP TABLE names;  -- Create the names table CREATE TABLE Names ( 	i INT PRIMARY KEY, 	dep_id INT, 	line INT, 	name VARCHAR, 	status VARCHAR, 	inserted_by VARCHAR, 	insert_date DATE, 	updated_by VARCHAR, 	update_date DATE );  -- Check data import SELECT * FROM names;  -- Create the commodity table CREATE TABLE commodity ( 	i INT PRIMARY KEY, 	dep_id INT, 	line INT, 	commod VARCHAR, 	code VARCHAR, 	commod_tp VARCHAR, 	commod_group VARCHAR, 	import VARCHAR, 	inserted_by VARCHAR, 	insert_date DATE, 	updated_by VARCHAR, 	update_date DATE );  -- Check data import SELECT * FROM commodity;  -- Perform an INNER JOIN on the two tables SELECT names.</description>
+    </item>
+    
+    <item>
+      <title>10. Joins 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/10-joins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/10-joins/</guid>
+      <description>Joining Bird Bands When information could unintentionally be duplicated, data is often stored in separate tables with reference to an id. In the case of the dataset you will explore, most of the unique identifiers are labeled with the word code.
+In this activity, you will be using joins to learn more about North American bird banding. The example contains data reduced from its original source, so if you would like to explore the data further, click the link in the Reference section.</description>
+    </item>
+    
+  </channel>
+</rss>

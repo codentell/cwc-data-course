@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on </title>
+    <link>/tags/css/</link>
+    <description>Recent content in css on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Module 2 Challenge ⭐</title>
+      <link>/02-vba/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/challenges/</guid>
+      <description>📺 VBA Module 02 Challenge 🏃‍♀️🏃 Watch if you get stuck or have no time
+   Day Mac 🍎 Duration Window 🖼️ Duration     01 Video 📺 01:22:00 ⏲️ Video 📺 01:22:00 ⏲️    Background You are well on your way to becoming a programmer and Excel expert! In this homework assignment, you will use VBA scripting to analyze generated stock market data.</description>
+    </item>
+    
+  </channel>
+</rss>

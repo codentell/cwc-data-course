@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 3 on </title>
+    <link>/09-sql/activities/day-03/</link>
+    <description>Recent content in Day 3 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/09-sql/activities/day-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Data Normalization 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-03/01-data-normalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/01-data-normalization/</guid>
+      <description>Data Normalization First Form Normalization   Each field in a table row row should contain a single value.
+  Each row is unique.
+  Second Form Normalization   Be in first normal form.
+  Single Column for Primary Key.
+ Identifies the table uniquely    Third Form Normalization   Be in second normal form.
+  Contain non-transitively dependent columns.
+  </description>
+    </item>
+    
+    <item>
+      <title>02. Data Normalization 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/02-data-normalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/02-data-normalization/</guid>
+      <description>In this activity, you will use data normalization practices.
+Instructions   In pgAdmin, create a new database called pets_db.
+  Use Excel to get the data into first normal form (1NF).
+  Using the normalized CSV, create the following tables with continued normalized practices:
+A table for owners that takes an ID and the owner&amp;rsquo;s name.
+A table for pet names that takes two IDs, the pet&amp;rsquo;s name, and the pet&amp;rsquo;s type.</description>
+    </item>
+    
+    <item>
+      <title>03. Foreign Keys 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-03/03-foreign-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/03-foreign-keys/</guid>
+      <description>CREATE TABLE animals_all (  id SERIAL PRIMARY KEY,  animal_species VARCHAR(30) NOT NULL,  owner_name VARCHAR(30) NOT NULL );  INSERT INTO animals_all (animal_species, owner_name) VALUES  (&amp;#39;Dog&amp;#39;, &amp;#39;Bob&amp;#39;),  (&amp;#39;Fish&amp;#39;, &amp;#39;Bob&amp;#39;),  (&amp;#39;Cat&amp;#39;, &amp;#39;Kelly&amp;#39;),  (&amp;#39;Dolphin&amp;#39;, &amp;#39;Aquaman&amp;#39;);  SELECT * FROM animals_all;  CREATE TABLE animals_location (  id SERIAL PRIMARY KEY,  location VARCHAR(30) NOT NULL,  animal_id INTEGER NOT NULL,  FOREIGN KEY (animal_id) REFERENCES animals_all(id) );  -- Insert data INSERT INTO animals_location (location, animal_id) VALUES  (&amp;#39;Dog House&amp;#39;, 1),  (&amp;#39;Fish Tank&amp;#39;, 2),  (&amp;#39;Bed&amp;#39;, 3),  (&amp;#39;Ocean&amp;#39;, 4);  SELECT * FROM animals_location;  -- Insert error INSERT INTO animals_location (location, animal_id) VALUES (&amp;#39;River&amp;#39;, 5);  -- Correct insert INSERT INTO animals_all (animal_species, owner_name) VALUES  (&amp;#39;Fish&amp;#39;, &amp;#39;Dave&amp;#39;);  INSERT INTO animals_location (location, animal_id) VALUES  (&amp;#39;River&amp;#39;, 5);  SELECT * FROM animals_location; </description>
+    </item>
+    
+    <item>
+      <title>04. Foreign Keys 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/04-foreign-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/04-foreign-keys/</guid>
+      <description>In this activity, you will create and populate three new tables with foreign keys that reference existing data.
+Instructions   Create a new database named business_DB to use with this activity.
+  Make sure all tables have primary keys that increment with each new row of data.
+    Create a customer table with a customer first name and customer last name.
+  Populate the customer table with customer names.</description>
+    </item>
+    
+    <item>
+      <title>05. Data Relationships 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-03/05-data-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/05-data-relationships/</guid>
+      <description>-- One to one -- Simpson table CREATE TABLE simpsons(  id SERIAL,  name VARCHAR,  &amp;#34;Social Security&amp;#34; INTEGER );  INSERT INTO simpsons (name, &amp;#34;Social Security&amp;#34;) VALUES  (&amp;#39;Homer&amp;#39;, 111111111),  (&amp;#39;Marge&amp;#39;, 222222222),  (&amp;#39;Lisa&amp;#39;, 333333333),  (&amp;#39;Bart&amp;#39;, 444444444),  (&amp;#39;Maggie&amp;#39;, 555555555);  -- One to Many -- Address Table CREATE TABLE address (  id INTEGER PRIMARY KEY,  address VARCHAR );  -- Insertion query for address table INSERT INTO address (id, address) VALUES  (11, &amp;#39;742 Evergreen Terrace&amp;#39;),  (12, &amp;#39;221b Baker Streer&amp;#39;);  -- People Table CREATE TABLE people (  id INTEGER PRIMARY KEY,  name VARCHAR,  social_security INTEGER,  address_id INTEGER );  -- Insertion query for people table INSERT INTO people (id, name, social_security) VALUES  (1, &amp;#39;Homer&amp;#39;, 111111111),  (2, &amp;#39;Marge&amp;#39;, 222222222),  (3, &amp;#39;Lisa&amp;#39;, 333333333),  (4, &amp;#39;Bart&amp;#39;, 444444444),  (5, &amp;#39;Maggie&amp;#39;, 555555555),  (6, &amp;#39;Sherlock&amp;#39;, 666666666),  (7, &amp;#39;Watson&amp;#39;, 777777777);  -- Many to Many -- Table schema for the Simpsons children CREATE TABLE children(  child_id SERIAL,  child_name VARCHAR(255) NOT NULL,  PRIMARY KEY (child_id) );  -- Insertion queries for the Simpsons children INSERT INTO children (child_name) VALUES  (&amp;#39;Bart&amp;#39;),  (&amp;#39;Lisa&amp;#39;),  (&amp;#39;Maggie&amp;#39;);  -- Table schema for the Simpsons parents CREATE TABLE parents(  parent_id INTEGER NOT NULL,  parent_name VARCHAR(255) NOT NULL,  PRIMARY KEY (parent_id) );  -- Insertion queries for the Simpsons parents INSERT INTO parents (parent_id, parent_name) VALUES  (11, &amp;#39;Homer&amp;#39;),  (12, &amp;#39;Marge&amp;#39;);  -- Table schema for the junction table CREATE TABLE child_parent (  child_id INTEGER NOT NULL,  FOREIGN KEY (child_id) REFERENCES children(child_id),  parent_id INTEGER NOT NULL,  FOREIGN KEY (parent_id) REFERENCES parents(parent_id),  PRIMARY KEY (child_id, parent_id) );  -- Insertion queries for the junction table INSERT INTO child_parent (child_id, parent_id) VALUES  (1, 11),  (1, 12),  (2, 11),  (2, 12),  (3, 11),  (3, 12);  -- Query children table SELECT * FROM children;  -- Query parents table SELECT * FROM parents;  -- Query child_parent table SELECT * FROM child_parent;  -- Query to display the many-to-many relationships SELECT children.</description>
+    </item>
+    
+    <item>
+      <title>06. Data Relationship 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/06-data-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/06-data-relationships/</guid>
+      <description>In this activity, you will design a database model.
+You are the database consultant at a new university. Your job is to design a database model for the registrar. The database will keep track of information on students, courses offered by the university, and the courses each student has taken.
+Instructions   Create a students table that keeps track of the following:
+  Unique ID number of each student</description>
+    </item>
+    
+    <item>
+      <title>07. ERD 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-03/07-erd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/07-erd/</guid>
+      <description>Conceptual Schema # Conceptual (without relationships) Employee - Zipcode - Employee_Email - Owners - Estates - Estate_Type - Agents - Regions - Agent_Region_Junction - # Conceptual (with relationships) Employee rel Zipcode - Zipcode - Employee_Email rel Employee - Owners - Estates rel Owners rel Estate_Type rel Zipcode - Estate_Type - Agents - Regions - Agent_Region_Junction rel Agents rel Regions - Logical # Logical Employee - Employee_ID PK Name Age Address Zipcode FK - Zipcode.</description>
+    </item>
+    
+    <item>
+      <title>08. Designing ERD 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/08-designing-erd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/08-designing-erd/</guid>
+      <description>Designing an ERD, Part 1 In this activity, you will work on the following scenario with a partner:
+You are meeting with a gym owner who wants to organize his data in a database. This will require creating a conceptual ERD for the owner.
+Instructions   Create a conceptual ERD by determining the entities and their attributes that will exist in the database. Be sure to include the following: trainers, members, and gym as well as one more entity that you think is necessary.</description>
+    </item>
+    
+    <item>
+      <title>09. ERD Part 2 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/09-erd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/09-erd/</guid>
+      <description>Designing an ERD, Part 2 In this activity, you and your partner will continue designing an entity relationship diagram for the gym by transitioning your logical ERD (created in the previous activity) to a physical ERD.
+Instructions   Using the starter code provided, return to Quick Database Diagrams and transition your logical ERD to a physical ERD by creating the relationships between tables.
+  When you are satisfied with your ERD, write a corresponding schema file containing your CREATE TABLE statements</description>
+    </item>
+    
+    <item>
+      <title>10. Unions 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-03/10-unions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/10-unions/</guid>
+      <description>schema.sql DROP TABLE IF EXISTS toys; DROP TABLE IF EXISTS games;  CREATE TABLE toys (  toy_id SERIAL,  type VARCHAR,  name VARCHAR );  CREATE TABLE games (  game_id SERIAL,  type VARCHAR,  name VARCHAR );  INSERT INTO toys (type, name) VALUES (&amp;#39;sports&amp;#39;, &amp;#39;baseball&amp;#39;), (&amp;#39;adventure&amp;#39;, &amp;#39;staff&amp;#39;), (&amp;#39;sports&amp;#39;, &amp;#39;tennis ball&amp;#39;), (&amp;#39;fun&amp;#39;, &amp;#39;doll&amp;#39;);  INSERT INTO games (type, name) VALUES (&amp;#39;sports&amp;#39;, &amp;#39;tag&amp;#39;), (&amp;#39;adventure&amp;#39;, &amp;#39;Kings Quest&amp;#39;), (&amp;#39;sports&amp;#39;, &amp;#39;tennis&amp;#39;), (&amp;#39;fun&amp;#39;, &amp;#39;Make believe&amp;#39;); query.</description>
+    </item>
+    
+    <item>
+      <title>11. Unions 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/11-unions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/11-unions/</guid>
+      <description>In this activity, you will practice unions by combining data from tables without the use of joins.
+Instructions   Using UNION, write a PostgreSQL statement to query the number of rows in tables city and country.
+  Use UNION to display from the tables customer and customer_list the ID of all customers who live in the city of London. Determine whether both tables contain the same customers by using UNION ALL.</description>
+    </item>
+    
+  </channel>
+</rss>

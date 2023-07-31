@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sql on </title>
+    <link>/tags/sql/</link>
+    <description>Recent content in sql on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>00. Setup for Mac and PC 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/00-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/00-setup/</guid>
+      <description>Installing pgAdmin and Postgres on a Mac Similar to coding with Python using Visual Studio Code, SQL requires a code editor with the ability to execute the scripts that are created by developers. This section guides you through the process of installing pgAdmin and Postgres on a Mac.
+Before You Begin   Remember to choose the installation package specific to your operating system and download the latest version.
+  Be prepared to record a password—it will be needed later!</description>
+    </item>
+    
+    <item>
+      <title>01. </title>
+      <link>/10-advanced-sql/activities/day-03/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>01. Basic Querying 👩‍🏫🧑‍🏫</title>
+      <link>/10-advanced-sql/activities/day-02/01-basic-querying/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/01-basic-querying/</guid>
+      <description>from sqlalchemy import create_engine from sqlalchemy import Column, Integer, String, Float  from sqlalchemy.ext.declarative import declarative_base Base = declarative_base() class BaseballPlayer(Base):  __tablename__ = &amp;#34;player&amp;#34;  player_id = Column(String, primary_key=True)  birth_year = Column(Integer)  birth_month = Column(Integer)  birth_day = Column(Integer)  birth_country = Column(String)  birth_state = Column(String)  birth_city = Column(String)  name_first = Column(String)  name_last = Column(String)  name_given = Column(String)  weight = Column(Integer)  height = Column(Integer)  bats = Column(String)  throws = Column(String)  debut = Column(String)  final_game = Column(String) # Create Database Connection engine = create_engine(&amp;#39;sqlite:///.</description>
+    </item>
+    
+    <item>
+      <title>01. Data Normalization 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-03/01-data-normalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/01-data-normalization/</guid>
+      <description>Data Normalization First Form Normalization   Each field in a table row row should contain a single value.
+  Each row is unique.
+  Second Form Normalization   Be in first normal form.
+  Single Column for Primary Key.
+ Identifies the table uniquely    Third Form Normalization   Be in second normal form.
+  Contain non-transitively dependent columns.
+  </description>
+    </item>
+    
+    <item>
+      <title>01. Import Data 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/01-import-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/01-import-data/</guid>
+      <description>Option 1 copy csv to sql table command COPY actor FROM &amp;#39;&amp;lt;path to actor.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY address FROM &amp;#39;&amp;lt;path to actor.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY city FROM &amp;#39;&amp;lt;path to city.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY country FROM &amp;#39;&amp;lt;path to country.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY customer_list FROM &amp;#39;&amp;lt;path to customer_list.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY customer FROM &amp;#39;&amp;lt;path to customer.csv&amp;gt;&amp;#39; DELIMITER &amp;#39;,&amp;#39; CSV HEADER; COPY film_actor FROM &amp;#39;&amp;lt;path to film_actor.</description>
+    </item>
+    
+    <item>
+      <title>Activities ✅</title>
+      <link>/09-sql/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/</guid>
+      <description>Video Speed Run of the Activities if you get stuck or miss class
+📺 SQL Activities Video Speed Runs 🏃‍♀️🏃    Day Mac 🍎 Duration Window 🖼️ Duration     01 Video 📺 01:19:00 ⏲️ Video 📺 01:19:00 ⏲️   02 Video 📺 00:50:25 ⏲️ Video 📺 00:50:25 ⏲️   03 Video 📺 01:11:00 ⏲️ Video 📺 01:11:00 ⏲️    Activities Required ✅ ⬆️ Back to Top Instructor Turn = 👩‍🏫🧑‍🏫 Students Turn = 👩‍🎓👨‍🎓</description>
+    </item>
+    
+    <item>
+      <title>Activities ✅</title>
+      <link>/10-advanced-sql/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/</guid>
+      <description>Video Speed Run of the Activities if you get stuck or miss class
+📺 Advanced SQL Activities Video Speed Runs 🏃‍♀️🏃    Day Mac 🍎 Duration Window 🖼️ Duration     01 Video 📺 00:32:53 ⏲️ Video 📺 00:32:53 ⏲️   02 Video 📺 00:31:06 ⏲️ Video 📺 00:31:06 ⏲️   03 Video 📺 00:38:10 ⏲️ Video 📺 00:38:10 ⏲️    Activities Required ✅ ⬆️ Back to Top Instructor Turn = 👩‍🏫🧑‍🏫 Students Turn = 👩‍🎓👨‍🎓</description>
+    </item>
+    
+    <item>
+      <title>Day 1</title>
+      <link>/09-sql/activities/day-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/</guid>
+      <description>9.1: Introduction to SQL Overview In today&amp;rsquo;s class, the students will be introduced to SQL databases and will learn how to create tables and simple queries.
+Class Objectives By the end of this lesson, the students will be able to:
+  Install and run Postgres and pgAdmin on their computers.
+  Create a database and tables using pgAdmin.
+  Define SQL data types, primary keys, and unique values.</description>
+    </item>
+    
+    <item>
+      <title>Day 2</title>
+      <link>/09-sql/activities/day-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/</guid>
+      <description>9.2: Advanced SQL Queries Overview This lesson will introduce the students to additional features of the SQL language. The students will dive deeper into queries with aggregates, grouping, and ordering. Today&amp;rsquo;s lesson will also cover subqueries, creating views, and how to combine both features.
+Class Objectives By the end of today&amp;rsquo;s class, the students will be able to:
+  Create aggregate queries.
+  Create subqueries to explore data further.</description>
+    </item>
+    
+    <item>
+      <title>Day 3</title>
+      <link>/09-sql/activities/day-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/</guid>
+      <description>9.3: Data Modeling Overview Today&amp;rsquo;s lesson will focus on data modeling and best practices for designing a database. Students will learn how to normalize data and how tables in a database are related. They will also learn how to create visualizations of databases by using entity relationship diagrams (ERDs).
+Class Objectives By the end of today&amp;rsquo;s lesson, the students will be able to:
+  Apply data modeling techniques to database design.</description>
+    </item>
+    
+    <item>
+      <title>Module 10 Challenge ⭐</title>
+      <link>/10-advanced-sql/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/challenges/</guid>
+      <description>Files Download the following files to help you get started:   Attachments   module-10-starter-code.zip (283 KB)    Before You Begin   Create a new repository for this project called sqlalchemy-challenge. Do not add this assignment to an existing repository.
+  Clone the new repository to your computer.
+  Inside your local Git repository, create a directory for this Challenge. Use a folder name that corresponds to the Challenge, such as SurfsUp.</description>
+    </item>
+    
+    <item>
+      <title>Module 9 Challenge ⭐</title>
+      <link>/09-sql/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/challenges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>01. Creating a Database 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-01/01-creating-a-database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/01-creating-a-database/</guid>
+      <description>Create a Database In this activity, everyone will create a database in pgAdmin from scratch.
+Instructions To create a database in pgAdmin, follow these steps:
+  In the pgAdmin editor, right-click the newly established server to create a new database.
+  From the menu, select Create, and then select Database to create a new database.
+  Enter animals_db as the database name. Make sure the owner is set as the default postgres, and then click Save.</description>
+    </item>
+    
+    <item>
+      <title>02. </title>
+      <link>/10-advanced-sql/activities/day-03/02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>02. Aggregates 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-02/02-aggregates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/02-aggregates/</guid>
+      <description>-- Select everything from film table SELECT * FROM film;  -- Count the amount of film_id&amp;#39;s in film table SELECT COUNT(film_id) FROM film;  -- Create an alias SELECT COUNT(film_id) AS &amp;#34;Total films&amp;#34; FROM film;  -- Group by rating and aggregate the film_id count SELECT rating, COUNT(film_id) AS &amp;#34;Total films&amp;#34; FROM film GROUP BY rating;  -- Select the average rental duration SELECT AVG(rental_duration) FROM film;  -- Create an Alias SELECT AVG(rental_duration) AS &amp;#34;Average rental period&amp;#34; FROM film;  -- Group by the rental duration, average the rental rate and give alias SELECT rental_duration, AVG(rental_rate) AS &amp;#34;Average rental rate&amp;#34; FROM film GROUP BY rental_duration;  -- Find the rows with the minimum rental rate SELECT rental_duration, MIN(rental_rate) AS &amp;#34;Min rental rate&amp;#34; FROM film GROUP BY rental_duration;  -- Find the rows with the maximum rental rate SELECT rental_duration, MAX(rental_rate) AS &amp;#34;Max rental rate&amp;#34; FROM film GROUP BY rental_duration; </description>
+    </item>
+    
+    <item>
+      <title>02. Data Normalization 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/02-data-normalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/02-data-normalization/</guid>
+      <description>In this activity, you will use data normalization practices.
+Instructions   In pgAdmin, create a new database called pets_db.
+  Use Excel to get the data into first normal form (1NF).
+  Using the normalized CSV, create the following tables with continued normalized practices:
+A table for owners that takes an ID and the owner&amp;rsquo;s name.
+A table for pet names that takes two IDs, the pet&amp;rsquo;s name, and the pet&amp;rsquo;s type.</description>
+    </item>
+    
+    <item>
+      <title>02. Sunny Hours  👩‍🎓👨‍🎓</title>
+      <link>/10-advanced-sql/activities/day-02/02-sunny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/02-sunny/</guid>
+      <description>Sunny Hours For this activity, you will create a Python script that can search through the provided SQL file of hours of sunshine in various cities in the world.
+Instructions   Use sunshine.sqlite as your data source.
+  Within a Python script, create a Sunshine class to read in all of the columns of the database. Consult the SQL schema of the sunshine table when creating your class. Note that the REAL data type refers to floating point numbers (decimals).</description>
+    </item>
+    
+    <item>
+      <title>02. Creating a Table 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-01/02-creating-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/02-creating-tables/</guid>
+      <description>-- Create a new table CREATE TABLE people (  name VARCHAR(30) NOT NULL,  has_pet BOOLEAN DEFAULT false,  pet_type VARCHAR(10) NOT NULL,  pet_name VARCHAR(30),  pet_age INT );  -- Query all fields from the table SELECT * FROM people;  -- Insert data into the table INSERT INTO people (name, has_pet, pet_type, pet_name, pet_age) VALUES (&amp;#39;Jacob&amp;#39;, true, &amp;#39;dog&amp;#39;, &amp;#39;Misty&amp;#39;, 10),  (&amp;#39;Ahmed&amp;#39;, true, &amp;#39;rock&amp;#39;, &amp;#39;Rockington&amp;#39;, 100),  (&amp;#39;Peter&amp;#39;, true, &amp;#39;cat&amp;#39;, &amp;#39;Franklin&amp;#39;, 2),  (&amp;#39;Dave&amp;#39;, true, &amp;#39;dog&amp;#39;, &amp;#39;Queso&amp;#39;, 1);  -- Query only the `pet_name` field SELECT pet_name FROM people;  -- Filter the query to show only dogs under the age of 5 SELECT pet_type, pet_name FROM people WHERE pet_type = &amp;#39;dog&amp;#39; AND pet_age &amp;lt; 5; </description>
+    </item>
+    
+    <item>
+      <title>03. </title>
+      <link>/10-advanced-sql/activities/day-03/03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>03.  Gregarious Aggregates 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/03-gregarious-aggregates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/03-gregarious-aggregates/</guid>
+      <description>✅ Solutions   Solutions Click Here   -- 1. What is the average cost to rent a film in the pagila stores? SELECT AVG(rental_rate) AS &amp;#34;Average rental rate&amp;#34; FROM film;  -- 2. What is the average rental cost of films by rating? On average, what is the cheapest rating of films to rent? Most expensive? SELECT rating, AVG(rental_rate) AS &amp;#34;Average rental rate&amp;#34; FROM film GROUP BY rating;  -- 3.</description>
+    </item>
+    
+    <item>
+      <title>03. Basic Updating 👩‍🏫🧑‍🏫</title>
+      <link>/10-advanced-sql/activities/day-02/03-basic-updating/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/03-basic-updating/</guid>
+      <description>from sqlalchemy import create_engine, Column, Integer, String from sqlalchemy.ext.declarative import declarative_base Base = declarative_base()  # Define our pet table class Pet(Base):  __tablename__ = &amp;#39;pet&amp;#39;  id = Column(Integer, primary_key=True)  name = Column(String)  type = Column(String)  age = Column(Integer) # Right now, this table only exists in python and not in the actual database Base.metadata.tables  # Create our database engine engine = create_engine(&amp;#39;sqlite:///pets.sqlite&amp;#39;) # This is where we create our tables in the database Base.</description>
+    </item>
+    
+    <item>
+      <title>03. Foreign Keys 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-03/03-foreign-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/03-foreign-keys/</guid>
+      <description>CREATE TABLE animals_all (  id SERIAL PRIMARY KEY,  animal_species VARCHAR(30) NOT NULL,  owner_name VARCHAR(30) NOT NULL );  INSERT INTO animals_all (animal_species, owner_name) VALUES  (&amp;#39;Dog&amp;#39;, &amp;#39;Bob&amp;#39;),  (&amp;#39;Fish&amp;#39;, &amp;#39;Bob&amp;#39;),  (&amp;#39;Cat&amp;#39;, &amp;#39;Kelly&amp;#39;),  (&amp;#39;Dolphin&amp;#39;, &amp;#39;Aquaman&amp;#39;);  SELECT * FROM animals_all;  CREATE TABLE animals_location (  id SERIAL PRIMARY KEY,  location VARCHAR(30) NOT NULL,  animal_id INTEGER NOT NULL,  FOREIGN KEY (animal_id) REFERENCES animals_all(id) );  -- Insert data INSERT INTO animals_location (location, animal_id) VALUES  (&amp;#39;Dog House&amp;#39;, 1),  (&amp;#39;Fish Tank&amp;#39;, 2),  (&amp;#39;Bed&amp;#39;, 3),  (&amp;#39;Ocean&amp;#39;, 4);  SELECT * FROM animals_location;  -- Insert error INSERT INTO animals_location (location, animal_id) VALUES (&amp;#39;River&amp;#39;, 5);  -- Correct insert INSERT INTO animals_all (animal_species, owner_name) VALUES  (&amp;#39;Fish&amp;#39;, &amp;#39;Dave&amp;#39;);  INSERT INTO animals_location (location, animal_id) VALUES  (&amp;#39;River&amp;#39;, 5);  SELECT * FROM animals_location; </description>
+    </item>
+    
+    <item>
+      <title>03. Creating Tables 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/03-creating-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/03-creating-tables/</guid>
+      <description>In this activity, you will use pgAdmin to recreate and query a table based on an image provided to you.
+Instructions   Create a new database in pgAdmin named city_info.
+  Using the query tool, create an empty table named cities. Be sure to match the data types!
+  Insert data into the new table. The result should match the following image.
+   citycharacter varying (30) statecharacter varying (30) populationinteger     Alameda California 79177   Mesa Arizona 496401   Boerne Texas 16056   Anaheim California 352497   Tucson Arizona 535677   Garland Texas 238002      Query the table to recreate the image below.</description>
+    </item>
+    
+    <item>
+      <title>04. </title>
+      <link>/10-advanced-sql/activities/day-03/04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/04/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>04. CRUD 👩‍🎓👨‍🎓</title>
+      <link>/10-advanced-sql/activities/day-02/04-crud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/04-crud/</guid>
+      <description>CRUD Database In this activity, you and a partner will practice CRUD operations with a new SQLite database.
+Instructions   Within a Python file, create a new SQLAlchemy class called Travel to hold the following values:
+  __tablename__: This should be &amp;ldquo;travel_destinations&amp;rdquo;
+  id: The primary key for the table, which is an integer and automatically increments
+  city: A string of the name of the city</description>
+    </item>
+    
+    <item>
+      <title>04. Foreign Keys 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/04-foreign-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/04-foreign-keys/</guid>
+      <description>In this activity, you will create and populate three new tables with foreign keys that reference existing data.
+Instructions   Create a new database named business_DB to use with this activity.
+  Make sure all tables have primary keys that increment with each new row of data.
+    Create a customer table with a customer first name and customer last name.
+  Populate the customer table with customer names.</description>
+    </item>
+    
+    <item>
+      <title>04. Order by  👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-02/04-order-by/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/04-order-by/</guid>
+      <description>-- Select the average length of movies by rental rate SELECT rental_rate, AVG(length) AS &amp;#34;avg length&amp;#34; FROM film GROUP BY rental_rate ORDER BY &amp;#34;avg length&amp;#34;;  -- Round the results to use only two decimal places SELECT rental_rate, ROUND(AVG(length),2) AS &amp;#34;avg length&amp;#34; FROM film GROUP BY rental_rate ORDER BY &amp;#34;avg length&amp;#34;;  -- Order by descending values SELECT rental_rate, ROUND(AVG(length),2) AS &amp;#34;avg length&amp;#34; FROM film GROUP BY rental_rate ORDER BY &amp;#34;avg length&amp;#34; DESC;  -- Limit results to 5 SELECT rental_rate, ROUND(AVG(length),2) AS &amp;#34;avg length&amp;#34; FROM film GROUP BY rental_rate ORDER BY &amp;#34;avg length&amp;#34; DESC LIMIT 5; </description>
+    </item>
+    
+    <item>
+      <title>05. Making IDs 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/05-making-ids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/05-making-ids/</guid>
+      <description>Making and Using an ID In this activity, you will recreate a table and then query, insert, and update data.
+Instructions   Create a new database named programming_db.
+  Recreate the programming_languages table using the following image.
+   idinteger languagecharacter varying (20) ratinginteger     1 HTML 95   2 JS 99   3 JQuery 98   4 MySQL 70   5 MySQL 70      Query the table to return the rows containing MySQL, and then delete one of the duplicates.</description>
+    </item>
+    
+    <item>
+      <title>04. Values of Uniques 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-01/04-values-of-uniques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/04-values-of-uniques/</guid>
+      <description>-- Delete the table &amp;#34;people&amp;#34; DROP TABLE people;  -- Re-create the table &amp;#34;people&amp;#34; within animals_db CREATE TABLE people (  id SERIAL PRIMARY KEY,  name VARCHAR(30) NOT NULL,  has_pet BOOLEAN DEFAULT false,  pet_type VARCHAR(10) NOT NULL,  pet_name VARCHAR(30),  pet_age INT );  -- Insert data into the table INSERT INTO people (name, has_pet, pet_type, pet_name, pet_age) VALUES (&amp;#39;Jacob&amp;#39;, true, &amp;#39;dog&amp;#39;, &amp;#39;Misty&amp;#39;, 10),  (&amp;#39;Ahmed&amp;#39;, true, &amp;#39;rock&amp;#39;, &amp;#39;Rockington&amp;#39;, 100),  (&amp;#39;Ahmed&amp;#39;, true, &amp;#39;rock&amp;#39;, &amp;#39;Rockington&amp;#39;, 100),  (&amp;#39;Peter&amp;#39;, true, &amp;#39;cat&amp;#39;, &amp;#39;Franklin&amp;#39;, 2),  (&amp;#39;Dave&amp;#39;, true, &amp;#39;dog&amp;#39;, &amp;#39;Queso&amp;#39;, 1),  (&amp;#39;Dave&amp;#39;, true, &amp;#39;dog&amp;#39;, &amp;#39;Pringles&amp;#39;, 7);  -- Query all fields from the table SELECT * FROM people;  -- Query the data to return all the rows containing the name &amp;#34;Dave&amp;#34; SELECT id, name, pet_name, pet_age FROM people WHERE name = &amp;#39;Dave&amp;#39;;  -- Update a single row to change the `pet_name` and `pet_age` column data UPDATE people SET has_pet = true, pet_name = &amp;#39;Rocket&amp;#39;, pet_age = 8 WHERE id = 6;  SELECT * FROM people;  -- Delete the duplicate entry using a unique id DELETE FROM people WHERE id = 3;  SELECT * FROM people; </description>
+    </item>
+    
+    <item>
+      <title>05. </title>
+      <link>/10-advanced-sql/activities/day-03/05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>05. Data Relationships 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-03/05-data-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/05-data-relationships/</guid>
+      <description>-- One to one -- Simpson table CREATE TABLE simpsons(  id SERIAL,  name VARCHAR,  &amp;#34;Social Security&amp;#34; INTEGER );  INSERT INTO simpsons (name, &amp;#34;Social Security&amp;#34;) VALUES  (&amp;#39;Homer&amp;#39;, 111111111),  (&amp;#39;Marge&amp;#39;, 222222222),  (&amp;#39;Lisa&amp;#39;, 333333333),  (&amp;#39;Bart&amp;#39;, 444444444),  (&amp;#39;Maggie&amp;#39;, 555555555);  -- One to Many -- Address Table CREATE TABLE address (  id INTEGER PRIMARY KEY,  address VARCHAR );  -- Insertion query for address table INSERT INTO address (id, address) VALUES  (11, &amp;#39;742 Evergreen Terrace&amp;#39;),  (12, &amp;#39;221b Baker Streer&amp;#39;);  -- People Table CREATE TABLE people (  id INTEGER PRIMARY KEY,  name VARCHAR,  social_security INTEGER,  address_id INTEGER );  -- Insertion query for people table INSERT INTO people (id, name, social_security) VALUES  (1, &amp;#39;Homer&amp;#39;, 111111111),  (2, &amp;#39;Marge&amp;#39;, 222222222),  (3, &amp;#39;Lisa&amp;#39;, 333333333),  (4, &amp;#39;Bart&amp;#39;, 444444444),  (5, &amp;#39;Maggie&amp;#39;, 555555555),  (6, &amp;#39;Sherlock&amp;#39;, 666666666),  (7, &amp;#39;Watson&amp;#39;, 777777777);  -- Many to Many -- Table schema for the Simpsons children CREATE TABLE children(  child_id SERIAL,  child_name VARCHAR(255) NOT NULL,  PRIMARY KEY (child_id) );  -- Insertion queries for the Simpsons children INSERT INTO children (child_name) VALUES  (&amp;#39;Bart&amp;#39;),  (&amp;#39;Lisa&amp;#39;),  (&amp;#39;Maggie&amp;#39;);  -- Table schema for the Simpsons parents CREATE TABLE parents(  parent_id INTEGER NOT NULL,  parent_name VARCHAR(255) NOT NULL,  PRIMARY KEY (parent_id) );  -- Insertion queries for the Simpsons parents INSERT INTO parents (parent_id, parent_name) VALUES  (11, &amp;#39;Homer&amp;#39;),  (12, &amp;#39;Marge&amp;#39;);  -- Table schema for the junction table CREATE TABLE child_parent (  child_id INTEGER NOT NULL,  FOREIGN KEY (child_id) REFERENCES children(child_id),  parent_id INTEGER NOT NULL,  FOREIGN KEY (parent_id) REFERENCES parents(parent_id),  PRIMARY KEY (child_id, parent_id) );  -- Insertion queries for the junction table INSERT INTO child_parent (child_id, parent_id) VALUES  (1, 11),  (1, 12),  (2, 11),  (2, 12),  (3, 11),  (3, 12);  -- Query children table SELECT * FROM children;  -- Query parents table SELECT * FROM parents;  -- Query child_parent table SELECT * FROM child_parent;  -- Query to display the many-to-many relationships SELECT children.</description>
+    </item>
+    
+    <item>
+      <title>05. Order By  👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/05-order-by/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/05-order-by/</guid>
+      <description>Movies Ordered By In this activity, you will use ORDER BY in combination with other SQL methods to query and order the tables.
+Instructions   Determine the count of actor first names with the names ordered in descending order.
+  Determine the average rental duration for each rating rounded to two decimals. Order these in ascending order.
+  Determine the top 10 average replacement costs for movies, ordered by their length.</description>
+    </item>
+    
+    <item>
+      <title>05. Reflection 👩‍🏫🧑‍🏫</title>
+      <link>/10-advanced-sql/activities/day-02/05-reflection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/05-reflection/</guid>
+      <description># Python SQL toolkit and Object Relational Mapper import sqlalchemy from sqlalchemy.ext.automap import automap_base from sqlalchemy.orm import Session from sqlalchemy import create_engine  # Create engine using the `demographics.sqlite` database file engine = create_engine(&amp;#34;sqlite:///./resources/dow.sqlite&amp;#34;) # Declare a Base using `automap_base()` Base = automap_base() # Use the Base class to reflect the database tables Base.prepare(autoload_with=engine) # Print all of the classes mapped to the Base Base.classes.keys()  # Assign the dow class to a variable called `Dow` Dow = Base.</description>
+    </item>
+    
+    <item>
+      <title>06. </title>
+      <link>/10-advanced-sql/activities/day-03/06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>06. Data Relationship 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/06-data-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/06-data-relationships/</guid>
+      <description>In this activity, you will design a database model.
+You are the database consultant at a new university. Your job is to design a database model for the registrar. The database will keep track of information on students, courses offered by the university, and the courses each student has taken.
+Instructions   Create a students table that keeps track of the following:
+  Unique ID number of each student</description>
+    </item>
+    
+    <item>
+      <title>06. Importing Data 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-01/06-importing-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/06-importing-data/</guid>
+      <description>Files: Fauna_Vertabrate.csv
+-- Drop table if exists DROP TABLE fauna_vertabrate;  -- Create new table CREATE TABLE fauna_vertabrate (  longitude DEC,  latitude DEC,  OBJECTID INT,  suburb VARCHAR,  property_name VARCHAR,  GI_class VARCHAR,  GI_type VARCHAR,  group_ VARCHAR,  family VARCHAR,  family_common_name VARCHAR,  scientific_name VARCHAR,  genus VARCHAR,  species VARCHAR,  common_name VARCHAR,  fauna_status VARCHAR );   -- View table columns and datatypes SELECT * FROM fauna_vertabrate; So far, the class has created their own tables and values manually using SQL code.</description>
+    </item>
+    
+    <item>
+      <title>06. Reflecting on SQL 👩‍🎓👨‍🎓</title>
+      <link>/10-advanced-sql/activities/day-02/06-reflecting-on-sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/06-reflecting-on-sql/</guid>
+      <description>Reflecting on SQL For this activity, you’ll test your ability to reflect existing databases using SQLAlchemy and a SQLite table focused on demographic data.
+Instructions   Create an engine using the demographics.sqlite database file.
+  Declare a Base using automap_base(), and use this new Base class to reflect the database&amp;rsquo;s tables.
+  Assign the demographics table/class to a variable called Demographics.
+  Create a session, and use this session to query the Demographics table and display the first five locations.</description>
+    </item>
+    
+    <item>
+      <title>06. Subqueries 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-02/06-subqueries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/06-subqueries/</guid>
+      <description>-- First select title and id for movie EARLY HOME SELECT title, film_id FROM film WHERE title = &amp;#39;EARLY HOME&amp;#39;;  -- Using the film_id located in the previous query find it in the inventory table SELECT * FROM inventory WHERE film_id = 268;  -- Use Join to find the inventory, film and store id SELECT i.inventory_id, i.film_id, i.store_id FROM inventory i JOIN film f ON (i.film_id = f.film_id) WHERE f.</description>
+    </item>
+    
+    <item>
+      <title>07. </title>
+      <link>/10-advanced-sql/activities/day-03/07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>07. ERD 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-03/07-erd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/07-erd/</guid>
+      <description>Conceptual Schema # Conceptual (without relationships) Employee - Zipcode - Employee_Email - Owners - Estates - Estate_Type - Agents - Regions - Agent_Region_Junction - # Conceptual (with relationships) Employee rel Zipcode - Zipcode - Employee_Email rel Employee - Owners - Estates rel Owners rel Estate_Type rel Zipcode - Estate_Type - Agents - Regions - Agent_Region_Junction rel Agents rel Regions - Logical # Logical Employee - Employee_ID PK Name Age Address Zipcode FK - Zipcode.</description>
+    </item>
+    
+    <item>
+      <title>07. Inspection 👩‍🏫🧑‍🏫</title>
+      <link>/10-advanced-sql/activities/day-02/07-inspection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/07-inspection/</guid>
+      <description># Import SQLAlchemy `automap` and other dependencies import sqlalchemy from sqlalchemy.ext.automap import automap_base from sqlalchemy.orm import Session from sqlalchemy import create_engine, inspect # Create the connection engine engine = create_engine(&amp;#34;sqlite:///./resources/dow.sqlite&amp;#34;) # Create the inspector and connect it to the engine inspector = inspect(engine) # Collect the names of tables within the database inspector.get_table_names()  # Using the inspector to print the column names within the &amp;#39;dow&amp;#39; table and its types columns = inspector.</description>
+    </item>
+    
+    <item>
+      <title>07. Subqueries 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/07-subqueries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/07-subqueries/</guid>
+      <description>Subqueries In this activity, you will practice creating subqueries.
+Instructions   List the names and ID numbers of cities that are in the following list: Qalyub, Qinhuangdao, Qomsheh, Quilmes.
+  Display the districts in the above list of cities.
+Hint: Use the address and city tables.
+  Bonus Using subqueries, find the first and last names of customers who reside in cities that begin with the letter Q.</description>
+    </item>
+    
+    <item>
+      <title>07. Hide and Seek 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/07-hide-and-seek/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/07-hide-and-seek/</guid>
+      <description>Hide and Seek In this activity, you will create a new table and import data from a CSV file. To learn more about this dataset, you may review the reference at the end of this document.
+Instructions   Open the soft-attributes.csv CSV file from the Resources folder to analyze the data.
+  Using the column headers and data types from the CSV file, write the table schema to create a new table in the Miscellaneous_DB database called movie_words_comparison.</description>
+    </item>
+    
+    <item>
+      <title>08. </title>
+      <link>/10-advanced-sql/activities/day-03/08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>08. Create Views 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-02/08-create-views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/08-create-views/</guid>
+      <description>SELECT s.store_id, SUM(amount) AS Gross FROM payment AS p  JOIN rental AS r  ON (p.rental_id = r.rental_id)  JOIN inventory AS i  ON (i.inventory_id = r.inventory_id)  JOIN store AS s  ON (s.store_id = i.store_id)  GROUP BY s.store_id;   -- Create view from query CREATE VIEW total_sales AS SELECT s.store_id, SUM(amount) AS Gross FROM payment AS p JOIN rental AS r ON (p.rental_id = r.</description>
+    </item>
+    
+    <item>
+      <title>08. Designing ERD 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/08-designing-erd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/08-designing-erd/</guid>
+      <description>Designing an ERD, Part 1 In this activity, you will work on the following scenario with a partner:
+You are meeting with a gym owner who wants to organize his data in a database. This will require creating a conceptual ERD for the owner.
+Instructions   Create a conceptual ERD by determining the entities and their attributes that will exist in the database. Be sure to include the following: trainers, members, and gym as well as one more entity that you think is necessary.</description>
+    </item>
+    
+    <item>
+      <title>08. Salary Explore 👩‍🎓👨‍🎓</title>
+      <link>/10-advanced-sql/activities/day-02/08-salary-explore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/08-salary-explore/</guid>
+      <description>Salary Exploration For this activity, you will create an inspector and search through a SQLite database of San Francisco salaries.
+Instructions Using the attached SQLite file, use an inspector to collect the following information:
+  The names of all of the tables within the database
+  The column names and data types for the salaries table
+  References DataSF. (2022). OpenData. Employee Compensation, City Management and Ethics. Data provided by SF Controller&amp;rsquo;s Office.</description>
+    </item>
+    
+    <item>
+      <title>08. CRUD 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/08-crud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/08-crud/</guid>
+      <description>Using CRUD: Create, Read, Update, and Delete In this activity, you will use CRUD operations (Create, Read, Update, Delete) on the provided data.
+Instructions   Create a new database named Malaysia in pgAdmin.
+  Create two new tables in the Malaysia database by copying the code provided in schema.sql into a new query window in pgAdmin.
+  Using the Import/Export tool, import the data from mys_road_accidents.csv into the road_accidents table, and then import the data from mys_accidents_by_state.</description>
+    </item>
+    
+    <item>
+      <title>09. </title>
+      <link>/10-advanced-sql/activities/day-03/09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>09. ERD Part 2 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/09-erd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/09-erd/</guid>
+      <description>Designing an ERD, Part 2 In this activity, you and your partner will continue designing an entity relationship diagram for the gym by transitioning your logical ERD (created in the previous activity) to a physical ERD.
+Instructions   Using the starter code provided, return to Quick Database Diagrams and transition your logical ERD to a physical ERD by creating the relationships between tables.
+  When you are satisfied with your ERD, write a corresponding schema file containing your CREATE TABLE statements</description>
+    </item>
+    
+    <item>
+      <title>09. Joins 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-01/09-joins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/09-joins/</guid>
+      <description>-- Drop table if exists DROP TABLE names;  -- Create the names table CREATE TABLE Names ( 	i INT PRIMARY KEY, 	dep_id INT, 	line INT, 	name VARCHAR, 	status VARCHAR, 	inserted_by VARCHAR, 	insert_date DATE, 	updated_by VARCHAR, 	update_date DATE );  -- Check data import SELECT * FROM names;  -- Create the commodity table CREATE TABLE commodity ( 	i INT PRIMARY KEY, 	dep_id INT, 	line INT, 	commod VARCHAR, 	code VARCHAR, 	commod_tp VARCHAR, 	commod_group VARCHAR, 	import VARCHAR, 	inserted_by VARCHAR, 	insert_date DATE, 	updated_by VARCHAR, 	update_date DATE );  -- Check data import SELECT * FROM commodity;  -- Perform an INNER JOIN on the two tables SELECT names.</description>
+    </item>
+    
+    <item>
+      <title>09. View Room Queries 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/09-view-room-queries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/09-view-room-queries/</guid>
+      <description>A View with a Roomful of Queries In this activity, you will work with a partner to practice your join and subquery skills, as well as build out a view.
+Instructions   Write a query to get the number of copies of a film title that exist in the inventory. The results should look like those shown in the following image. Your challenge is to use a subquery (a query embedded within another query) instead of a join.</description>
+    </item>
+    
+    <item>
+      <title>10. </title>
+      <link>/10-advanced-sql/activities/day-03/10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>10. Revisit Subquery 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-02/10-revisit-subquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/10-revisit-subquery/</guid>
+      <description>-- Find how many people rented BLANKET BEVERLY  SELECT COUNT(*) FROM customer WHERE customer_id IN  (  SELECT customer_id  FROM payment  WHERE rental_id IN  (  SELECT rental_id  FROM rental  WHERE inventory_id IN  (  SELECT inventory_id  FROM inventory  WHERE film_id IN  (  SELECT film_id  FROM film  WHERE title = &amp;#39;BLANKET BEVERLY&amp;#39;  )  )  ) ); </description>
+    </item>
+    
+    <item>
+      <title>10. Unions 👩‍🏫🧑‍🏫</title>
+      <link>/09-sql/activities/day-03/10-unions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/10-unions/</guid>
+      <description>schema.sql DROP TABLE IF EXISTS toys; DROP TABLE IF EXISTS games;  CREATE TABLE toys (  toy_id SERIAL,  type VARCHAR,  name VARCHAR );  CREATE TABLE games (  game_id SERIAL,  type VARCHAR,  name VARCHAR );  INSERT INTO toys (type, name) VALUES (&amp;#39;sports&amp;#39;, &amp;#39;baseball&amp;#39;), (&amp;#39;adventure&amp;#39;, &amp;#39;staff&amp;#39;), (&amp;#39;sports&amp;#39;, &amp;#39;tennis ball&amp;#39;), (&amp;#39;fun&amp;#39;, &amp;#39;doll&amp;#39;);  INSERT INTO games (type, name) VALUES (&amp;#39;sports&amp;#39;, &amp;#39;tag&amp;#39;), (&amp;#39;adventure&amp;#39;, &amp;#39;Kings Quest&amp;#39;), (&amp;#39;sports&amp;#39;, &amp;#39;tennis&amp;#39;), (&amp;#39;fun&amp;#39;, &amp;#39;Make believe&amp;#39;); query.</description>
+    </item>
+    
+    <item>
+      <title>10. Joins 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-01/10-joins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-01/10-joins/</guid>
+      <description>Joining Bird Bands When information could unintentionally be duplicated, data is often stored in separate tables with reference to an id. In the case of the dataset you will explore, most of the unique identifiers are labeled with the word code.
+In this activity, you will be using joins to learn more about North American bird banding. The example contains data reduced from its original source, so if you would like to explore the data further, click the link in the Reference section.</description>
+    </item>
+    
+    <item>
+      <title>11. </title>
+      <link>/10-advanced-sql/activities/day-03/11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-03/11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>11. Mine the Subquery 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-02/11-mine-the-subquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-02/11-mine-the-subquery/</guid>
+      <description>Mine the Subqueries In this activity, you will continue to practice subqueries. Work individually or in pairs. You can use the ERD for help with the queries.
+Instructions   Using subqueries, identify all actors who appear in the film ALTER VICTORY in the pagila database.
+  Using subqueries, display the titles of films that the employee Jon Stephens rented to customers.
+   ✅ Solutions   Solutions Click Here   SELECT first_name, last_name FROM actor WHERE actor_id IN (  SELECT actor_id  FROM film_actor  WHERE film_id IN  (  SELECT film_id  FROM film  WHERE title = &amp;#39;ALTER VICTORY&amp;#39;  ) );  -- Using subqueries, display the titles of films that were rented out by an employee named Jon Stephens.</description>
+    </item>
+    
+    <item>
+      <title>11. Unions 👩‍🎓👨‍🎓</title>
+      <link>/09-sql/activities/day-03/11-unions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-sql/activities/day-03/11-unions/</guid>
+      <description>In this activity, you will practice unions by combining data from tables without the use of joins.
+Instructions   Using UNION, write a PostgreSQL statement to query the number of rows in tables city and country.
+  Use UNION to display from the tables customer and customer_list the ID of all customers who live in the city of London. Determine whether both tables contain the same customers by using UNION ALL.</description>
+    </item>
+    
+  </channel>
+</rss>

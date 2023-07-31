@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 2 on </title>
+    <link>/10-advanced-sql/activities/day-02/</link>
+    <description>Recent content in Day 2 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/10-advanced-sql/activities/day-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Basic Querying 👩‍🏫🧑‍🏫</title>
+      <link>/10-advanced-sql/activities/day-02/01-basic-querying/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/01-basic-querying/</guid>
+      <description>from sqlalchemy import create_engine from sqlalchemy import Column, Integer, String, Float  from sqlalchemy.ext.declarative import declarative_base Base = declarative_base() class BaseballPlayer(Base):  __tablename__ = &amp;#34;player&amp;#34;  player_id = Column(String, primary_key=True)  birth_year = Column(Integer)  birth_month = Column(Integer)  birth_day = Column(Integer)  birth_country = Column(String)  birth_state = Column(String)  birth_city = Column(String)  name_first = Column(String)  name_last = Column(String)  name_given = Column(String)  weight = Column(Integer)  height = Column(Integer)  bats = Column(String)  throws = Column(String)  debut = Column(String)  final_game = Column(String) # Create Database Connection engine = create_engine(&amp;#39;sqlite:///.</description>
+    </item>
+    
+    <item>
+      <title>02. Sunny Hours  👩‍🎓👨‍🎓</title>
+      <link>/10-advanced-sql/activities/day-02/02-sunny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/02-sunny/</guid>
+      <description>Sunny Hours For this activity, you will create a Python script that can search through the provided SQL file of hours of sunshine in various cities in the world.
+Instructions   Use sunshine.sqlite as your data source.
+  Within a Python script, create a Sunshine class to read in all of the columns of the database. Consult the SQL schema of the sunshine table when creating your class. Note that the REAL data type refers to floating point numbers (decimals).</description>
+    </item>
+    
+    <item>
+      <title>03. Basic Updating 👩‍🏫🧑‍🏫</title>
+      <link>/10-advanced-sql/activities/day-02/03-basic-updating/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/03-basic-updating/</guid>
+      <description>from sqlalchemy import create_engine, Column, Integer, String from sqlalchemy.ext.declarative import declarative_base Base = declarative_base()  # Define our pet table class Pet(Base):  __tablename__ = &amp;#39;pet&amp;#39;  id = Column(Integer, primary_key=True)  name = Column(String)  type = Column(String)  age = Column(Integer) # Right now, this table only exists in python and not in the actual database Base.metadata.tables  # Create our database engine engine = create_engine(&amp;#39;sqlite:///pets.sqlite&amp;#39;) # This is where we create our tables in the database Base.</description>
+    </item>
+    
+    <item>
+      <title>04. CRUD 👩‍🎓👨‍🎓</title>
+      <link>/10-advanced-sql/activities/day-02/04-crud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/04-crud/</guid>
+      <description>CRUD Database In this activity, you and a partner will practice CRUD operations with a new SQLite database.
+Instructions   Within a Python file, create a new SQLAlchemy class called Travel to hold the following values:
+  __tablename__: This should be &amp;ldquo;travel_destinations&amp;rdquo;
+  id: The primary key for the table, which is an integer and automatically increments
+  city: A string of the name of the city</description>
+    </item>
+    
+    <item>
+      <title>05. Reflection 👩‍🏫🧑‍🏫</title>
+      <link>/10-advanced-sql/activities/day-02/05-reflection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/05-reflection/</guid>
+      <description># Python SQL toolkit and Object Relational Mapper import sqlalchemy from sqlalchemy.ext.automap import automap_base from sqlalchemy.orm import Session from sqlalchemy import create_engine  # Create engine using the `demographics.sqlite` database file engine = create_engine(&amp;#34;sqlite:///./resources/dow.sqlite&amp;#34;) # Declare a Base using `automap_base()` Base = automap_base() # Use the Base class to reflect the database tables Base.prepare(autoload_with=engine) # Print all of the classes mapped to the Base Base.classes.keys()  # Assign the dow class to a variable called `Dow` Dow = Base.</description>
+    </item>
+    
+    <item>
+      <title>06. Reflecting on SQL 👩‍🎓👨‍🎓</title>
+      <link>/10-advanced-sql/activities/day-02/06-reflecting-on-sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/06-reflecting-on-sql/</guid>
+      <description>Reflecting on SQL For this activity, you’ll test your ability to reflect existing databases using SQLAlchemy and a SQLite table focused on demographic data.
+Instructions   Create an engine using the demographics.sqlite database file.
+  Declare a Base using automap_base(), and use this new Base class to reflect the database&amp;rsquo;s tables.
+  Assign the demographics table/class to a variable called Demographics.
+  Create a session, and use this session to query the Demographics table and display the first five locations.</description>
+    </item>
+    
+    <item>
+      <title>07. Inspection 👩‍🏫🧑‍🏫</title>
+      <link>/10-advanced-sql/activities/day-02/07-inspection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/07-inspection/</guid>
+      <description># Import SQLAlchemy `automap` and other dependencies import sqlalchemy from sqlalchemy.ext.automap import automap_base from sqlalchemy.orm import Session from sqlalchemy import create_engine, inspect # Create the connection engine engine = create_engine(&amp;#34;sqlite:///./resources/dow.sqlite&amp;#34;) # Create the inspector and connect it to the engine inspector = inspect(engine) # Collect the names of tables within the database inspector.get_table_names()  # Using the inspector to print the column names within the &amp;#39;dow&amp;#39; table and its types columns = inspector.</description>
+    </item>
+    
+    <item>
+      <title>08. Salary Explore 👩‍🎓👨‍🎓</title>
+      <link>/10-advanced-sql/activities/day-02/08-salary-explore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10-advanced-sql/activities/day-02/08-salary-explore/</guid>
+      <description>Salary Exploration For this activity, you will create an inspector and search through a SQLite database of San Francisco salaries.
+Instructions Using the attached SQLite file, use an inspector to collect the following information:
+  The names of all of the tables within the database
+  The column names and data types for the salaries table
+  References DataSF. (2022). OpenData. Employee Compensation, City Management and Ethics. Data provided by SF Controller&amp;rsquo;s Office.</description>
+    </item>
+    
+  </channel>
+</rss>

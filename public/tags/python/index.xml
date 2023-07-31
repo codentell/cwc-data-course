@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on </title>
+    <link>/tags/python/</link>
+    <description>Recent content in python on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01.  Terminal 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/01-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/01-terminal/</guid>
+      <description>cd Desktop will change to the desktop directory
+mkdir PythonStuff will make a new directory/folder on the desktop.
+cd PythonStuff will move to the newly created folder
+open . on a Mac or
+explorer . on a Windows will open the current folder
+touch first_file.py will create a file
+touch second_file.py will create a second file
+ls will show what is in the current directory
+cd .. will move us up a directory back to Desktop</description>
+    </item>
+    
+    <item>
+      <title>01. Cereal Cleaner 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/01-cereal-cleaner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/01-cereal-cleaner/</guid>
+      <description>In this activity, you will create an application that reads in cereal data from a CSV file and then prints only those cereals that contain 5 or more grams of fiber.
+Instructions   Read the file using the code in the notebook, cereal.csv and start by skipping the header row. See hints below for this.
+  Read through the remaining rows and find the cereals that contain five grams of fiber or more, printing the data from those rows to the terminal.</description>
+    </item>
+    
+    <item>
+      <title>01. Quick Check-Up 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/01-quick-check-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/01-quick-check-up/</guid>
+      <description>Let’s start with a quick warm-up activity to get the Python juices flowing.
+Instructions Create a simple Python program below that does the following:
+  Prints &amp;ldquo;Hello User!&amp;rdquo;
+  Then asks &amp;ldquo;What is your name?&amp;rdquo;
+  Then responds &amp;ldquo;Hello &amp;lt;user&amp;rsquo;s name&amp;gt;&amp;rdquo;
+  Then asks: &amp;ldquo;What is your favorite number? &amp;quot;
+  Then responds: &amp;ldquo;Your favorite number is lower than mine.&amp;rdquo;, &amp;ldquo;Your favorite number is higher than mine.</description>
+    </item>
+    
+    <item>
+      <title>Activities ✅</title>
+      <link>/03-python/activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/</guid>
+      <description>Video Speed Run of the Activities if you get stuck or miss class
+📺 Python Activities Video Speed Runs 🏃‍♀️🏃    Day Mac 🍎 Duration Window 🖼️ Duration     01 Video 📺 01:15:25 ⏲️ Video 📺 01:15:25 ⏲️   02 Video 📺 01:04:44 ⏲️ Video 📺 01:04:44 ⏲️   03 Video 📺 00:58:54 ⏲️ Video 📺 00:58:54 ⏲️    Activities Required ✅ ⬆️ Back to Top Instructor Turn = 👩‍🏫🧑‍🏫 Students Turn = 👩‍🎓👨‍🎓</description>
+    </item>
+    
+    <item>
+      <title>Day 1</title>
+      <link>/03-python/activities/day-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/</guid>
+      <description>3.1: Introduction to Python Overview In today&amp;rsquo;s class, students will transition from VBA to the Python programming language. To start, we’ll check the Python installation for students; then, we’ll cover the basics of terminal navigation, variables, conditionals, and loops.
+Class Objectives By the end of this lesson, the students will be able to:
+  Perform their Python 3 installation.
+  Navigate through files and folders via the terminal.</description>
+    </item>
+    
+    <item>
+      <title>Day 2</title>
+      <link>/03-python/activities/day-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/</guid>
+      <description>3.2: Reading and Writing in Python Overview In today&amp;rsquo;s class, we will explore reading and writing data from and to external CSV files. Students will also delve into Python dictionaries, zipping lists, and functions.
+Class Objectives By the end of this lesson, the students will be able to:
+  Read data into Python from CSV files.
+  Write data from Python to CSV files.
+  Zip two lists together.</description>
+    </item>
+    
+    <item>
+      <title>Day 3</title>
+      <link>/03-python/activities/day-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/</guid>
+      <description>3.3: A Deeper Dive Into Python Overview In today&amp;rsquo;s class, students will explore other Python capabilities that will be used throughout the course. Then, at the end of class, students will learn to use Git from the command line.
+Class Objectives By the end of this lesson, the students will be able to:
+  Create and use Python dictionaries.
+  Read in data from a dictionary.
+  Use list comprehensions.</description>
+    </item>
+    
+    <item>
+      <title>Module 3 Challenge ⭐</title>
+      <link>/03-python/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/challenges/</guid>
+      <description>Background It&amp;rsquo;s time to put away the Excel sheet and enter the world of programming with Python. In this assignment, you&amp;rsquo;ll use the concepts you&amp;rsquo;ve learned to complete two Python challenges, PyBank and PyPoll. Both tasks present a real-world situation where your newly developed Python scripting skills come in handy.
+Before You Begin Before starting the assignment, be sure to complete the following steps:
+  Create a new repository for this project called python-challenge.</description>
+    </item>
+    
+    <item>
+      <title>02. Dictionary 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-03/02-dictionary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/02-dictionary/</guid>
+      <description># Unlike lists, dictionaries store information in pairs # ---------------------------------------------------------------  # Create a dictionary to hold the actor&amp;#39;s names. actors = {}  # Create a dictionary using the built-in function. actors = dict()  # A dictionary of an actor. actors = {&amp;#34;name&amp;#34;: &amp;#34;Tom Cruise&amp;#34;} print(f&amp;#39;{actors[&amp;#34;name&amp;#34;]}&amp;#39;)  # Add an actor to the dictionary with the key &amp;#34;name&amp;#34; # and the value &amp;#34;Denzel Washington&amp;#34;. actors[&amp;#34;name&amp;#34;] = &amp;#34;Denzel Washington&amp;#34;  # Print the actors dictionary.</description>
+    </item>
+    
+    <item>
+      <title>02. Simple Loops 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/02-simple-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/02-simple-loops/</guid>
+      <description># A For loop moves through a given range of numbers # If only one number is provided it will loop from 0 to that number for x in range(10):  print(x)  # If two numbers are provided then a For loop will loop from the first number up until it reaches the second number for x in range(20, 30):  print(x)  # If a list is provided, then the For loop will loop through each element within the list words = [&amp;#34;Peanut&amp;#34;, &amp;#34;Butter&amp;#34;, &amp;#34;Jelly&amp;#34;, &amp;#34;Time&amp;#34;, &amp;#34;Is&amp;#34;, &amp;#34;Now&amp;#34;] for word in words:  print(word)  # A While Loop will continue to loop through the code contained within it until some condition is met x = &amp;#34;Yes&amp;#34; while x == &amp;#34;Yes&amp;#34;:  print(&amp;#34;Whee!</description>
+    </item>
+    
+    <item>
+      <title>02. Terminal 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/02-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/02-terminal/</guid>
+      <description>Terminal Now, it&amp;rsquo;s your turn to do some work in the terminal. You&amp;rsquo;ll create three folders and a pair of Python files to print strings of your own creation to the console.
+Instructions Use the following instructions to write commands in your terminal:
+  Create a folder called LearnPython.
+  Navigate into the folder.
+  Inside LearnPython, create another folder called Assignment1.
+  Inside Assignment1, create a file called quick_python.</description>
+    </item>
+    
+    <item>
+      <title>03.  Kid in a Candy Store  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/03-candy-store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/03-candy-store/</guid>
+      <description>In this activity, you will create the code that a candy store will use in their state-of-the-art candy vending machine.
+Instructions   Create a loop that prints all of the candies in the store to the terminal, with their index stored in brackets beside them.
+ For example: &amp;quot;[0] Snickers&amp;quot;    Create a second loop that runs for a set number of times determined by the variable allowance.</description>
+    </item>
+    
+    <item>
+      <title>03.  Variables 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/03-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/03-variables/</guid>
+      <description># Creates a variable with a string &amp;#34;Frankfurter&amp;#34; title = &amp;#34;Frankfurter&amp;#34;  # Creates a variable with an integer 80 years = 80  # Creates a variable with the boolean value of True expert_status = True  # Prints a statement adding the variable print(&amp;#34;Nick is a professional &amp;#34; + title)  # Convert the integer years into a string and prints print(&amp;#34;He has been coding for &amp;#34; + str(years) + &amp;#34; years&amp;#34;)  # Converts a boolean into a string and prints print(&amp;#34;Expert status: &amp;#34; + str(expert_status))  # An f-string accepts all data types without conversion print(f&amp;#34;Expert status: {expert_status}&amp;#34;) </description>
+    </item>
+    
+    <item>
+      <title>03. Dictionary  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/03-dictionary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/03-dictionary/</guid>
+      <description>In this activity, you will create and access dictionaries that are based on your own hobbies.
+Instructions  Create a dictionary to store the following information:   Your name Your age A list of a few of your hobbies A dictionary that includes a few days and the time you typically wake up on those days  Print out your name, how many hobbies you have, and a time you typically wake up during the week.</description>
+    </item>
+    
+    <item>
+      <title>04.  House of pies  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/04-house-of-pies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/04-house-of-pies/</guid>
+      <description>In this activity, you will build an order form that displays a list of pies and then prompts users to make a selection. The form will continue to prompt for selections until the user decides to end the process.
+Instructions  Create an order form that displays a list of pies to the user in the following way:  Welcome to the House of Pies! Here are our pies: --------------------------------------------------------------------- (1) Pecan, (2) Apple Crisp, (3) Bean, (4) Banoffee, (5) Black Bun, (6) Blueberry, (7) Buko, (8) Burek, (9) Tamale, (10) Steak   Then, prompt the user to enter the number for the pie they would like to order.</description>
+    </item>
+    
+    <item>
+      <title>04. Hello Variable World 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/04-hello-variable-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/04-hello-variable-world/</guid>
+      <description>Hello, Variable World In this activity, you will create a simple Python application that uses variables to run calculations on integers and print strings out to the console.
+Instructions   Create two variables, called name and country, that will hold strings.
+  Create two variables, called age and hourly_wage, that will hold integers.
+  Create a variable called satisfied, which will hold a Boolean.
+  Create a variable called daily_wage, which will hold the value of hourly_wage multiplied by 8.</description>
+    </item>
+    
+    <item>
+      <title>04. List Comprehensions 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-03/04-list-comprehensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/04-list-comprehensions/</guid>
+      <description>fish = &amp;#34;halibut&amp;#34;  # Loop through each letter in the string # and push to an array letters = [] for letter in fish:  letters.append(letter)  print(letters)  # List comprehensions provide concise syntax for creating lists letters = [letter for letter in fish]  print(letters)  # We can manipulate each element as we go capital_letters = [] for letter in fish:  capital_letters.append(letter.upper())  print(capital_letters)  # List Comprehension for the above capital_letters = [letter.</description>
+    </item>
+    
+    <item>
+      <title>05.  Basic Read 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/05-basic-read/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/05-basic-read/</guid>
+      <description># Store the file path associated with the file (note the backslash may be OS specific) file = &amp;#39;./Resources/input.txt&amp;#39;  # Open the file in &amp;#34;read&amp;#34; mode (&amp;#39;r&amp;#39;) and store the contents in the variable &amp;#34;text&amp;#34; with open(file, &amp;#39;r&amp;#39;) as text:   # This stores a reference to a file stream  print(text)   # Store all of the text inside a variable called &amp;#34;lines&amp;#34;  lines = text.</description>
+    </item>
+    
+    <item>
+      <title>05.  Prompts 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/05-prompts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/05-prompts/</guid>
+      <description># Collects the user&amp;#39;s input for the prompt &amp;#34;What is your name?&amp;#34; name = input(&amp;#34;What is your name? &amp;#34;)  # Collects the user&amp;#39;s input for the prompt &amp;#34;How old are you?&amp;#34; and converts the string to an integer. age = int(input(&amp;#34;How old are you? &amp;#34;))  # Collects the user&amp;#39;s input for the prompt &amp;#34;Is input truthy?&amp;#34; and converts it to a boolean. Note that non-zero, # non-empty objects are truth-y.</description>
+    </item>
+    
+    <item>
+      <title>05. List Comprehensions 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/05-list-comprehensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/05-list-comprehensions/</guid>
+      <description>In this activity, you’ll use list comprehensions to compose a wedding invitation, which you will send to every name on your mailing list.
+Instructions   Fill the cell below.
+  Run the provided program. Note that nothing forces you to write the name properly in title case—for example, as &amp;ldquo;Jane&amp;rdquo; instead of &amp;ldquo;jAnE&amp;rdquo;. You will use list comprehensions to fix this.
+  First, use list comprehensions to create a new list that contains the lowercase version of each of the names your user provided.</description>
+    </item>
+    
+    <item>
+      <title>06.  Module 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/06-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/06-module/</guid>
+      <description># Import the random and string Module import random import string  # Utilize the string module&amp;#39;s custom method: &amp;#34;.ascii_letters&amp;#34; print(string.ascii_letters)  # Utilize the random module&amp;#39;s custom method randint for x in range(10):  print(random.randint(1, 10)) </description>
+    </item>
+    
+    <item>
+      <title>06. Down to Input 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/06-down-to-input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/06-down-to-input/</guid>
+      <description>In this activity, you store inputs from the command line and run code based on those inputs.
+Instructions   Create two different variables, one to take the input of your first name and one for your neighbour’s first name.
+  Create two more inputs to ask how many months you and your neighbour have been coding.
+  Finally, display a result with both your names and the total amount of months coding.</description>
+    </item>
+    
+    <item>
+      <title>06. Functions 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-03/06-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/06-functions/</guid>
+      <description># Basic Definition def name(parameters):  # code goes here  return   # Simple Function with no parameters def show():  print(f&amp;#34;Hi!&amp;#34;)   # you use parentheses to run the code in a function show()  # Simple function with one parameter def show(message):  print(message)   # Think of the parameter `message` as a variable # You assign the string &amp;#34;Hello, World!&amp;#34; when you call the function # This is like saying `message = &amp;#34;Hello, World!</description>
+    </item>
+    
+    <item>
+      <title>07.  Conditionals 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/07-conditionals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/07-conditionals/</guid>
+      <description>x = 1 y = 10  # Checks if one value is equal to another if x == 1:  print(&amp;#34;x is equal to 1&amp;#34;)  # Checks if one value is NOT equal to another if y != 1:  print(&amp;#34;y is not equal to 1&amp;#34;)  # Checks if one value is less than another if x &amp;lt; y:  print(&amp;#34;x is less than y&amp;#34;)  # Checks if one value is greater than another if y &amp;gt; x:  print(&amp;#34;y is greater than x&amp;#34;)  # Checks if a value is greater than or equal to another if x &amp;gt;= 1:  print(&amp;#34;x is greater than or equal to 1&amp;#34;)  # Checks for two conditions to be met using &amp;#34;and&amp;#34; if x == 1 and y == 10:  print(&amp;#34;Both values returned true&amp;#34;)  # Checks if either of two conditions is met if x &amp;lt; 45 or y &amp;lt; 5:  print(&amp;#34;One or more of the statements were true&amp;#34;)  # Nested if statements if x &amp;lt; 10:  if y &amp;lt; 5:  print(&amp;#34;x is less than 10 and y is less than 5&amp;#34;)  elif y == 5:  print(&amp;#34;x is less than 10 and y is equal to 5&amp;#34;)  else:  print(&amp;#34;x is less than 10 and y is greater than 5&amp;#34;) </description>
+    </item>
+    
+    <item>
+      <title>07. Functions 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/07-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/07-functions/</guid>
+      <description>In this activity, you will write a function to compute the arithmetic mean (average) for a list of numbers.
+Instructions   Write a function called average that accepts a list of numbers.
+ The function average should return the arithmetic mean (average) for a list of numbers.    Test your function by calling it with different values and printing the results.
+   ✅ Solutions   Solutions Click Here   # Write a function that returns the arithmetic average for a list of numbers def average(numbers):  length = len(numbers)  total = 0.</description>
+    </item>
+    
+    <item>
+      <title>07. Module Playground   👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/07-module-playground/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/07-module-playground/</guid>
+      <description>In this activity, you will have the opportunity to explore and play around with some Python modules.
+Instructions There are tons of built-in modules for Python. Review some of Python&amp;rsquo;s modules and play around with them. Use the following link:
+👉 List of Built-In Python Modules
+ </description>
+    </item>
+    
+    <item>
+      <title>08.  Conditionals Conundrum 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/08-conditionals-conundrum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/08-conditionals-conundrum/</guid>
+      <description>In this activity, you’ll review prewritten conditionals and predict the lines that will be printed to the console.
+Instructions   Go through the conditionals in the provided code, and predict the lines that will be printed to the console.
+  Do not run the code at first. Try to follow the thought process for each chunk of code and then make a guess. Only after coming up with a guess for each section should you run the application.</description>
+    </item>
+    
+    <item>
+      <title>08. Graduation  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/08-graduation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/08-graduation/</guid>
+      <description>Graduating Functions In this activity, you will create a function that searches a list of students and graduates by state to determine state graduation rates for public, private nonprofit, and private for-profit institutions.
+Instructions   Analyze the code and CSV provided, looking specifically for what needs to still be added to the application.
+  Using the starter code provided, create a function called print_percentages which takes in a parameter called state_data and does the following:</description>
+    </item>
+    
+    <item>
+      <title>08. Read CSV 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/08-read-csv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/08-read-csv/</guid>
+      <description># First we&amp;#39;ll import the os module # This will allow us to create file paths across operating systems import os  # Module for reading CSV files import csv   csvpath = os.path.join(&amp;#39;.&amp;#39;, &amp;#39;Resources&amp;#39;, &amp;#39;contacts.csv&amp;#39;)  # Method 1: Plain Reading of CSV files with open(csvpath, &amp;#39;r&amp;#39;) as file_handler:  lines = file_handler.read()  print(lines)  print(type(lines))  # Method 2: Improved Reading using CSV module  with open(csvpath) as csvfile:   # CSV reader specifies delimiter and variable that holds contents  csvreader = csv.</description>
+    </item>
+    
+    <item>
+      <title>09.  List 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/09-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/09-list/</guid>
+      <description># Create a variable and set it as an List myList = [&amp;#34;Kirra&amp;#34;, 25, &amp;#34;Ahmed&amp;#34;, 80] print(myList)   # Adds an element onto the end of a List myList.append(&amp;#34;Matt&amp;#34;) print(myList)  # Returns the index of the first object with a matching value print(myList.index(&amp;#34;Matt&amp;#34;))   # Changes a specified element within an List at the given index myList[3] = 85 print(myList)   # Returns the length of the List print(len(myList))  # Removes a specified object from an List myList.</description>
+    </item>
+    
+    <item>
+      <title>09. Git 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-03/09-adding-more-to-the-repo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-03/09-adding-more-to-the-repo/</guid>
+      <description>You only added files using the GitHub website, which works well enough when just dealing with one or two files. What happens when we need to quickly add multiple files?
+ The command line comes to the rescue!    Creating a repo and adding files with Terminal/Git Bash.
+  First, create a new repo.
+  From the repo page, click the green box in the top-right labeled &amp;ldquo;Clone or download&amp;rdquo;, select &amp;ldquo;Use SSH&amp;rdquo;, and copy the link to the clipboard, as captured in the following GIF:</description>
+    </item>
+    
+    <item>
+      <title>09. Reading Comic Book  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/09-reading-comic-book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/09-reading-comic-book/</guid>
+      <description>In this activity, you will create an application that searches the provided CSV file for a specific graphic novel title and then returns the title, publisher’s name, and the year it was published.
+Instructions   Prompt the user for the book title they’d like to search.
+  Search through the comic_books.csv to find the user&amp;rsquo;s book.
+  If the CSV contains the user&amp;rsquo;s title, then print out the title, the publisher name, and the year it was published.</description>
+    </item>
+    
+    <item>
+      <title>10.  Rock Paper Scissors 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/10-rps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/10-rps/</guid>
+      <description>Create a Rock, Paper, Scissors game that takes user input from the command line and plays against the computer.
+Instructions   Using the notebook, take an input of r, p, or s for rock, paper, or scissors.
+  Have the computer randomly pick one of these three choices.
+  Compare the user&amp;rsquo;s input to the computer&amp;rsquo;s choice to determine if the user won, lost, or tied.
+  Hint  Check out this Stack Overflow question for help with using the random module to select a value from a list.</description>
+    </item>
+    
+    <item>
+      <title>10. Write File  👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/10-write-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/10-write-file/</guid>
+      <description># Dependencies import os import csv  # Specify the file to write to output_path = os.path.join(&amp;#34;.&amp;#34;, &amp;#34;output&amp;#34;, &amp;#34;new.csv&amp;#34;)   # Open the file using &amp;#34;write&amp;#34; mode. Specify the variable to hold the contents with open(output_path, &amp;#39;w&amp;#39;) as csvfile:   # Initialize csv.writer  csvwriter = csv.writer(csvfile, delimiter=&amp;#39;,&amp;#39;)   # Write the first row (column headers)  csvwriter.writerow([&amp;#39;First Name&amp;#39;, &amp;#39;Last Name&amp;#39;, &amp;#39;SSN&amp;#39;])   # Write the second row  csvwriter.</description>
+    </item>
+    
+    <item>
+      <title>11.  Loops 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-01/11-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/11-loops/</guid>
+      <description># Loop through a range of numbers (0 through 4) for x in range(5):  print(x)  print(&amp;#34;-----------------------------------------&amp;#34;)  # Loop through a range of numbers (2 through 6 - yes 6! Up to, but not including, 7) for x in range(2, 7):  print(x)  print(&amp;#34;----------------------------------------&amp;#34;)   # Iterate through letters in a string word = &amp;#34;Peace&amp;#34; for letter in word:  print(letter) print(&amp;#34;----------------------------------------&amp;#34;)  # Iterate through a list zoo = [&amp;#34;cow&amp;#34;, &amp;#34;dog&amp;#34;, &amp;#34;bee&amp;#34;, &amp;#34;zebra&amp;#34;] for animal in zoo:  print(animal)  print(&amp;#34;----------------------------------------&amp;#34;)  # Loop while a condition is being met run = &amp;#34;y&amp;#34;  while run == &amp;#34;y&amp;#34;:  print(&amp;#34;Hi!</description>
+    </item>
+    
+    <item>
+      <title>11. Zip 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/11-zip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/11-zip/</guid>
+      <description>import csv import os  # Three Lists indexes = [1, 2, 3, 4] employees = [&amp;#34;Michael&amp;#34;, &amp;#34;Dwight&amp;#34;, &amp;#34;Meredith&amp;#34;, &amp;#34;Kelly&amp;#34;] department = [&amp;#34;Boss&amp;#34;, &amp;#34;Sales&amp;#34;, &amp;#34;Sales&amp;#34;, &amp;#34;HR&amp;#34;]  # Zip all three lists together into tuples roster = zip(indexes, employees, department) print(roster)  # Print the contents of each row for employee in roster:  print(employee)  # save the output file path output_file = os.path.join(&amp;#34;./output/activity-11-output.csv&amp;#34;)  # open the output file, create a header row, and then write the zipped object to the csv with open(output_file, &amp;#34;w&amp;#34;) as datafile:  writer = csv.</description>
+    </item>
+    
+    <item>
+      <title>12.  Number Chain 👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-01/12-number-chain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-01/12-number-chain/</guid>
+      <description>In this activity, you will take user input and print out a string of numbers.
+Instructions   Using a while loop, ask the user &amp;ldquo;How many numbers?&amp;rdquo;, and then print out a chain of numbers in increasing order, from 0 to the user-input number.
+  After the results have been printed, ask the user if they would like to continue.
+  If &amp;ldquo;y&amp;rdquo; is entered, keep the chain running by inputting a new number and starting a new count from 0 to the new user-input number.</description>
+    </item>
+    
+    <item>
+      <title>12. Census Breakdown  👩‍🎓👨‍🎓</title>
+      <link>/03-python/activities/day-02/12-census-breakdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/12-census-breakdown/</guid>
+      <description>In this activity, you will be provided with a large dataset from the 2019 U.S. Census. Your task is to clean up this dataset and create a new CSV file that is easier to comprehend.
+Instructions   Create a Python application that reads in the data from the 2019 U.S. Census.
+  Then, store the contents of Place, Population, Per Capita Income, and Poverty Count into Python Lists.</description>
+    </item>
+    
+    <item>
+      <title>13. Functions 👩‍🏫🧑‍🏫</title>
+      <link>/03-python/activities/day-02/13-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03-python/activities/day-02/13-functions/</guid>
+      <description># Define the function and tell it to print &amp;#34;Hello!&amp;#34; when called def print_hello():  print(f&amp;#34;Hello!&amp;#34;)   # Call the function within the application to ensure the code is run print_hello() # -------------#  # Functions that take in and use parameters can also be defined def print_name(name):  print(&amp;#34;Hello &amp;#34; + name + &amp;#34;!&amp;#34;)   # When calling a function with a parameter, a parameter must be passed into the function print_name(&amp;#34;Bob Smith&amp;#34;) # -------------#  # The prime use case for functions is in being able to run the same code for different values list_one = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] list_two = [11, 12, 13, 14, 15]   def list_information(simple_list):  print(f&amp;#34;The values within the list are.</description>
+    </item>
+    
+  </channel>
+</rss>

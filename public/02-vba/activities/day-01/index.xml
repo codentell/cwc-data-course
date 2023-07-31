@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day 1 on </title>
+    <link>/02-vba/activities/day-01/</link>
+    <description>Recent content in Day 1 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/02-vba/activities/day-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Hello World👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/01-hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/01-hello-world/</guid>
+      <description>Files: Activities/01-Ins_HelloWorld/Solved/hello_world.xlsm
+  The first VBA script. Open the VBA editor, and navigate to Module 1. All examples in this lesson plan and the ones in the rest of the unit can be found in Module 1, as in the following images:
+  The editor’s interface, and be sure to discuss the following points:
+  Modules are organizational units of VBA code that are usually attached to a workbook or worksheet.</description>
+    </item>
+    
+    <item>
+      <title>02. Hello VBA 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/02-hello-vba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/02-hello-vba/</guid>
+      <description>Hello, VBA It’s time to write your first VBA script!
+Instructions   Create and execute a VBA script that generates three pop-up messages containing any text of your choice.
+  If you finish early, try to help other students complete the activity.
+  —
+✅ Solutions   Solutions Click Here   Sub HelloVBA():   MsgBox (&amp;#34;Hello VBA!&amp;#34;)  MsgBox (&amp;#34;I have come to master your vicissitudes.</description>
+    </item>
+    
+    <item>
+      <title>03. Button Clicks 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/03-button-clicks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/03-button-clicks/</guid>
+      <description>Files: 03-Ins_ButtonClicks
+  Next, return to the Developer tab, where you’ll insert a button in their spreadsheet. The Mac layout is slightly different, so be patient if you have any difficulty finding features across operating systems.
+  First, create a button, as in the following image:   Once the button is created, the &amp;ldquo;Assign Macro&amp;rdquo; window will pop up, where you can choose to create a new macro or select an existing one, as in the following image:   If you accidentally close this window, you can always re-open it by right-clicking your button and selecting &amp;ldquo;Assign Macro&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>04. Choose Your Button 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/04-choose-your-button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/04-choose-your-button/</guid>
+      <description>Choose Your Button In this activity, you’ll get to practice creating subroutines that can be triggered with the click of a button.
+Instructions   Create an Excel file with two buttons.
+  For each button, create a different VBA subroutine that will trigger a different pop-up message when clicked.
+  If you finish early, ensure the people around you complete the task as well.
+  —</description>
+    </item>
+    
+    <item>
+      <title>05. Cells and Ranges 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/05-cells-and-ranges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/05-cells-and-ranges/</guid>
+      <description>Sub CellsAndRanges():   &amp;#39; Inserting Data Via Cells  Cells(2, 1).Value = &amp;#34;Cat&amp;#34;  Cells(2, 2).Value = &amp;#34;In&amp;#34;  Cells(2, 3).Value = &amp;#34;The&amp;#34;  Cells(2, 4).Value = &amp;#34;Hat&amp;#34;   &amp;#39; Inserting Data Via Ranges  Range(&amp;#34;F1&amp;#34;).Value = &amp;#34;I&amp;#34;  Range(&amp;#34;F2&amp;#34;).Value = &amp;#34;Am&amp;#34;  Range(&amp;#34;F3&amp;#34;).Value = &amp;#34;Sam&amp;#34;   &amp;#39; Inserting Data Across Ranges  Range(&amp;#34;F5:F7&amp;#34;).Value = 5  End Sub </description>
+    </item>
+    
+    <item>
+      <title>06. Chessboard  👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/06-chessboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/06-chessboard/</guid>
+      <description>Chessboard For this activity, you&amp;rsquo;ll add the names of chess pieces to their starting positions on the provided chessboard.
+Instructions  Add text-based chess pieces to the provided chessboard. For the first two rows of the chessboard, use Ranges; for the final two rows of the chessboard, use Cells.  Piece positions:
+   Rook Knight Bishop Queen King Bishop Knight Rook     Pawn Pawn Pawn Pawn Pawn Pawn Pawn Pawn                                               Pawn Pawn Pawn Pawn Pawn Pawn Pawn Pawn   Rook Knight Bishop Queen King Bishop Knight Rook    Hint Remember that with Ranges, it is possible to modify multiple cells at once.</description>
+    </item>
+    
+    <item>
+      <title>07. Variables 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/07-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/07-variables/</guid>
+      <description>Sub Variables():   &amp;#39; Basic String Variable  &amp;#39; ----------------------------------------  Dim name As String  name = &amp;#34;Gandalf&amp;#34;   MsgBox (name)   &amp;#39; Basic String Concatenation (Combination)  &amp;#39; ----------------------------------------  Dim title As String  title = &amp;#34;The Great&amp;#34;   Dim fullname As String  fullname = name + &amp;#34; &amp;#34; + title   MsgBox (fullname)   &amp;#39; Basic Integer, Double, Long Variables  &amp;#39; ----------------------------------------  Dim age1 As Integer  Dim age2 As Integer  age1 = 5  age2 = 10   Dim price As Double  Dim tax As Double  price = 19.</description>
+    </item>
+    
+    <item>
+      <title>08. Calculator 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/08-calculator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/08-calculator/</guid>
+      <description>Calculator Now, you will have the opportunity to use data in a spreadsheet to create variables and perform a simple calculation.
+Instructions   Using the spreadsheet and unsolved VBS code as a starter, complete the script so that Price, Tax, Quantity, and Total are stored in variables.
+  Then, assign these variables the value of their associated cell in the spreadsheet.
+  Once complete, your code should set the Total value in the spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>09. Arrays 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/09-arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/09-arrays/</guid>
+      <description>Sub SimpleArrays():   &amp;#39; Basic Array Example  &amp;#39; ------------------------------------------  &amp;#39; Create the Ingredients Array  Dim Ingredients(5) as String   &amp;#39; Add Ingredients to the Array  Ingredients(0) = &amp;#34;Chocolate Bar&amp;#34;  Ingredients(1) = &amp;#34;Peanut Butter&amp;#34;  Ingredients(2) = &amp;#34;Jelly&amp;#34;  Ingredients(3) = &amp;#34;Macaroni&amp;#34;  Ingredients(4) = &amp;#34;Potato Salad&amp;#34;  Ingredients(5) = &amp;#34;Dragonfruit&amp;#34;   &amp;#39; Retrieve specific elements of the array  MsgBox(Ingredients(4))  MsgBox(Ingredients(0))  End Sub </description>
+    </item>
+    
+    <item>
+      <title>10. Splitting 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/10-splitting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/10-splitting/</guid>
+      <description>Sub SimpleArrays():   &amp;#39; String Splitting Example  &amp;#39; ------------------------------------------  Dim Words() As String  Dim Shakespeare As String  Shakespeare = &amp;#34;To be or not to be. That is the question&amp;#34;   &amp;#39; Break apart the Shakespeare quote into individual words  Words = Split(Shakespeare, &amp;#34; &amp;#34;)   &amp;#39; Print individual word  MsgBox (Words(5))  End Sub </description>
+    </item>
+    
+    <item>
+      <title>11. Sentence Breaker 👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/11-sentence-breaker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/11-sentence-breaker/</guid>
+      <description>Sentence Breaker Now, it’s your turn to create a macro by using the Split() function that identifies the n-th word in a user-provided sentence. This is a challenging assignment, so take your time on it. Try to work through it piece by piece.
+Instructions The starter workbook has a cell containing a written sentence and several cells with numbers to identify the n-th word of the sentence.
+The starter code provided in sentence_breaker.</description>
+    </item>
+    
+    <item>
+      <title>13. Choose your story  👩‍🎓👨‍🎓</title>
+      <link>/02-vba/activities/day-01/13-choose-your-story/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/13-choose-your-story/</guid>
+      <description>Choose Your Story In this activity, you will practice using conditionals by creating the first step of a role-playing adventure.
+Instructions Create an Excel workbook and VBA macro that provides a user with an input field and a single button. Based on the user-input number (1, 2, 3, or 4), the button will trigger different message boxes as follows:
+  If the user enters a value of 1, display “You choose to enter the wooded forest of doom!</description>
+    </item>
+    
+    <item>
+      <title>12. Conditionals 👩‍🏫🧑‍🏫</title>
+      <link>/02-vba/activities/day-01/12-conditional/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02-vba/activities/day-01/12-conditional/</guid>
+      <description>Sub Conditionals():   &amp;#39; Simple Conditional Example  &amp;#39; ------------------------------------------  If Range(&amp;#34;A2&amp;#34;).Value &amp;gt; Range(&amp;#34;B2&amp;#34;).Value Then  MsgBox (&amp;#34;Num 1 is greater than Num 2&amp;#34;)  End If   &amp;#39; Simple Conditional with If, Else, and Elseif  &amp;#39; ------------------------------------------  If Range(&amp;#34;A5&amp;#34;).Value &amp;gt; Range(&amp;#34;B5&amp;#34;).Value Then  MsgBox (&amp;#34;Num 3 is greater than Num 4&amp;#34;)   Elseif Range(&amp;#34;A5&amp;#34;).Value &amp;lt; Range(&amp;#34;B5&amp;#34;).Value Then  MsgBox(&amp;#34;Num 4 is greater than Num 3&amp;#34;)   Else  MsgBox(&amp;#34;Num 3 and Num 4 are equal&amp;#34;)   End If   &amp;#39; Conditional with Operators (And)  &amp;#39; ------------------------------------------  If (Range(&amp;#34;A8&amp;#34;).</description>
+    </item>
+    
+  </channel>
+</rss>
