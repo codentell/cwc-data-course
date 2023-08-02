@@ -4,8 +4,8 @@ weight = 1
 tags = ["excel"] 
 +++
 
-## 📺 Excel Module 01 Challenge 
-🏃‍♀️🏃
+## 📺 Excel Module 01 Challenge 🏃‍♀️🏃
+
 **Watch if you get stuck or have no time**
 | Day | Mac 🍎 | Duration    | Window 🖼️ | Duration |
 | ------  | ------ | ----------- |---------  | --------- |
