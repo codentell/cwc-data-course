@@ -103,7 +103,7 @@ End Sub
 
 # reset button
 
-````vba
+````vb
 Sub Reset_Button():
 
   ' Pass the previous grade to the Last Grade row
