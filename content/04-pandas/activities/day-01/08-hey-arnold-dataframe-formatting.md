@@ -57,6 +57,5 @@ hey_arnold_alphabetical_df = hey_arnold_renamed_df[[
     "Character", "Football Head", "Hair Color", "Height"]]
 
 hey_arnold_alphabetical_df
-
 ```
 {{% /expand%}}
