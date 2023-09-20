@@ -125,7 +125,7 @@ Section 2: `Python Data Analytics and Visualization` (Module 3 - 8)       | Thor
 | 08 |   |    |   |   |
 | 09 |   | ⏲️   |   |  ⏲️ |
 | 10 |   | ⏲️   |   | ⏲️   |
-| 11 |   |  ⏲️  |   |  ⏲️ |
+| 11 |  {{< target-blank "Video 📺" "https://zoom.us/rec/play/tpP1631H5EoYf2vuNddxGhkFWw-PWqMvvD3vx1qkaRTBygC7lZJCko3ITjlxP3dvAQLd6BnL4s18zVUR.cBezPWde44kt_oOv?autoplay=true" >}}  |  00:18:03 ⏲️   |   {{< target-blank "Video 📺" "https://zoom.us/rec/play/tpP1631H5EoYf2vuNddxGhkFWw-PWqMvvD3vx1qkaRTBygC7lZJCko3ITjlxP3dvAQLd6BnL4s18zVUR.cBezPWde44kt_oOv?autoplay=true" >}} | 00:18:03 ⏲️   |
 | 12 |   |  ⏲️  |   |  ⏲️ |
 | 13 |   |    |   |   |
 | 14 |   |  ⏲️  |   |  ⏲️ |

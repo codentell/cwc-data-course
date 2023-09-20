@@ -2,12 +2,11 @@
 title = "Activities ✅"
 chapter = true
 weight = 1
-tags = ["sql"] 
+tags = ["advanced sql"] 
 +++
 
 ### Video Speed Run  of the Activities 
 **if you get stuck or miss class**
-
 
 ## 📺 Advanced SQL Activities Video Speed Runs 🏃‍♀️🏃
 | Day | Mac 🍎 | Duration    | Window 🖼️ | Duration |
