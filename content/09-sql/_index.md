@@ -7,7 +7,7 @@ pre: "<b>0️9. </b>"
 # SQL
 
 #### All Module 09 Activites  📂 (Please Download Attachment Below 👇) 
-
+{{%attachments style="green" /%}}
 
 ### Slideshows
 * [9.1 Intro to SQL](https://docs.google.com/presentation/d/1xcx3d0LDS3Cq0LRbdPs7wiwT_Vg4qgoKJWzuM74Nyl8/edit#slide=id.g1165cbde605_0_2551)
