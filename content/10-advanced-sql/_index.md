@@ -7,7 +7,6 @@ pre: "<b>10. </b>"
 # Advanced SQL
 
 #### All Module 10 Activites  📂 (Please Download Attachment Below 👇) 
-{{%attachments style="green" /%}}
 
 ### Slideshows
 * [10.1 Intro to SqlAlchemy](https://docs.google.com/presentation/d/1Kzy8x2YbCo2vcl3C1EJGL6uAd-4oWfIKZ1yKd13prK8/edit#slide=id.g12215be3b6d_1_220)
