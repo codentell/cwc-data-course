@@ -1,5 +1,5 @@
 +++
-title = "04. First Steps with Flask "
+title = "04. First Steps with Flask 👩‍🏫🧑‍🏫"
 weight = 4
 tags = ["sql"] 
 +++

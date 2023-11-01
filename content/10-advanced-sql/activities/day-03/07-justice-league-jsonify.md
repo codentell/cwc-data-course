@@ -1,5 +1,5 @@
 +++
-title = "07. Justice League jsonify "
+title = "07. Justice League jsonify 👩‍🎓👨‍🎓"
 weight = 7
 tags = ["sql"] 
 +++

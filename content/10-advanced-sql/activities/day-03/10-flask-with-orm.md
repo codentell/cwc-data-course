@@ -1,5 +1,5 @@
 +++
-title = "10. Flask with orm "
+title = "10. Flask with orm 👩‍🏫🧑‍🏫"
 weight = 10
 tags = ["sql"] 
 +++

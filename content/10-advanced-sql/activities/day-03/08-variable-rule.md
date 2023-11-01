@@ -1,5 +1,5 @@
 +++
-title = "08. Variable Rule "
+title = "08. Variable Rule 👩‍🏫🧑‍🏫"
 weight = 8
 tags = ["sql"] 
 +++

@@ -1,5 +1,5 @@
 +++
-title = "05. Hello Web "
+title = "05. Hello Web 👩‍🎓👨‍🎓"
 weight = 5
 tags = ["sql"] 
 +++

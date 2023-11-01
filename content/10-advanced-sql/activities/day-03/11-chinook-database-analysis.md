@@ -1,5 +1,5 @@
 +++
-title = "11. Chinook Database "
+title = "11. Chinook Database 👩‍🎓👨‍🎓"
 weight = 11
 tags = ["sql"] 
 +++

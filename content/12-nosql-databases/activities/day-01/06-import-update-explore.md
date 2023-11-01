@@ -10,13 +10,13 @@ In this activity, you will practice importing data from your Terminal, updating 
 
 ## Instructions
 
-* Write a command that imports the data from [annual_aqi_by_county_2022.csv](Resources/annual_aqi_by_county_2022.csv) to a database called `epa` and a collection called `annual_aqi_by_county`. If the collection already exists, drop the collection.
+* Write a command that imports the data from `annual_aqi_by_county_2022.csv` to a database called `epa` and a collection called `annual_aqi_by_county`. If the collection already exists, drop the collection.
 
-* Write a command that imports the data from [ohio_daily_records_2022.json](Resources/ohio_daily_records_2022.json) to a database called `epa` and a collection called `ohio_daily_records`. If the collection already exists, drop the collection.
+* Write a command that imports the data from `ohio_daily_records_2022.json`](Resources/ohio_daily_records_2022.json) to a database called `epa` and a collection called `ohio_daily_records`. If the collection already exists, drop the collection.
 
 * Write a command that imports the data from [ohio_jan_2022.json](Resources/ohio_jan_2022.json) to a database called `epa` and a collection called `ohio_air`. If the collection already exists, drop the collection.
 
-* Write a command that imports the data from [ohio_feb_2022.json](Resources/ohio_feb_2022.json) to a database called `epa` and a collection called `ohio_air`. **Note:** This is the same collection used in the previous import so be sure not to drop the collection in advance.
+* Write a command that imports the data from `ohio_feb_2022.json` to a database called `epa` and a collection called `ohio_air`. **Note:** This is the same collection used in the previous import so be sure not to drop the collection in advance.
 
 * Run `mongo` or `mongosh` from your Terminal and verify that your files imported correctly by writing commands to do the following:
 
