@@ -28,8 +28,8 @@ NA = Base.classes.na
 # create a session
 session = Session(engine)
 
-Filtering Review
-Filters are the "WHERE" clause for your select statement.
+# Filtering Review
+# Filters are the "WHERE" clause for your select statement.
 
 # Filter North American mammals whose genus is "Antilocapra"
 # Query, loop over and print out animals.

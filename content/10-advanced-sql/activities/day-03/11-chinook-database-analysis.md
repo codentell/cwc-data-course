@@ -35,3 +35,10 @@ In this activity, you will perform exploratory analysis of the Chinook database,
 * Calculate the invoice item totals using **sum(UnitPrice \* Quantity)** for each billing postal code in the USA.
 
 ---
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+
+```
+{{% /expand%}}

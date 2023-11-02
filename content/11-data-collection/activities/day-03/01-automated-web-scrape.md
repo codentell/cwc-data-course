@@ -42,6 +42,38 @@ In this activity, we'll scrape data from a website that was created specifically
 
 - - -
 
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
 ```python
 
+# Automated Web Scrape Practice
+from splinter import Browser
+from bs4 import BeautifulSoup
+# Set up Splinter
+browser = Browser('chrome')
+# Visit the Quotes to Scrape site
+url = 'http://quotes.toscrape.com/'
+browser.visit(url)
+# Parse the HTML
+html = browser.html
+soup = BeautifulSoup(html, 'html.parser')
+# Scrape the heading
+h2 = soup.find('h2')
+heading = h2.text
+print(h2)
+print(heading)
+
+# Scrape the top ten tags
+tag_box = soup.find('div', class_='tags-box')
+# tag_box
+tags = tag_box.find_all('a', class_='tag')
+
+for tag in tags:
+    word = tag.text
+    print(word)
+
+# End the automated browsing section
+browser.quit()
+ 
 ```
+{{% /expand%}}

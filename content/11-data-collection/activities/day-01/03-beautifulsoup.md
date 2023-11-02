@@ -1,5 +1,5 @@
 +++
-title = "03. BeautifulSoup"
+title = "03. BeautifulSoup 👩‍🏫🧑‍🏫"
 weight = 3
 tags = ["scraping"] 
 +++

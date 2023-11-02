@@ -45,3 +45,45 @@ Since you have confirmed that your code works and you are able to scrape the boo
 * Congratulations, you have automated the process of scraping multiple website pages! Now end the session by using `browser.quit()`.
 
 - - -
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+
+# Scrape Book Links
+from splinter import Browser
+from bs4 import BeautifulSoup
+# Set up the browser
+browser = Browser('chrome')
+# Scrape Book Links from One Page
+# Visit the website
+url = 'http://books.toscrape.com/'
+browser.visit(url)
+# Create a BeautifulSoup parser to parse the HTML code
+html = browser.html
+soup = BeautifulSoup(html, 'html.parser')
+# Scrape all the book information on a single page
+book_info = soup.find_all(class_ = 'image_container')
+# Extract and store the links for each of the books 
+book_urls = []
+for book in book_info:
+    book_urls.append(book.a['href'])
+book_urls
+
+
+# Scrape Book Links from Multiple Pages
+# Automate clicking the next button
+browser.links.find_by_partial_text('next').click()
+# Use a for loop and browser automation to visit the first 3 pages and print the book urls
+for x in range(1, 4):
+    html = browser.html
+    soup = BeautifulSoup(html, 'html.parser')
+    book_info = soup.find_all(class_ = 'image_container')
+    print('page:', x, '----------')
+    for book in book_info:
+        print(book.a['href'])
+    browser.links.find_by_partial_text('next').click()
+
+browser.quit()
+```
+{{% /expand%}}

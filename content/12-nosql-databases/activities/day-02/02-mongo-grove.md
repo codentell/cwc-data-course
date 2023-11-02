@@ -28,3 +28,8 @@ You are the purchaser for the produce department of a large supermarket chain. Y
 * Consult the [documentation](https://docs.python.org/3/library/datetime.html) on the `datetime` library.
 
 ---
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+
+{{% /expand%}}

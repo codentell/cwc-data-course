@@ -30,6 +30,8 @@ Refer to the [Flask documentation](http://flask.pocoo.org/docs/0.12/quickstart/#
 
 ---
 
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
 ```python
 # 1. Import Flask
 from flask import Flask
@@ -65,3 +67,4 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 ```
+{{% /expand%}}

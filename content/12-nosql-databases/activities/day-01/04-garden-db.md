@@ -102,3 +102,9 @@ In this activity, you will gain further practice with CRUD operations in MongoDB
     db.dropDatabase()
     ```
 ```
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+```
+{{% /expand%}}

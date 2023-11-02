@@ -26,6 +26,8 @@ tags = ["sql"]
 
 ---
 
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
 ```python
 
 from flask import Flask, jsonify
@@ -71,3 +73,4 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 ```
+{{% /expand%}}

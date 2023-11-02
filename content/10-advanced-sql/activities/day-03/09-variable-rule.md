@@ -15,7 +15,8 @@ Using the previous activity as a starting point, add code to get a specific hero
 
 ---
 
-
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
 ```python
 
 from flask import Flask, jsonify
@@ -92,3 +93,4 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 ```
+{{% /expand%}}

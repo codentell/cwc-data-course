@@ -2,7 +2,7 @@
 title = "Activities ✅"
 chapter = true
 weight = 1
-tags = ["viz"] 
+tags = ["plotly"] 
 +++
 
 

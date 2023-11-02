@@ -41,3 +41,9 @@ db.classroom.find({age: 23})
 ```
 db.classroom.find({name: 'Ricky'})
 ```
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+```
+{{% /expand%}}

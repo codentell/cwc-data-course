@@ -53,3 +53,9 @@ In this activity, you will practice importing data from your Terminal, updating 
 `ohio_jan_2022.json` and `ohio_feb_2022.json`: United States Environmental Protection Agency. 2022. *Air Quality System (AQS) API*. Available: https://aqs.epa.gov/aqsweb/documents/data_api.html [2022, October 6]. 
 
 ---
+
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```python
+```
+{{% /expand%}}

@@ -64,6 +64,84 @@ tags = ["scraping"]
 ## ✅ Solutions
 {{%expand "Solutions Click Here" %}}
 ```python
+from splinter import Browser
+from bs4 import BeautifulSoup
+
+browser=Browser('firefox')
+# Visit the URL
+url = "https://globalvoices.org/page/2/"
+browser.visit(url)
+
+# Parse the HTML
+html = browser.html
+soup = BeautifulSoup(html, 'html.parser')
+# Close the dialogue box
+browser.links.find_by_partial_text("No thanks").click()
+# Create a function to perform the web scraping
+def get_summary():
+    # Collect the HTML from the browser
+    html = browser.html
+    # Parse the HTML with Beautiful Soup
+    soup = BeautifulSoup(html, 'html.parser')
+    
+    # Save the main area of the web page to a variable
+    main_area = soup.find("div", class_="post-archive-container")
+    
+    # Find all the articles in the main area of the web page
+    articles = main_area.find_all("div", class_="gv-promo-card-text")
+    
+    # Create an empty list to hold summaries
+    summary_list = []
+    
+    # Loop through the articles
+    for article in articles:
+        # Collect the article title
+        header = article.find("h3", class_="post-title").text.strip()
+        # Collect the article date
+        date = article.find("span", class_="datestamp")["title"]
+        # Remove the underscore from the date
+        date = date.replace('_', '')
+        
+        # Create the summary dictionary
+        summary_dict = {
+            "header": header,
+            "date": date
+        }
+        # Append the summary dictionary to the list
+        summary_list.append(summary_dict)
+        
+    # Return the list of summaries
+    return summary_list
+# Create a loop to collect the article summaries and click to the older article pages 5 times
+articles_list = []
+for _ in range(5):
+    summary = get_summary()
+    articles_list.extend(get_summary())
+    browser.links.find_by_partial_text("Older").click()
+# Print the articles list
+articles_list
+
+# Import Pandas
+import pandas as pd
+
+# Convert the articles list to a Pandas DataFrame
+df = pd.DataFrame(articles_list)
+df.head()
+
+# Convert the date column to a datetime data type
+df.date = pd.to_datetime(df.date, dayfirst=True)
+# Display the DataFrame
+df
+
+
+# Check the DataFrame information to ensure the date is saved as a datetime data type
+df.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 105 entries, 0 to 104
+Data columns (total 2 columns):
+
+# Close the browser
+browser.quit()
 ```
 {{% /expand%}}
 

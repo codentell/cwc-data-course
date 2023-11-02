@@ -50,7 +50,8 @@ In this activity, you will import the data you will be using for the remainder o
 
     * Limits the results to 5
 
-## Reference
 
-[The Metropolitan Museum of Art](https://www.metmuseum.org/) (2022). The Metropolitan Museum of Art Collection API https://metmuseum.github.io/. Licensed under the [Creative Commons 0 License](https://creativecommons.org/publicdomain/zero/1.0/)<br />
-Accessed Oct 3, 2022. Data collected from departmentId=5 ("Arts of Africa, Oceania, and the Americas") and search string "animal".
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+
+{{% /expand%}}

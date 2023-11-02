@@ -1,7 +1,7 @@
 +++
-title = "03.  👩‍🎓👨‍🎓"
+title = "03. Javascript variables and data structure  👩‍🎓👨‍🎓"
 weight = 3
-tags = ["mongo"] 
+tags = ["plotly"] 
 +++
 
 
@@ -42,5 +42,10 @@ For more information about template literals, check out [MDN's reference page fo
 
 ---
 
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
+```javascript
 
+```
+{{% /expand%}}
 

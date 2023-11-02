@@ -61,5 +61,31 @@ In this activity, you'll practice scraping data that was stored in a table on a 
 ## ✅ Solutions
 {{%expand "Solutions Click Here" %}}
 ```python
+from splinter import Browser
+from bs4 import BeautifulSoup
+# Set up Splinter
+browser = Browser('chrome')
+# Visit the Mars Facts site
+url = 'https://static.bc-edx.com/data/web/mars_facts/index.html'
+browser.visit(url)
+# Parse the website
+html = browser.html
+soup = BeautifulSoup(html, 'html.parser')
+# Find the table
+table = soup.find('table', class_='table-striped')
+# Store the table
+mars_facts = {}
+rows = table.find_all('tr')
+
+# Loop through the rows
+for row in rows:
+    row_heading = row.find('th').text
+    row_data = row.find('td').text.strip()
+    mars_facts[row_heading] = row_data
+# Display the scraped table dictionary
+mars_facts
+
+# Quit the browsing session
+browser.quit()
 ```
 {{% /expand%}}
