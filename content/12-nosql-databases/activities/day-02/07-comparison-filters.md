@@ -1,5 +1,5 @@
 +++
-title = "07.  👩‍🏫🧑‍🏫"
+title = "07. Comparison Filters 👩‍🏫🧑‍🏫"
 weight = 7
 tags = ["mongo"] 
 +++
