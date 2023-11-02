@@ -22,5 +22,5 @@ By the end of this lesson, the students will be able to:
 
 * Style HTML elements by using CSS.
 
-# Slides
+### Class Slides
 * [11.1 Slides](https://docs.google.com/presentation/d/1JJcGqzJn-aYZUjwTbFR3q82WGnR3qemQP_ka-OY6Q8g/edit?usp=sharing)

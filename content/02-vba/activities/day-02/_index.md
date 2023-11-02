@@ -8,7 +8,7 @@ tags = ["vba"]
 
 ## Overview
 
-In today's class, students will learn to use basic and nested `for` loops together with conditionals to perform common coding tasks in VBA.
+In today's class, you will learn to use basic and nested `for` loops together with conditionals to perform common coding tasks in VBA.
 
 ## Class Objectives
 

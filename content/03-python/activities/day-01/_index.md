@@ -8,11 +8,11 @@ tags = ["python"]
 
 ## Overview
 
-In today's class, students will transition from VBA to the Python programming language. To start, we’ll check the Python installation for students; then, we’ll cover the basics of terminal navigation, variables, conditionals, and loops.
+In today's class, you will transition from VBA to the Python programming language. To start, we’ll check the Python installation for you; then, we’ll cover the basics of terminal navigation, variables, conditionals, and loops.
 
 ## Class Objectives
 
-By the end of this lesson, the students will be able to:
+By the end of this lesson, the you will be able to:
 
 * Perform their Python 3 installation.
 

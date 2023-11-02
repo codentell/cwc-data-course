@@ -8,11 +8,11 @@ tags = [""]
 
 ### Overview
 
-In today's class, students will learn how to use Python and Pandas functions, list comprehensions, and regular expressions to extract, clean, and transform data. They’ll then begin working on the ETL mini project.
+In today's class, you will learn how to use Python and Pandas functions, list comprehensions, and regular expressions to extract, clean, and transform data. They’ll then begin working on the ETL mini project.
 
 ### Class Objectives
 
-By the end of this lesson, students will be able to:
+By the end of this lesson, you will be able to:
 
 * Extract data by using Python and Pandas.
 

@@ -9,11 +9,11 @@ tags = ["vba"]
 ## Overview
 
 Today’s lesson is the conclusion of our in-depth week on VBA scripting, formatting, and loops.
-During the second half of class, students will work on a short project.
+During the second half of class, you will work on a short project.
 
 ## Class Objectives
 
-By the end of this lesson, the students will be able to:
+By the end of this lesson, the you will be able to:
 
 * Format spreadsheets by using VBA code.
 * Loop through a table by using VBA code and check for changes in values.

@@ -8,11 +8,11 @@ tags = ["python"]
 
 ## Overview
 
-In today's class, we will explore reading and writing data from and to external CSV files. Students will also delve into Python dictionaries, zipping lists, and functions.
+In today's class, we will explore reading and writing data from and to external CSV files. You will also delve into Python dictionaries, zipping lists, and functions.
 
 ## Class Objectives
 
-By the end of this lesson, the students will be able to:
+By the end of this lesson, the you will be able to:
 
 * Read data into Python from CSV files.
 

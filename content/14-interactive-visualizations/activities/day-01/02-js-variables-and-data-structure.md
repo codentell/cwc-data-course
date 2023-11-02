@@ -4,7 +4,7 @@ weight = 2
 tags = ["plotly"] 
 +++
 
-# Arrays and Objects
+### Arrays and Objects
 
 ```js
 // a variable can be initialized as an empty array with two square brackets
@@ -57,7 +57,7 @@ city.population = 2695598;
 console.log(city);
 ```
 
-# Variables 
+### Variables 
 ```js
 // JavaScript Variables work a lot like Python variables, but they should be initialized with the `let` keyword.
 

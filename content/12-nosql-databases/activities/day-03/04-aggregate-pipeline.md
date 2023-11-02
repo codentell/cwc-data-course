@@ -4,8 +4,6 @@ weight = 4
 tags = ["mongo"] 
 +++
 
-
-
 ```python
 
 # Import dependencies

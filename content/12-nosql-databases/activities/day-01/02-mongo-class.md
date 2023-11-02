@@ -8,7 +8,7 @@ tags = ["mongo"]
 
 ## A. Use the command line to create a classDB database.
 
-* Insert entries for  yourself and other students within a collection called `classroom`. Each document should have:
+* Insert entries for  yourself and others within a collection called `classroom`. Each document should have:
 
 1. A field of name with the person's name.
 2. A field of the person's favorite Python library, e.g. pandas.

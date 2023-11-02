@@ -35,6 +35,8 @@ In this activity, you will revisit the data from Petsitly Marketing and practice
 
 ---
 
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
 ```python
 
 # Import dependencies
@@ -95,3 +97,4 @@ for i in range(3):
 
  
 ```
+{{% /expand%}}

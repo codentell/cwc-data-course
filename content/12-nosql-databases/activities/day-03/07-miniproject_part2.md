@@ -51,7 +51,8 @@ Accessed Oct 3, 2022. Data collected from departmentId=5 ("Arts of Africa, Ocean
 
 ---
 
-
+## ✅ Solutions
+{{%expand "Solutions Click Here" %}}
 ```python
 
 # Import dependencies
@@ -145,3 +146,4 @@ aggregated_df.head(10)
 # Data Source: The Metropolitan Museum of Art (2022). The Metropolitan Museum of Art Collection API https://metmuseum.github.io/. Licensed under the Creative Commons 0 License.
 # Accessed Oct 3, 2022. Data collected from departmentId=5 ("Arts of Africa, Oceania, and the Americas") and search string "animal".
 ```
+{{% /expand%}}

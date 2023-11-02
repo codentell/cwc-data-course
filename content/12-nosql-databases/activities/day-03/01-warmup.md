@@ -53,5 +53,56 @@ In this activity, you will import the data you will be using for the remainder o
 
 ## ✅ Solutions
 {{%expand "Solutions Click Here" %}}
+```python
+# Before running any of the following code, make sure you import the dataset with mongoimport --type json -d met -c artifacts --drop --jsonArray artifacts.json
 
+# Import dependencies
+from pymongo import MongoClient
+from pprint import pprint
+# Create an instance of MongoClient
+mongo = MongoClient(port=27017)
+# confirm that our new database was created
+print(mongo.list_database_names())
+['admin', 'classDB', 'config', 'local', 'met']
+# assign the met database to a variable name
+db = mongo['met']
+# review the collections in our new database
+print(db.list_collection_names())
+
+# review a document in the artifacts collection
+pprint(db.artifacts.find_one())
+
+
+# assign the collection to a variable
+artifacts = db['artifacts']
+Explore the Collection
+# Find how many documents have culture as "Nayarit"
+Nayarit_documents = artifacts.count_documents({'culture': 'Nayarit'})
+
+# Find how many documents have a height greater than or equal to 40cm
+height_gte_40_documents = artifacts.count_documents({'measurements.elementMeasurements.Height': {'$gte': 40}})
+height_gte_40_documents
+
+# Create a query that:
+# Finds the documents where the culture is "Nayarit" or "Central American Isthmus" and
+#     the height is less than or equal to 40cm
+# Returns only the following fields: "title", "department", "culture", "measurements", and "objectURL"
+# Sorts alphabetically by "title"
+# Limits the results to 5
+query = {'culture': {'$in': ["Nayarit", "Central American Isthmus"]},
+         'measurements.elementMeasurements.Height': {'$lte': 40}}
+fields = {"title": 1, "department": 1, "culture": 1, "measurements": 1, "objectURL": 1}
+sort = [("title", 1)]
+limit = 5
+
+# Cast the results as a list and save the results to a variable
+results = list(artifacts.find(query, fields).sort(sort).limit(limit))
+
+# Pretty print the results
+pprint(results)
+
+# Data Source: The Metropolitan Museum of Art (2022). The Metropolitan Museum of Art Collection API https://metmuseum.github.io/. Licensed under the Creative Commons 0 License.
+# Accessed Oct 3, 2022. Data collected from departmentId=5 ("Arts of Africa, Oceania, and the Americas") and search string "animal".
+
+ 
 {{% /expand%}}

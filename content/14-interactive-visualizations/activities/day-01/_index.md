@@ -28,5 +28,5 @@ By the end of this lesson, the students will be able to:
 
 * Annotate charts with labels, text, and hover text.
 
-
+### Class Slides
 [14.1 Slides](https://docs.google.com/presentation/d/1JuHV4vQZA0WfIgNntHCYz3aMb_8EQbhleEXthPvzK-4/edit?usp=sharing).

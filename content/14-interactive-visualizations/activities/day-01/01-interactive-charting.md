@@ -1,10 +1,10 @@
 +++
-title = "01. 👩‍🏫🧑‍🏫"
+title = "01. Interactive Charting 👩‍🏫🧑‍🏫"
 weight = 1
 tags = ["plotly"] 
 +++
 
-# index.html
+### index.html
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -26,7 +26,7 @@ tags = ["plotly"]
 </html>
 ```
 
-# plot.js
+### plot.js
 ```js
 let trace1 = {
   x: xData,

@@ -22,4 +22,5 @@ By the end of this lesson, the students will be able to:
 
 ---
 
+### Class Slides
 [14.2 Slides](https://docs.google.com/presentation/d/1h-3pJAEpnMQWiTjTld1KtMv-PykZCsH9oYK5N_0I9xo/edit#slide=id.gc54d4a55d5_0_2724).
