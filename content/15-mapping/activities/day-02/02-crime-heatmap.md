@@ -1,7 +1,7 @@
 +++
 title = "02. Crime heatmap  👩‍🏫🧑‍🏫 "
 weight = 2
-tags = ["plotly"] 
+tags = ["map"] 
 +++
 
 

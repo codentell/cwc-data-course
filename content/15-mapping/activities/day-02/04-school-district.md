@@ -1,7 +1,7 @@
 +++
 title = "04. School District  👩‍🎓👨‍🎓 "
 weight = 4
-tags = ["plotly"] 
+tags = ["map"] 
 +++
 
 # Choropleth Map of Florida Family Data

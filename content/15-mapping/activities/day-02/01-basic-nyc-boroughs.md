@@ -1,7 +1,7 @@
 +++
 title = "01. NYC Boroughts  👩‍🏫🧑‍🏫 "
 weight = 1
-tags = ["plotly"] 
+tags = ["map"] 
 +++
 
 ### index.html
