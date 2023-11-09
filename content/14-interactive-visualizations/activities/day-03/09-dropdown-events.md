@@ -1,6 +1,6 @@
 +++
 title = "09. Dropdown Events  👩‍🏫🧑‍🏫 "
-weight = 8
+weight = 9
 tags = ["plotly"] 
 +++
 
@@ -76,3 +76,4 @@ function updatePlotly() {
 
 init();
 ```
+
