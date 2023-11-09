@@ -1,4 +1,8 @@
-
++++
+title = "01. Python HTTP Server 👩‍🏫🧑‍🏫 "
+weight = 1
+tags = ["map"] 
++++
 
 # A Little More About CORS
 
@@ -24,10 +28,213 @@ For more info about CORS, refer to [MDN Web Docs](https://developer.mozilla.org/
 
 - - -
 
-###  Remote Server Example 
+
+## Local Example
+### data.json
+```json
+{
+  "miles": [
+    3,
+    4,
+    5,
+    4,
+    41,
+    15,
+    35,
+    46,
+    26,
+    7,
+    12,
+    19,
+    21,
+    78,
+    3,
+    8,
+    12,
+    15,
+    9,
+    14,
+    25,
+    76,
+    122,
+    16,
+    27,
+    37,
+    22,
+    13,
+    7,
+    5,
+    48,
+    37,
+    19,
+    13,
+    18,
+    7,
+    51,
+    45,
+    40,
+    36,
+    9,
+    7,
+    3,
+    16,
+    10,
+    2,
+    6,
+    1,
+    8,
+    2,
+    3,
+    20,
+    46,
+    15,
+    24,
+    11,
+    11,
+    40,
+    77,
+    38,
+    71,
+    14,
+    30,
+    79
+  ],
+  "new_cars": [
+    "Ford",
+    "Ford",
+    "Ford",
+    "Ford",
+    "Ford",
+    "Ford",
+    "Ford",
+    "Ford",
+    "Ford",
+    "Ford",
+    "Ford",
+    "Ford",
+    "Ford",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Jeep",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "Chevrolet",
+    "BMW",
+    "BMW",
+    "BMW",
+    "BMW",
+    "BMW",
+    "BMW",
+    "Honda",
+    "Honda",
+    "Honda",
+    "Honda",
+    "Honda",
+    "Honda",
+    "Honda",
+    "Honda",
+    "Honda",
+    "Honda",
+    "Honda"
+  ]
+}
 ```
+### index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Miles for New Cars</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body>
+  <div id="plot"></div>
+  <script>
+    d3.json("data/data.json").then((data) => {
+      //  Create the Traces
+      let trace1 = {
+        x: data.new_cars,
+        y: data.miles,
+        type: "box",
+        name: "Miles on New Cars",
+        boxpoints: "all"
+      };
+
+      // Create the data array for the plot.
+      let plotData = [trace1];
+
+      // Define the plot layout.
+      let layout = {
+        title: "Miles for New Cars",
+        xaxis: { title: "New Cars" },
+        yaxis: { title: "Square Root of Miles" }
+      };
+
+      // Plot the chart to a div tag with an ID of "plot".
+      Plotly.newPlot("plot", plotData, layout);
+    });
+  </script>
+</body>
+</html>
 ```
 
-### Local Example
+##  Remote Server Example 
+
+### index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Citibike Stations</title>
+
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body>
+  <script>
+  d3.json("https://gbfs.citibikenyc.com/gbfs/en/station_information.json").then(function(data) {
+    console.log(data);
+  });
+  </script>
+</body>
+</html>
 ```
-```
+
