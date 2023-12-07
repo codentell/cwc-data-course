@@ -1,12 +1,11 @@
 ---
-title: Supervised Learning 🔒 
+title: Unsupervised Learning 🔒 
 weight: 19
 pre: "<b>19. </b>"
 ---
 
 
-
-# Module 19 Supervised Learning
+# Module 19 Unsupervised Learning
 
 #### All Module 19 Activites  📂 (Please Download Attachment Below 👇) 
 
